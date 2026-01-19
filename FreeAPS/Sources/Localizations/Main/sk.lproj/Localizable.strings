@@ -32,7 +32,7 @@
 "Status" = "Stav";
 
 /* Alert when adding large amount without bolusing */
-"\nAmount is more than your Max Bolus setting! \nAre you sure you want to add " = "\nDávka prekračuje Vaše nastavenie Max Bolus!\nSte si istí, že chcete dávku pridať ";
+"\nAmount is more than your Max Bolus setting! \nAre you sure you want to add " = "\nDávka prekračuje vaše nastavenie Max Bolus!\nSte si istí, že chcete dávku pridať ";
 
 /* Header */
 "Enact Bolus" = "Podať bolus";
@@ -189,6 +189,21 @@
 
 /* */
 "Are you sure?" = "Ste si istý?";
+
+/* */
+"Clear Records" = "Vymazať záznamy";
+
+/* */
+"Delete CoreData database records" = "Vymazať záznamy databázy CoreData";
+
+/* */
+"Delete NS records" = "Vymazať záznamy NS";
+
+/* */
+"All records in " = "Všetky záznamy v ";
+
+/* */
+" will be deleted!" = " budú vymazané!";
 
 /* Bottom target temp */
 "Bottom target" = "Spodný cieľ";
@@ -507,7 +522,7 @@ Enact a temp Basal or a temp target */
 "Max Bolus" = "Maximálna veľkosť bolusu";
 
 /* Insulin alert message */
-"Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing." = "Pred uložením nastavení skontrolujte, či ste zvolili správnu koncentráciu inzulínu.\n\nNa inzulínovej fľaštičke alebo pere by mala byť uvedená koncentrácia v jednotkách na mililiter (napr. 100U znamená 100 jednotiek na mililiter, čo je štandardná koncentrácia).\n\nPresný výber je rozhodujúci pre správne dávkovanie.";
+"Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing." = "Pred uložením nastavení skontrolujte, či ste zvolili správnu koncentráciu inzulínu.\n\nNa inzulínovej fľaštičke alebo pere by mala byť uvedená koncentrácia v jednotkách na mililiter (napr. 100J znamená 100 jednotiek na mililiter, čo je štandardná koncentrácia).\n\nPresný výber je rozhodujúci pre správne dávkovanie.";
 
 /* Insulin Concentration View */
 "Concentration" = "Koncentrácia";
@@ -528,7 +543,7 @@ Enact a temp Basal or a temp target */
 "units per ml" = "jednotiek na ml";
 
 /* Insulin Concentration View */
-"Standard concentration (U 100)" = "Štandardná koncentrácia (100 U)";
+"Standard concentration (U 100)" = "Štandardná koncentrácia (100 J)";
 
 /* Insulin Concentration View */
 "Insulin concentration increased to" = "Koncentrácia inzulínu zvýšená na";
@@ -540,16 +555,16 @@ Enact a temp Basal or a temp target */
 "Saved" = "Uložené";
 
 /* Label inusulin concentration, units per ml */
-"U100" = "100 U";
+"U100" = "100 J";
 
 /* Label inusulin concentration, units per ml */
-"U200" = "200 U";
+"U200" = "200 J";
 
 /* Label inusulin concentration, units per ml */
-"U50" = "50 U";
+"U50" = "50 J";
 
 /* Label inusulin concentration, units per ml */
-"U10" = "10 U";
+"U10" = "10 J";
 /* Debug option, allow U50 and U10 (diluted insulin) */
 "Allow diluted insulin concentration settings" = "Povoliť nastavenie koncentrácie inzulínu";
 /* Max setting */
@@ -1093,7 +1108,7 @@ Enact a temp Basal or a temp target */
 "Very High" = "Veľmi vysoké";
 
 /* TIR Chart */
-"Very Low" = "Veľmi nízke";
+"Very Low" = "Veľmi nízka";
 
 /* */
 "glucose" = "glykémia";
@@ -1102,13 +1117,13 @@ Enact a temp Basal or a temp target */
 "Enter a Bolus Amount" = "Zadajte veľkosť bolusu";
 
 /* Bolus shortcut */
-"Your current glucose is %@. Are you sure you want to bolus %@ U of insulin?" = "Vaša aktuálna glykémia je %@. Ste si istí, že chcete podať bolus %@ U inzulínu?";
+"Your current glucose is %@. Are you sure you want to bolus %@ U of insulin?" = "Vaša aktuálna glykémia je %@. Ste si istí, že chcete podať bolus %@ J inzulínu?";
 
 /* Bolus shortcut */
 "A bolus command of " = "Príkaz bolus ";
 
 /* Bolus shortcut */
-" U of insulin was sent to iAPS. Verify in iAPS app or in Nightscout if the bolus was delivered." = " U inzulínu bolo odoslaných do iAPS. Overte v aplikácii iAPS alebo v aplikácii Nightscout, či bol bolus doručený.";
+" U of insulin was sent to iAPS. Verify in iAPS app or in Nightscout if the bolus was delivered." = " J inzulínu bolo odoslaných do iAPS. Overte v aplikácii iAPS alebo v aplikácii Nightscout, či bol bolus doručený.";
 
 /* Bolus shortcut. Error */
 "too small bolus amount" = "prilíš malá veľkosť bolusu";
@@ -1117,10 +1132,10 @@ Enact a temp Basal or a temp target */
 "Bolus Shortcuts are disabled in iAPS settings" = "Skratky pre bolus sú vypnuté v nastaveniach iAPS";
 
 /* Bolus shortcut */
-"Bolus Amount in U" = "Veľkosť bolusu v U";
+"Bolus Amount in U" = "Veľkosť bolusu v J";
 
 /* Bolus shortcut. Setting */
-"Allow iOS Bolus Shortcuts" = "Povoliť iOS Bolus Skratky";
+"Allow iOS Bolus Shortcuts" = "Povoliť bolus v Skratkách iOS";
 
 /* Bolus shortcut setting. Header */
 "iOS Shortcuts" = "iOS Skratky";
@@ -1174,7 +1189,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "enacted in iAPS" = "podané v iAPS";
 
 /* Temp Basal Shortcut */
-"Temp basal Amount in U/h" = "Dočasné množstvo bazálu v U/h";
+"Temp basal Amount in U/h" = "Dočasné množstvo bazálu v J/h";
 
 /* */
 "Cancel Temp" = "Zrušiť dočasné";
@@ -1347,7 +1362,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Show glucose on the app badge" = "Zobraziť glykémiu na ikone aplikácie";
 
 /* */
-"Backfill glucose" = "Doplniť glykémie";
+"Backfill glucose" = "Doplniť glykémiu";
 
 /* About this source */
 "About this source" = "Informácie o tomto zdroji";
@@ -1367,7 +1382,358 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 /* Food Type / Meal Note */
 "Note" = "Poznámka";
 
+"Servings" = "Porcie";
+
+"Kilo Calories" = "Kilokalórie";
+
+"Meals" = "Jedlá";
+
+"Today's Meals" = "Dnešné jedlá";
+
+// --------- AI ---------
 /* */
+
+"AI Image Analysis" = "AI analýza obrázka";
+
+"Barcode" = "Čiarový kód";
+
+"📝 Notes" = "📝 Poznámky";
+
+/* */
+"💉 Diabetes recommendations" = "💉 Odporúčania pre diabetes";
+
+/* */
+"🍽️ Separate Foods" = "🍽️ Oddeliť jedlá";
+
+/* */
+"Add all" = "Pridať všetko";
+
+/* */
+"🧠 AI Food analysis" = "🧠 AI analýza jedla";
+
+/* */
+"📊 Total nutritional values of the meal" = "📊 Celkové nutričné hodnoty jedla";
+
+/* */
+"Confidence level:" = "Úroveň spoľahlivosti:";
+
+/* */
+"Notes: %@" = "Poznámky: %@";
+
+/* */
+"Visual Cues: %@" = "Vizuálne podnety: %@";
+
+/* */
+"Preparation: %@" = "Príprava: %@";
+
+/* */
+"Preparation" = "Príprava";
+
+/* */
+"Multiplicator" = "Násobiteľ";
+
+/* */
+"Accept quantity" = "Prijať množstvo";
+
+/* */
+"Enter desired quantity" = "Zadajte požadované množstvo";
+
+/* */
+"AI Food Search" = "AI vyhľadávanie jedla";
+
+/* Title */
+"Food Search" = "Vyhľadávanie jedla";
+
+/* Food Search input */
+"Food Search..." = "Vyhľadávanie jedla...";
+
+/* */
+"Search Food Database" = "Vyhľadať v databáze jedál";
+
+"Models Used:" = "Použité modely:";
+
+"Current Mode: %@" = "Aktuálny režim: %@";
+
+"Analysis Mode" = "Režim analýzy";
+
+"This AI provider requires an API key. Please enter your API key in the settings below." = "Tento poskytovateľ AI vyžaduje API kľúč. Zadajte prosím svoj API kľúč v nastaveniach nižšie.";
+"API Key Required" = "Vyžadovaný API kľúč";
+
+"Food Search Settings" = "Nastavenia vyhľadávania jedla";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "Odhady nutričných hodnôt pomocou AI sú len približné. Pri zdravotných rozhodnutiach sa vždy poraďte so svojím lekárom. Kedykoľvek je to možné, overte si nutričné informácie. Používanie je na vlastné riziko.";
+
+"Medical Disclaimer" = "Lekárske upozornenie";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)";
+
+"**AI Image Analysis:**" = "**AI analýza obrázka:**";
+
+"OpenFoodFacts" = "OpenFoodFacts";
+
+"**Barcode Scanning:**" = "**Skenovanie čiarového kódu:**";
+
+"USDA FoodData Central → OpenFoodFacts" = "USDA FoodData Central → OpenFoodFacts";
+
+"**Text/Voice Search:**" = "**Textové/Hlasové vyhľadávanie:**";
+"Search Type Recommendations" = "Odporúčania typu vyhľadávania";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Bezplatná, oficiálna databáza nutričných hodnôt. Poskytuje kvalitné nutričné údaje pre nebalené potraviny ako ovocie, zelenina a mäso.";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Bezplatná, otvorená databáza s rozsiahlym pokrytím čiarových kódov a textovým vyhľadávaním pre balené potraviny. Predvolená pre textové a čiarové vyhľadávania.";
+
+"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: Najpresnejšia AI analýza s použitím GPT-4 Vision. Vyžaduje API kľúč (~0,01 $ za obrázok). Vynikajúca pri analýze obrázkov a prirodzených jazykových dopytoch.";
+
+"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "• **Google (Gemini API)**: Bezplatná AI so štedrými limitmi (1500/deň). Vynikajúce rozpoznávanie jedla pomocou Google Vision AI. Ideálna rovnováha medzi kvalitou a nákladmi.";
+
+"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Anthropic (Claude API)**: Pokročilá AI s detailným uvažovaním. Vynikajúca pri analýze jedla a odhadovaní porcií. Vyžaduje API kľúč (~0,25 $ za milión tokenov).";
+
+"Available Search Providers:" = "Dostupní poskytovatelia vyhľadávania:";
+
+"Provider Information" = "Informácie o poskytovateľovi";
+
+"❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ Ak vyberiete „OpenFoodFacts“ alebo „USDA“, analýza kamerou použije základný odhad namiesto AI";
+
+"✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Vyberte „Anthropic (Claude API)“, „Google (Gemini API)“ alebo „OpenAI (ChatGPT API)“, aby AI analýza obrázkov využívala vaše platené kľúče";
+
+"When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "Keď odfotíte jedlo, aplikácia použije poskytovateľa zvoleného vyššie v „AI analýze obrázkov“.";
+
+"Camera Food Analysis" = "Analýza jedla cez kameru";
+
+"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "Aby ste mohli používať svoje platené API kľúče, nezabudnite vyššie v „AI analýze obrázkov“ vybrať príslušného poskytovateľa. Poskytovateľ zvolený pre AI analýzu obrázkov bude použitý pri fotení jedla.";
+
+"Important: How to Use Your API Keys" = "Dôležité: Ako používať vaše API kľúče";
+
+"Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Rozdeľ toto jedlo na jednotlivé komponenty s úplnými makronutričnými profilmi (sacharidy, bielkoviny, tuky, kalórie) pre každú položku a so súhrnnými celkovými hodnotami.";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identifikuj všetky potraviny na tomto obrázku so zameraním na obsah sacharidov pre manažment diabetu. PoskytnI detailné množstvá sacharidov pre každú položku a celkový počet sacharidov v jedle.";
+
+"Diabetes Focus" = "Zameranie na diabetes";
+
+"Provide extremely detailed visual analysis of this food image. Describe every element you can see: food colors, textures, cooking methods (grilled marks, browning, steaming), plate type and size, utensils present, garnishes, sauces, cooking oils visible, food arrangement, and background elements. Use these visual details to estimate precise portion sizes and calculate accurate nutrition values for diabetes management." = "PoskytnI mimoriadne detailnú vizuálnu analýzu tohto obrázka jedla. Opíš každý prvok, ktorý vidíš: farby jedla, textúry, spôsoby prípravy (stopy po grilovaní, hnednutie, naparovanie), typ a veľkosť taniera, prítomné príborové súpravy, ozdoby, omáčky, viditeľné oleje použité pri varení, rozloženie jedla a prvky v pozadí. Tieto vizuálne detaily použi na odhad presných veľkostí porcií a výpočet presných nutričných hodnôt pre manažment diabetu.";
+
+"Analyze this food image for diabetes management. Describe exactly what you see in detail: colors, textures, cooking methods, plate type, utensils, and food arrangement. Identify each food item with specific preparation details, estimate precise portion sizes using visual references, and provide carbohydrates, protein, fat, and calories for each component. Focus on accurate carbohydrate estimation for insulin dosing." = "Analyzuj tento obrázok jedla pre manažment diabetu. Podrobne opíš presne to, čo vidíš: farby, textúry, spôsoby prípravy, typ taniera, príbor a rozloženie jedla. Identifikuj každú potravinu s detailmi o príprave, odhadni presné veľkosti porcií pomocou vizuálnych referencií a poskytnI sacharidy, bielkoviny, tuky a kalórie pre každú položku. Zameraj sa na presný odhad sacharidov pre dávkovanie inzulínu.";
+
+"AI Prompt for Enhanced Results" = "AI zadanie pre lepšie výsledky";
+
+"Enter your OpenAI API key" = "Zadajte svoj OpenAI API kľúč";
+
+"ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API kľúč";
+
+"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Získajte API kľúč z platform.openai.com. Prispôsobte zadanie pre analýzu, aby ste získali konkrétne rozdelenie zložiek jedla a súčty nutričných hodnôt. (~0,01 $ za obrázok)";
+
+"OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) nastavenie";
+
+"Macro Tracking" = "Sledovanie makier";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identifikuj všetky potraviny na tomto obrázku so zameraním na obsah sacharidov pre manažment diabetu. PoskytnI detailné množstvá sacharidov pre každú položku a celkový počet sacharidov v jedle.";
+
+"Detailed Visual Analysis" = "Detailná vizuálna analýza";
+
+"Enter your Google Gemini API key" = "Zadajte svoj Google Gemini API kľúč";
+
+"Google Gemini API Key" = "Google Gemini API kľúč";
+
+"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Získajte bezplatný API kľúč z ai.google.dev. Google Gemini poskytuje vynikajúce rozpoznávanie jedla so štedrým bezplatným limitom (1500 požiadaviek denne).";
+
+"Google (Gemini API) Configuration" = "Google (Gemini API) nastavenie";
+
+"Your AI provider quota has been exceeded. Please check your usage limits or try a different provider." = "Kvóta vášho AI poskytovateľa bola prekročená. Skontrolujte prosím svoje limity používania alebo vyskúšajte iného poskytovateľa.";
+
+"Your AI provider has run out of credits. Please check your account billing or try a different provider." = "Vášmu AI poskytovateľovi došli kredity. Skontrolujte prosím fakturáciu svojho účtu alebo vyskúšajte iného poskytovateľa.";
+
+"Reset to Default" = "Obnoviť predvolené nastavenia";
+
+"Retake Photo" = "Znovu odfotiť";
+
+"Retry Analysis" = "Znovu analyzovať";
+
+"Try Different Provider" = "Vyskúšať iného poskytovateľa";
+
+"Check Account" = "Skontrolovať účet";
+
+"Analysis Error" = "Chyba analýzy";
+
+"AI Food Analysis" = "AI analýza jedla";
+
+"Use Cancel to retake photo" = "Použite Zrušiť na znovu odfotenie fotografie";
+
+"Analyzing food with AI..." = "Analyzujem jedlo s AI...";
+
+"Choose from Library" = "Vybrať z knižnice";
+
+"Take a Photo" = "Odfotiť";
+
+"Keep the camera level to reduce distortion and keep portions proportional." = "Držte kameru vodorovne, aby ste znížili skreslenie a zachovali proporcie porcií.";
+
+"Shoot from slightly above" = "Fotografujte mierne zhora";
+
+"Forks, cups, or hands help AI calculate realistic portions." = "Vidličky, poháre alebo ruky pomáhajú AI vypočítať realistické porcie.";
+
+"Add a size reference" = "Pridať referenciu veľkosti";
+
+"Make sure every food item is in the frame." = "Uistite sa, že všetky potraviny sú v zábere.";
+
+"Frame the full meal" = "Umiestnite celé jedlo";
+
+"Remove napkins, lids, or packaging that may be misidentified as food." = "Odstráňte servítky, viečka alebo obaly, ktoré môžu byť nesprávne identifikované ako jedlo.";
+
+"Clear the area" = "Vyčistite priestor";
+
+"Harsh shadows confuse the AI and dim light can hide textures." = "Ostré tiene mätú AI a slabé osvetlenie môže zakryť textúry.";
+
+"Use bright, even light" = "Používajte jasné, rovnomerné osvetlenie";
+
+"Better photos = better estimates" = "Lepšie fotografie = lepšie odhady";
+
+"Scan failed" = "Skenovanie sa nepodarilo";
+
+"Looking up product..." = "Vyhľadávanie produktu...";
+
+"Code detected!" = "Kód detegovaný!";
+
+"Position camera over barcode or QR code" = "Natočte kameru na čiarový alebo QR kód";
+
+"Validating format..." = "Validujem formát...";
+
+"Scanning for barcode or QR code..." = "Skenujem čiarový alebo QR kód...";
+
+"Initializing camera..." = "Incializácia kamery...";
+
+"Scan failed" = "Skenovanie sa nepodarilo";
+
+"iAPS needs camera access to scan barcodes. Please enable camera access in Settings." = "iAPS potrebuje prístup ku kamere na skenovanie čiarových kódov. Povoľte prosím prístup ku kamere v Nastaveniach.";
+
+"Camera Access Required" = "Vyžadovaný prístup ku kamere";
+
+"Check Permissions" = "Skontrolovať oprávnenia";
+
+"Supports traditional barcodes and QR codes" = "Podporuje tradičné čiarové kódy a QR kódy";
+
+"Hold steady for best results" = "Držte stabilne pre najlepšie výsledky";
+
+"Retry" = "Skúsiť znova";
+
+"Scan Barcode" = "Skenovať čiarový kód";
+
+"📦 Database Results" = "📦 Výsledky z databázy";
+
+"🤖 AI Search Results" = "🤖 Výsledky AI vyhľadávania";
+
+"• Use the barcode scanner for packaged foods" = "• Použiť skener čiarových kódov pre balené potraviny";
+
+"• Check spelling carefully" = "• Starostlivo skontrolovať pravopis";
+
+"• Use simple, common food names" = "• Použiť jednoduché, bežné názvy potravín";
+
+"• Try brand names (e.g., \"Cheerios\")" = "• Skúste názvy značiek (napr. „Chocapic“)";
+
+"💡 Search Tips:" = "💡 Tipy na vyhľadávanie:";
+
+"Try simpler terms like \"bread\" or \"apple\", or scan a barcode" = "Skúste jednoduchšie výrazy ako „chlieb“ alebo „jablko“, alebo naskenujte čiarový kód";
+
+"Check your spelling and try again" = "Skontrolujte svoj pravopis a skúste to znova";
+
+"No Foods Found" = "Nenašli sa žiadne potraviny";
+
+"Search Error" = "Chyba vyhľadávania";
+
+"Finding the best matches for you" = "Hľadám pre vás najlepšie zhody";
+
+"Searching foods" = "Vyhľadávam potraviny";
+
+"AI Analysis" = "AI analýza";
+
+"Analysis Status" = "Stav analýzy";
+
+"❌ Analysis failed" = "❌ Analýza zlyhala";
+
+"⚠️ Connection interrupted..." = "⚠️ Pripojenie bolo prerušené…";
+
+"✅ Analysis complete!" = "✅ Analýza dokončená!";
+
+"🍽️ Generating nutrition summary..." = "🍽️ Generujem súhrn výživových údajov...";
+
+"📊 Processing analysis results..." = "📊 Spracovávam výsledky analýzy...";
+
+"🤖 Running AI vision analysis..." = "🤖 Spúšťam analýzu pomocou AI videnia...";
+
+"⚖️ Comparing to USDA standards..." = "⚖️ Porovnávam so štandardmi USDA...";
+
+"📏 Calculating serving sizes..." = "📏 Vypočítavam porcie...";
+
+"🔬 Identifying food portions..." = "🔬 Identifikujem porcie jedla...";
+
+"📊 Analyzing nutritional content..." = "📊 Analyzujem výživový obsah...";
+
+"📡 Uploading image for analysis..." = "📡 Nahrávam obrázok na analýzu...";
+
+"🧠 Connecting to AI provider..." = "🧠 Pripájam sa k poskytovateľovi AI...";
+
+"💼 Optimizing image quality..." = "💼 Optimalizujem kvalitu obrázka...";
+
+"📱 Processing image data..." = "📱 Spracovávam obrazové dáta...";
+
+"🔍 Initializing AI food analysis..." = "🔍 Inicializujem AI analýzu jedla...";
+
+"⚡ Processing AI analysis results..." = "⚡ Spracovanie výsledkov AI analýzy...";
+
+"📥 Received response from Claude..." = "📥 Prijatá odpoveď od Claude...";
+
+"⏳ AI is cooking up results..." = "⏳ AI pripravuje výsledky...";
+
+"🌐 Sending request to Claude..." = "🌐 Odosielanie požiadavky do Claude...";
+
+"📡 Preparing API request..." = "📡 Príprava API požiadavky...";
+
+"🔄 Encoding image data..." = "🔄 Kódovanie údajov obrázka...";
+
+"🖼️ Optimizing your image..." = "🖼️ Optimalizácia vášho obrázka...";
+
+"⚙️ Configuring Claude parameters..." = "⚙️ Konfigurácia parametrov Claude...";
+
+"⚙️ Processing analysis results..." = "⚙️ Spracovanie výsledkov analýzy...";
+
+"📊 Calculating nutrition estimates..." = "📊 Výpočet odhadov nutričných hodnôt...";
+
+"🍽️ Identifying food characteristics..." = "🍽️ Identifikácia charakteristík jedla...";
+
+"📱 Analyzing image properties..." = "📱 Analýza vlastností obrázka...";
+
+"📊 Initializing basic analysis..." = "📊 Inicializujem základnú analýzu...";
+
+"🤖 Connecting to Google Gemini..." = "🤖 Pripájam sa ku Google Gemini...";
+
+"📥 Received response from Gemini..." = "📥 Prijatá odpoveď od Gemini...";
+
+"🌐 Sending request to Google Gemini..." = "🌐 Odosielanie požiadavky do Google Gemini...";
+
+"🔄 Encoding image data..." = "🔄 Kódovanie údajov obrázka...";
+
+"⚙️ Configuring Gemini parameters..." = "⚙️ Konfigurácia parametrov Gemini...";
+
+"📥 Received response from OpenAI..." = "📥 Prijatá odpoveď od OpenAI...";
+
+"💾 Caching analysis result..." = "💾 Ukladám výsledok analýzy do vyrovnávacej pamäte...";
+
+"⏳ Doing a deep analysis (may take a bit)..." = "⏳ Robím hĺbkovú analýzu (môže to chvíľu trvať)...";
+
+"🎯 Selecting optimal AI provider..." = "🎯 Vyberám optimálneho poskytovateľa AI...";
+
+"⚡ Starting parallel provider analysis..." = "⚡ Začínam analýzu paralelných poskytovateľov...";
+
+"Amount:" = "Množstvo:";
+
+"Take Over" = "Prevziať";
+
+"kcal" = "kcal";
+
+"Cal" = "Cal";
+
+
+// --------- End of AI ---------
+/* */
+
 "Temp Basal" = "Dočasný bazál";
 
 /* */
@@ -1519,10 +1885,10 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Connect to Apple Health" = "Pripojiť k Apple Health";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "Ak chcete zapisovať údaje do aplikácie Apple Health, musíte udeliť oprávnenia v ponuke Nastavenia > Zdravie > Prístup k údajom";
+"To allow iAPS to write data to Apple Health, you must grant permission in Settings > Health > Data Access." = "Ak chcete zapisovať údaje do aplikácie Apple Health, musíte udeliť oprávnenia v ponuke Nastavenia > Zdravie > Prístup k údajom";
 
 /* */
-"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access. If you enter a glucose value into Apple Health, open iAPS to confirm it shows up." = "Toto umožňuje iAPS čítať a zapisovať údaje do aplikácie Zdravie. Musíte tiež udeliť povolenia v Nastavenia > Zdravie > Prístup k údajom. Ak zadáte hodnotu glykémie do aplikácie Zdravie, otvorte iAPS a overte, či sa zobrazí.";
+"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access." = "Toto umožňuje iAPS čítať a zapisovať údaje do aplikácie Zdravie. Musíte tiež udeliť povolenia v Nastavenia > Zdravie > Prístup k údajom.";
 
 /* New ALerts ------------------------- */
 /* Info title */
@@ -1576,7 +1942,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Override With A Factor Of " = "Prepísať faktorom ";
 
 /* Description */
-"Allows fat and protein to be converted into future carb equivalents using the Warsaw formula of kilocalories divided by 10.\n\nThis spreads the carb equivilants over a maximum duration setting that can be configured from 5-12 hours.\n\nDelay is time from now until the first future carb entry.\n\nInterval in minutes is how many minutes are between entries. The shorter the interval, the smoother the result. 10, 15, 20, 30, or 60 are reasonable choices.\n\nAdjustment factor is how much effect the fat and protein has on the entries. 1.0 is full effect (original Warsaw Method) and 0.5 is half effect. Note that you may find that your normal carb ratio needs to increase to a larger number if you begin adding fat and protein entries. For this reason, it is best to start with a factor of about 0.5 to ease into it.\n\nDefault settings: Time Cap: 8 h, Interval: 30 min, Factor: 0.5, Delay 60 min" = "Umožňuje prepočítavať tuky a bielkoviny na budúce ekvivalenty sacharidov pomocou Varšavského vzorca kilokalórií delených 10.\n\nTýmto spôsobom sa ekvivalenty sacharidov rozložia na maximálne nastavené trvanie, ktoré možno nastaviť v rozsahu 5-12 hodín.\n\nOneskorenie v minútach je čas odteraz do prvého budúceho zápisu sacharidov.\n\nInterval v minútach je počet minút medzi jednotlivými zápismi. Čím je interval kratší, tým je výsledok plynulejší. 10, 15, 20, 30 alebo 60 sú rozumné možnosti.\n\nPrepísať faktorom je, aký vplyv má tuk a bielkoviny na záznamy. 1,0 je plný účinok (pôvodná Varšavská metóda) a 0,5 je polovičný účinok. Všimnite si, že možno zistíte, že Váš normálny pomer sacharidov sa musí zvýšiť na väčšie číslo, ak začnete pridávať položky tukov a bielkovín. Z tohto dôvodu je najlepšie začať s faktorom približne 0,5, aby ste si to uľahčili.\n\nPredvolené nastavenia: Časový limit: 8 h, interval: 30 min, faktor: 0,5, oneskorenie 60 min.";
+"Allows fat and protein to be converted into future carb equivalents using the Warsaw formula of kilocalories divided by 10.\n\nThis spreads the carb equivilants over a maximum duration setting that can be configured from 5-12 hours.\n\nDelay is time from now until the first future carb entry.\n\nInterval in minutes is how many minutes are between entries. The shorter the interval, the smoother the result. 10, 15, 20, 30, or 60 are reasonable choices.\n\nAdjustment factor is how much effect the fat and protein has on the entries. 1.0 is full effect (original Warsaw Method) and 0.5 is half effect. Note that you may find that your normal carb ratio needs to increase to a larger number if you begin adding fat and protein entries. For this reason, it is best to start with a factor of about 0.5 to ease into it.\n\nDefault settings: Time Cap: 8 h, Interval: 30 min, Factor: 0.5, Delay 60 min" = "Umožňuje prepočítavať tuky a bielkoviny na budúce ekvivalenty sacharidov pomocou Varšavského vzorca kilokalórií delených 10.\n\nTýmto spôsobom sa ekvivalenty sacharidov rozložia na maximálne nastavené trvanie, ktoré možno nastaviť v rozsahu 5-12 hodín.\n\nOneskorenie v minútach je čas odteraz do prvého budúceho zápisu sacharidov.\n\nInterval v minútach je počet minút medzi jednotlivými zápismi. Čím je interval kratší, tým je výsledok plynulejší. 10, 15, 20, 30 alebo 60 sú rozumné možnosti.\n\nPrepísať faktorom je, aký vplyv má tuk a bielkoviny na záznamy. 1,0 je plný účinok (pôvodná Varšavská metóda) a 0,5 je polovičný účinok. Všimnite si, že možno zistíte, že váš normálny pomer sacharidov sa musí zvýšiť na väčšie číslo, ak začnete pridávať položky tukov a bielkovín. Z tohto dôvodu je najlepšie začať s faktorom približne 0,5, aby ste si to uľahčili.\n\nPredvolené nastavenia: Časový limit: 8 h, interval: 30 min, faktor: 0,5, oneskorenie 60 min";
 
 /* Fat/Protein additional info */
 "\n\nCarb equivalents that get to small (0.6g or under) will be excluded and the equivalents over 0.6 but under 1 will be rounded up to 1. With a higher time interval setting you'll get fewer equivalents with a higher carb amount." = "\n\nSacharidové ekvivalenty, ktoré sú príliš malé (0,6 g alebo menej), budú vylúčené a ekvivalenty nad 0,6 g, ale menej ako 1 g, budú zaokrúhlené na 1 g. Pri vyššom nastavení časového intervalu získate menej ekvivalentov s vyšším množstvom sacharidov.";
@@ -1710,7 +2076,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Start Profile" = "Spustiť profil";
 
 /* */
-"Your profile basal insulin will be adjusted with the override percentage and your profile ISF and CR will be inversly adjusted with the percentage." = "Váš profilový bazálny inzulín bude upravený podľa zadaných percent a Vaše ISF a CR budú upravené inverzne podľa tohto percenta.";
+"Your profile basal insulin will be adjusted with the override percentage and your profile ISF and CR will be inversly adjusted with the percentage." = "Váš profilový bazálny inzulín bude upravený podľa zadaných percent a vaše ISF a CR budú upravené inverzne podľa tohto percenta.";
 
 /* */
 "Starting this override will change your Profiles and/or your Target Glucose used for looping during the entire selected duration. Tapping ”Start Profile” will start your new profile or edit your current active profile." = "Spustením tohto prepísania sa zmenia vaše profily a/alebo cieľová glykémia, ktoré sa používajú na zacyklenie počas celého zvoleného trvania. Klepnutím na \"Spustiť profil\" spustíte svoj nový profil alebo upravíte svoj aktuálny aktívny profil.";
@@ -1921,7 +2287,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Expiration Reminder" = "Pripomienka exspirácie";
 
 /* */
-"Low Reservoir" = "Nízka hladina v rezervoári";
+"Low Reservoir" = "Nízka hladina v zásobníku";
 
 /* Value text for no expiration reminder */
 "No Reminder" = "Žiadna pripomienka";
@@ -1930,7 +2296,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Scheduled Reminder" = "Naplánovaná pripomienka";
 
 /* */
-"Low Reservoir Reminder" = "Pripomienka Nízka hladina v rezervoári";
+"Low Reservoir Reminder" = "Pripomienka nízkej hladiny zásobníka";
 
 /* The action string on pod status page when pod data is stale */
 "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Uistite sa, že iPhone a Pod sú blízko seba. Ak problémy s komunikáciou pretrvávajú, presuňte sa do inej oblasti.";
@@ -1985,7 +2351,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Setup Complete" = "Nastavenie je dokončené";
 
 /* */
-"Insulin Suspended" = "Inzulín Suspendovaný";
+"Insulin Suspended" = "Inzulín pozastavený";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Pozastavenie podávania inzulínu...";
@@ -2037,13 +2403,13 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Change HbA1c Unit" = "Zmena jednotky HbA1c";
 
 /* */
-"Display Chart X - Grid lines" = "Zobraziť mriežku na osi x grafu";
+"Vertical grid lines" = "Vertikálne mriežkové čiary";
 
 /* */
-"Display Chart Y - Grid lines" = "Zobraziť mriežku na osi y grafu";
+"Horizontal grid lines" = "Vodorovné mriežkové čiary";
 
 /* */
-"Display Chart Threshold lines for Low and High" = "Zobraziť prahové čiary grafu pre nízke a vysoké hodnoty";
+"Threshold lines (Low / High)" = "Prahové hodnoty (nízka/vysoká)";
 
 /* */
 "Standing / Laying TIR Chart" = "Graf TIR na výšku / šírku";
@@ -2210,6 +2576,9 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Zobraziť graf aktivity inzulínu";
 
+/* UI/UX-setting */
+"Don't ask for saving search result as meal preset" = "Nepýtať sa na uloženie výsledkov vyhľadávania do zoznamu jedál";
+
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "Nastavenia CGM";
@@ -2286,10 +2655,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Your identifier" = "Váš identifkátor";
 
 /* */
-"Share your data anonymously" = "Anonymné zdieľanie Vašich dát";
-
-/* Setting Title */
-"Sharing" = "Sharing";
+"Share your data anonymously" = "Anonymné zdieľanie vašich dát";
 
 /* ——————————Contact Image ————————*/
 /* Contact Image, contacts list - prefix before the contact given name */
@@ -2300,7 +2666,7 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Contacts" = "Kontakty";
 
 /* Contact Image, settings, save your changes reminedr */
-"Don't forget to save your changes." = "Nezabudni uložiť Vaše zmeny.";
+"Don't forget to save your changes." = "Nezabudnite uložiť vaše zmeny.";
 
 /* Contact Image, settings, message about need to access contacts */
 "iAPS needs access to your contacts for this feature to work" = "Aby táto funkcia fungovala, iAPS potrebuje prístup k vašim kontaktom.";
@@ -2482,13 +2848,13 @@ Ak potrebujete používať skratky na podanie bolusu, uistite sa, že v nastaven
 "Absolute Safety TBR " = "Absolútne bezpečnostné TBR ";
 
 /* */
-"Amount in U/hr of the small safety TBR, which is given to avoid ketoacidosis. Will be limited to min = 0U/hr, max = 2U/hr!" = "Množstvo malého bezpečnostného TBR (dočasného bazálneho dávkovania) v U/h, ktoré sa podáva na prevenciu ketoacidózy. Hodnota je obmedzená na:  min = 0 U/h, max = 2 U/h!";
+"Amount in U/hr of the small safety TBR, which is given to avoid ketoacidosis. Will be limited to min = 0U/hr, max = 2U/hr!" = "Množstvo malého bezpečnostného TBR (dočasného bazálneho dávkovania) v J/h, ktoré sa podáva na prevenciu ketoacidózy. Hodnota je obmedzená na: min = 0 J/h, max = 2 J/h!";
 
 /* */
 "Enable Keto protection with pre-defined TBR" = "Povoliť ochranu pred ketoacidózou s preddefinovaným TBR";
 
 /* */
-"Should an absolute TBR between 0 and 2 U/hr be specified instead of percentage of current BR" = "Má sa namiesto percentuálneho podielu aktuálnej bazálnej dávky (BR) zadať absolútne TBR v rozmedzí 0 až 2 U/h";
+"Should an absolute TBR between 0 and 2 U/hr be specified instead of percentage of current BR" = "Má sa namiesto percentuálneho podielu aktuálnej bazálnej dávky (BR) zadať absolútne TBR v rozmedzí 0 až 2 J/h";
 
 /* */
 "Safety TBR in %" = "Bezpečné TBR v %";
@@ -2601,7 +2967,7 @@ Predvolená hodnota: 130 mg/dl (7,2 mmol/L).";
 "Duration Weight" = "Váha trvania";
 
 /* */
-"Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Váha pre dlhodobo zvýšenú glykémiu. Za každú hodinu, počas ktorej zostáva glykémia vysoká, toto nastavenie viac zníži Váš ISF.\n\nVzorec pre Dura ISF úpravu:\n\nDura ISF = 1 + hodiny nad cieľom * váha / cieľ * (priemerná glykémia - cieľová glykémia)";
+"Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Váha pre dlhodobo zvýšenú glykémiu. Za každú hodinu, počas ktorej zostáva glykémia vysoká, toto nastavenie viac zníži váš ISF.\n\nVzorec pre Dura ISF úpravu:\n\nDura ISF = 1 + hodiny nad cieľom * váha / cieľ * (priemerná glykémia - cieľová glykémia)";
 
 /* */
 "SMB Delivery Ratio BG Range" = "Pomer dávky SMB v rozsahu glykémie";
@@ -2703,7 +3069,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Low Temptarget Lowers Sensitivity" = "Nízky dočasný cieľ zníži citlivosť";
 
 /* ”Low Temptarget Lowers Sensitivity" */
-"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Predvolené nastavenie je vypnuté. Ak je povolené, môže znížiť citlivosť (vyšší pomer citlivosti) pre dočasné ciele <= 99. Nižšia Vaša cieľová hodnota pod 100 bude mať za následok menej citlivé (vyššie) pomery, napr. cieľová hodnota 95 má za následok pomer citlivosti 1,09, zatiaľ čo 85 má za následok 1,33 (s predvolenou hodnotou halfBasalTarget 160).";
+"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Predvolené nastavenie je vypnuté. Ak je povolené, môže znížiť citlivosť (vyšší pomer citlivosti) pre dočasné ciele <= 99. Nižšia vaša cieľová hodnota pod 100 bude mať za následok menej citlivé (vyššie) pomery, napr. cieľová hodnota 95 má za následok pomer citlivosti 1,09, zatiaľ čo 85 má za následok 1,33 (s predvolenou hodnotou halfBasalTarget 160).";
 
 /* Headline ”Sensitivity Raises Target" */
 "Sensitivity Raises Target" = "Citlivosť zvyšuje cieľ";
@@ -2745,7 +3111,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Unsuspend If No Temp" = "Zrušiť pozastavenie bez dočasného bazálu";
 
 /* "Unsuspend If No Temp” */
-"Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Mnoho ľudí občas zabudne obnoviť / zrušiť pozastavenie svojej pumpy po jej opätovnom pripojení. Ak ste jedným z nich a ste ochotní spoľahlivo nastaviť nulovú dočasnú bazálnu dávku vždy, keď pumpu pozastavujete a odpojujete, táto funkcia vám pomôže. Ak je povolená, automaticky obnoví / zruší pozastavenie pumpy, ak na to zabudnete pred vypršaním nulovej dočasnej dávky. Pokiaľ je nulová dočasná dávka stále aktívna, pumpa zostane pozastavená.";
+"Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Mnohí ľudia občas zabudnú obnoviť / zrušiť pozastavenie svojej pumpy po jej opätovnom pripojení. Ak ste jedným z nich a spoľahlivo nastavujete nulový dočasný bazál vždy, keď pumpu pozastavíte a odpojíte, táto funkcia vám pomôže. Ak je povolená, automaticky obnoví / zruší pozastavenie pumpy, ak to zabudnete urobiť predtým, ako vyprší nulový dočasný bazál. Pokiaľ nulový dočasný bazál stále beží, pumpa zostane pozastavená.";
 
 /* Headline "Enable UAM" */
 "Enable UAM" = "Povoliť UAM";
@@ -2802,7 +3168,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Max IOB" = "Max IOB";
 
 /* "Max IOB" */
-"Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "Max IOB je maximálne množstvo inzulínu zo všetkých zdrojov - bazálneho (alebo korekčného SMB) a bolusového inzulínu - ktoré môže Vaša slučka akumulovať na liečbu vyššieho ako cieľového BG. Na rozdiel od ostatných dvoch bezpečnostných nastavení systému OpenAPS (max_daily_safety_multiplier a current_basal_safety_multiplier) je max_iob nastavený ako pevný počet jednotiek inzulínu. Odteraz manuálne bolusy NIE sú týmto nastavením obmedzené. \n\n Ak chcete testovať bazálne dávky počas noci, môžete v uzavretej slučke upraviť nastavenie Max IOB na nulu. To umožní režim pozastavenia nízkej hladiny glykémie počas testovania nastavení bazálnych dávok\n\n (Tip z https://www.loopandlearn.org/freeaps-x/#open-loop).";
+"Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "Max IOB je maximálne množstvo inzulínu zo všetkých zdrojov - bazálneho (alebo korekčného SMB) a bolusového inzulínu - ktoré môže vaša slučka akumulovať na liečbu vyššieho ako cieľového BG. Na rozdiel od ostatných dvoch bezpečnostných nastavení systému OpenAPS (max_daily_safety_multiplier a current_basal_safety_multiplier) je max_iob nastavený ako pevný počet jednotiek inzulínu. Odteraz manuálne bolusy NIE sú týmto nastavením obmedzené. \n\n Ak chcete testovať bazálne dávky počas noci, môžete v uzavretej slučke upraviť nastavenie Max IOB na nulu. To umožní režim pozastavenia nízkej hladiny glykémie počas testovania nastavení bazálnych dávok\n\n (Tip z https://www.loopandlearn.org/freeaps-x/#open-loop).";
 
 /* Headline "Max Daily Safety Multiplier" */
 "Max Daily Safety Multiplier" = "Max bezpečný denný násobok";
@@ -2972,7 +3338,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Minimum Threshold Setting" = "Nastavenie minimálneho prahu";
 
 /* Minimum Threshold Setting, Part 1 */
-"This setting lets you choose a level below which no insulin will be given.\n\nThe threshold is using the largest amount of your threshold setting and the computed threshold:\n\nTarget Glucose - (Target Glucose - 40) / 2\n, here using mg/dl as glucose unit.\n\nFor example, if your Target Glucose is " = "Toto nastavenie Vám umožňuje zvoliť úroveň, pod ktorou sa nebude podávať inzulín.\n\nPrahová hodnota sa vypočíta ako najväčšia hodnota medzi vaším nastavením prahovej hodnoty a vypočítaným prahom:\n\nCieľová glykémia - (cieľová glykémia - 40) / 2\n, pričom jednotkou glykémie je mg/dl.\n\nNapríklad, ak je vaša cieľová glykémia ";
+"This setting lets you choose a level below which no insulin will be given.\n\nThe threshold is using the largest amount of your threshold setting and the computed threshold:\n\nTarget Glucose - (Target Glucose - 40) / 2\n, here using mg/dl as glucose unit.\n\nFor example, if your Target Glucose is " = "Toto nastavenie vám umožňuje zvoliť úroveň, pod ktorou sa nebude podávať inzulín.\n\nPrahová hodnota sa vypočíta ako najväčšia hodnota medzi vaším nastavením prahovej hodnoty a vypočítaným prahom:\n\nCieľová glykémia - (cieľová glykémia - 40) / 2\n, pričom jednotkou glykémie je mg/dl.\n\nNapríklad, ak je vaša cieľová glykémia ";
 
 /* Minimum Threshold Setting, Part 2 */
 "the threshold will be " = "prahová hodnota bude ";
@@ -3011,7 +3377,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Use Bolus Calculator" = "Použiť bolusovú kalkulačku";
 
 /* Bolus Calculator Setting */
-"Depending on your settings the Swift bolus calculator is using data from the OpenAPS glucose predictions and/or from IOB, COB, glucose trend, current gluccose and target glucose. At the end of the calculation a custom factor is applied (default 0.8).\n\nYou can also have the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7).\n\nThe bolus calculator is NOT using the OpenAPS variable \"insulinRequired\", made for SMBs." = "V závislosti od vašich nastavení používa Swift bolusová kalkulačka údaje z predikcií glukózy OpenAPS a/alebo z IOB, COB, trendu glukózy, aktuálnej hodnoty glukózy a cieľovej glukózy. Na konci výpočtu sa aplikuje vlastný faktor (predvolená hodnota 0,8).\n\nVo Vašej bolusovej kalkulačke môžete mať aj možnosť použiť ďalší (!) prispôsobiteľný faktor na konci výpočtu, čo môže byť užitočné pri tukoproteínových jedlách, napr. pizza (predvolená hodnota 0,7).\n\nBolusová kalkulačka nepoužíva premennú OpenAPS „insulinRequired“, ktorá je určená pre SMB.";
+"Depending on your settings the Swift bolus calculator is using data from the OpenAPS glucose predictions and/or from IOB, COB, glucose trend, current gluccose and target glucose. At the end of the calculation a custom factor is applied (default 0.8).\n\nYou can also have the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7).\n\nThe bolus calculator is NOT using the OpenAPS variable \"insulinRequired\", made for SMBs." = "V závislosti od vašich nastavení používa Swift bolusová kalkulačka údaje z predikcií glykémie OpenAPS a/alebo z IOB, COB, trendu glykémie, aktuálnej hodnoty glykémie a cieľovej glykémie. Na konci výpočtu sa aplikuje vlastný faktor (predvolená hodnota 0,8).\n\nVo vašej bolusovej kalkulačke môžete mať aj možnosť použiť ďalší (!) prispôsobiteľný faktor na konci výpočtu, čo môže byť užitočné pri tukoproteínových jedlách, napr. pizza (predvolená hodnota 0,7).\n\nBolusová kalkulačka nepoužíva premennú OpenAPS „insulinRequired“, ktorá je určená pre SMB.";
 
 /* Bolus Calculator Setting */
 "Adjustment" = "Úprava";
@@ -3029,7 +3395,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "The new alternate bolus calculator is another approach to the default bolus calculator in iAPS. If the toggle is on you use this bolus calculator and not the original iAPS calculator. At the end of the calculation a custom factor is applied as it is supposed to be when using smbs (default 0.8).\n\nYou can also add the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7)." = "Nová alternatívna bolusová kalkulačka je ďalším prístupom k predvolenej bolusovej kalkulačke v systéme iAPS. Ak je prepínač zapnutý, používate túto kalkulačku bolusu a nie pôvodnú kalkulačku iAPS. Na konci výpočtu sa použije vlastný faktor, ako to má byť pri používaní smbs (predvolene 0,8).\n\nV kalkulačke bolusu môžete tiež pridať možnosť použiť na konci výpočtu ďalší (!) prispôsobiteľný faktor, ktorý by mohol byť užitočný pre tučné jedlá, napr. pizzu (predvolene 0,7).";
 
 /* Bolus Calculator Setting */
-"1. Use the OpenAPS eventual glucose prediction for computing the insulin recommended. This setting will enable the \"old\" calculator. On by default.\n\n2. Use the OpenAPS minPredBG prediction as a complementary safety guard rail, not allowing the glucose prediction to descend below your threshold. This setting can be used together with or without the eventual glucose. On by default" = "1. Použiť predikciu konečnej hodnoty glukózy z OpenAPS na výpočet odporúčaného množstva inzulínu. Toto nastavenie umožní použitie \"starej\" kalkulačky. Predvolene zapnuté.\n\n2. Použiť predikciu minPredBG z OpenAPS ako doplnkovú bezpečnostnú ochranu, ktorá neumožní, aby predikovaná hladina glukózy klesla pod Váš nastavený prah. Toto nastavenie je možné použiť spolu s predikciou výslednej hodnoty glukózy alebo samostatne. Predvolene zapnuté";
+"1. Use the OpenAPS eventual glucose prediction for computing the insulin recommended. This setting will enable the \"old\" calculator. On by default.\n\n2. Use the OpenAPS minPredBG prediction as a complementary safety guard rail, not allowing the glucose prediction to descend below your threshold. This setting can be used together with or without the eventual glucose. On by default" = "1. Použiť predikciu konečnej hodnoty glykémie z OpenAPS na výpočet odporúčaného množstva inzulínu. Toto nastavenie umožní použitie \"starej\" kalkulačky. Predvolene zapnuté.\n\n2. Použiť predikciu minPredBG z OpenAPS ako doplnkovú bezpečnostnú ochranu, ktorá neumožní, aby predikovaná hladina glykémie klesla pod Váš nastavený prah. Toto nastavenie je možné použiť spolu s predikciou výslednej hodnoty glykémie alebo samostatne. Predvolene zapnuté";
 
 /* Settings Section */
 "Extra Features" = "Ďalšie funkcie";
@@ -3079,7 +3445,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 /* UI/UX option */
 "Header settings" = "Nastavenia záhlavia";
 /* UI/UX option */
-"Normally glucose is colored red only when over or under your notification limits for high/low" = "Normálne sa glykémia sfarbí na červeno len vtedy, keď je nad alebo pod Vašimi limitmi pre vysoké/nízke hodnoty";
+"Normally glucose is colored red only when over or under your notification limits for high/low" = "Normálne sa glykémia sfarbí na červeno len vtedy, keď je nad alebo pod vašimi limitmi pre vysoké/nízke hodnoty";
 
 /* UI/UX option */
 "Horizontal Scroll View Visible hours" = "Vodorovné posúvanie - viditeľné hodiny";
@@ -3107,6 +3473,9 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 
 /* UI/UX option */
 "Use insulin bars" = "Použiť inzulínové čiary";
+
+/* UI/UX option */
+"Use carb bars" = "Použiť sacharidové čiary";
 
 /* UI/UX option */
 "Hide the bolus amount strings when amount is under" = "Skryť veľkosť bolusu, ak je množstvo nižšie";
@@ -3142,7 +3511,7 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 "Neglect Carbohydrates in oref0" = "Ignorovať sacharidy v oref0";
 
 /* Debug option */
-"Hide oref0 Predictions" = "Skryť predpovede oref0";
+"Hide Predictions" = "Skryť predpovede";
 
 /* Setting title */
 "Bolus Calculator" = "Kalkulačka bolusu";
@@ -3221,3 +3590,99 @@ Pri cieľovej_glykémii je pomer SMB rovný smb_delivery_ratio_min, pri cieľove
 
 /* Headline "To enable settings, go to the App Config section in iOS Settings App" */
 "To enable settings, go to the App Config section in iOS Settings App" = "Na povolenie nastavení prejdite do sekcie Konfigurácia aplikácie v aplikácii Nastavenia iOS";
+
+/* Section header in CGM view */
+"Active CGM" = "Aktívne CGM";
+
+/* pump name label, when pump is a cgm "Pump/CGM" */
+"Pump/CGM" = "Pumpa/CGM";
+
+/* Button "Stop using the pump as CGM" */
+"Stop using the pump as CGM" = "Prestať používať pumpu ako CGM";
+
+/* Section header in CGM view */
+"Shared App Group Source" = "Zdroj zdieľanej skupiny aplikácie";
+
+/* prefix for the shared app group application */
+"Reading from" = "Čítanie z";
+
+/* button to disconnect from the shared app group "Disconnect" */
+"Disconnect" = "Odpojiť";
+
+
+/* description for Shared App Group Source section */
+"Read BG from an external CGM app using a shared app group." = "Čítať glykémiu z externej CGM aplikácie pomocou zdieľanej skupiny aplikácie.";
+
+
+/* prefix before the app name on the button to start reading from shared app group */
+"Read from " = "Čítať z ";
+
+/* description for the backfill section in Nightscout settings screen */
+"Fetches old glucose readings from Nightscout" = "Načíta staré hodnoty glykémie z Nightscoutu";
+
+/* header and button label for the 'upload old glucose' action in Nightscout settings screen */
+"Upload glucose" = "Nahrať glykémiu";
+
+/* description for the 'upload old glucose' section in Nightscout settings screen */
+"Uploads old glucose readings to Nightscout" = "Nahrá staré hodnoty glykémie do Nightscoutu";
+
+/* message when uploads are enabled, but glucose uploads are disabled, in Nightscout settings screen */
+"Glucose upload disabled in CGM settings" = "Nahrávanie glykémie je vypnuté v nastaveniach CGM";
+
+/* header for the CGM list in CGM settings screen */
+"Connect to CGM" = "Pripojiť sa k CGM";
+
+
+/* message displayed when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Pump+CGM" = "Pumpa+CGM";
+
+/* label for the button to remove the CGM when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Stop using the pump as CGM" = "Prestať používať pumpu ako CGM";
+
+/* hint under the CGM list in CGM settings screen */
+"To receive reading from xDrip4iOS, Glucose Direct or another compatible app, select Shared App Group CGM." = "Ak chcete prijímať hodnoty z xDrip4iOS, Glucose Direct alebo inej kompatibilnej aplikácie, vyberte Zdieľanú skupinu aplikácií (Shared App Group) CGM.";
+
+/* message displayed in pump settings screen when the pump manager reports uncertain delivery */
+"Pump delivery uncertain" = "Podanie pumpou je nejasné";
+
+/* message displayed on home screen when the pump is added but not fully onboarded */
+"Re-connect pump!" = "Znovu pripojte pumpu!";
+
+/* 'fetch' toggle label in nightscout settings */
+"Fetch" = "Načítať";
+
+/* 'fetch' section header in nightscout settings */
+"Allow Fetching" = "Povoliť načítanie";
+
+/* 'fetch' scection footer in nightscout settings */
+"iAPS will fetch announcements, carbs and temp targets from Nightscout" = "iAPS bude načítavať oznámenia, sacharidy a dočasné ciele z Nightscoutu";
+
+/* main chart settings - toggle, controls whether to draw the in-range area backdrop (fill) */
+"In-range area highlight" = "Zvýraznenie oblasti v rozsahu";
+
+/* main chart settings - toggle, controls whether to show inline BG peaks */
+"Glucose peaks" = "Vrcholy glykémie";
+
+/* main chart settings - toggle, controls whether to show the predictions legend */
+"Predictions legend" = "Legenda predpovedí";
+
+/* main chart settings - toggle, controls whether to draw the secondary chart backdrop (fill) */
+"Secondary chart backdrop" = "Pozadie sekundárneho grafu";
+
+/* main chart settings - toggle, controls whether to show insulin activity grid lines */
+"Insulin activity grid lines" = "Mriežka inzulínovej aktivity";
+
+/* main chart settings - toggle, controls whether to show insulin activity axis labels */
+"Insulin activity labels" = "Popis aktivity inzulínu";
+
+/* main chart settings - secondary chart section header */
+"Secondary chart" = "Sekundárny graf";
+
+/* main chart settings - navigation title and the navigation link label */
+"Main Chart settings" = "Hlavné nastavenia grafu";
+
+/* UI/UX settings - main chart section header */
+"Main Chart" = "Hlavný graf";
+
+/* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
+"Y-axis labels" = "Označenia osi Y";

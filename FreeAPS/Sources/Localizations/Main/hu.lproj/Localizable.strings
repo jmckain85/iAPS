@@ -17,13 +17,13 @@
 "Continue without bolus" = "Folytatás bólus nélkül";
 
 /* History View */
-"No data." = "No data.";
+"No data." = "Nincs adat.";
 
 /* Bolus View */
-"No Predictions. Failed loop suggestion." = "No Predictions. Failed loop suggestion.";
+"No Predictions. Failed loop suggestion." = "Nincsenek előrejelzések. Sikertelen ciklusjavaslat.";
 
 /* Bolus View */
-"New Glucose Missing" = "New Glucose Missing";
+"New Glucose Missing" = "Új glükóz hiányzik";
 
 /* Continue after added meal without bolus */
 "Save Meal without bolus" = "Mentsd el az ételt bólusz nélkül";
@@ -56,16 +56,16 @@
 "Done" = "Kész";
 
 /* Bolus View footer */
-"Last loop %@ minutes ago. Complete or cancel this meal/bolus transaction to allow for next loop cycle to run" = "Last loop %@ minutes ago. Complete or cancel this meal/bolus transaction to allow for next loop cycle to run";
+"Last loop %@ minutes ago. Complete or cancel this meal/bolus transaction to allow for next loop cycle to run" = "Az utolsó ciklus %@ perce volt. Fejezze be vagy törölje ezt az étkezés/bolus tranzakciót, hogy a következő ciklus lefuthasson";
 
 /* Calender Option */
-"Display Emojis as Labels" = "Display Emojis as Labels";
+"Display Emojis as Labels" = "Emojik megjelenítése címkeként";
 
 /* Calender Option */
-"Display IOB and COB" = "Display IOB and COB";
+"Display IOB and COB" = "IOB és COB megjelenítése";
 
 /* Apple Watch App setting */
-"Confirm Bolus Faster" = "Confirm Bolus Faster";
+"Confirm Bolus Faster" = "Bolus gyorsabb megerősítése";
 
 /* Setting Section */
 "UI/UX" = "UI/UX";
@@ -77,7 +77,7 @@
 "Agree and continue" = "Elfogadás és folytatás";
 
 /* */
-"Log external insulin" = "Log external insulin";
+"Log external insulin" = "Külső inzulin naplózása";
 
 /* Bolus progress view */
 "of" = "-ból";
@@ -89,10 +89,10 @@
 "was delivered" = "volt beadva";
 
 /* Remote Bolus Alert, Part 3 */
-" minutes ago, triggered remotely from Nightscout, by a caregiver or a parent. Do you still want to bolus?\n\nPredicted eventual glucose, if you don't bolus, is: " = " minutes ago, triggered remotely from Nightscout, by a caregiver or a parent. Do you still want to bolus?\n\nPredicted eventual glucose, if you don't bolus, is: ";
+" minutes ago, triggered remotely from Nightscout, by a caregiver or a parent. Do you still want to bolus?\n\nPredicted eventual glucose, if you don't bolus, is: " = " perce, távolról indítva a Nightscoutból, egy gondozó vagy szülő által. Még mindig szeretne boluszni?\n\nHa nem boluszik, a várható végső glükóz szint: ";
 
 /* Remote Bolus Alert, Title */
-"A Remote Bolus Was Just Delivered!" = "A Remote Bolus Was Just Delivered!";
+"A Remote Bolus Was Just Delivered!" = "Távoli bolus éppen most lett leadva!";
 
 /* Headline in enacted pop up (at: at what time) */
 "Enacted at" = "Beadva";
@@ -101,7 +101,7 @@
 "Suggested at" = "Ajánlva";
 
 /* Headline in enacted pop up (at: at what time) */
-"Status at" = "Status at";
+"Status at" = "Állapot dátuma";
 
 /* Bolus View Meal Summary Header */
 "Meal Summary" = "Étel összegzése";
@@ -122,7 +122,7 @@
 "Fatty Meal" = "Zsíros étel";
 
 /* Bolus option */
-"Hypo Treatment" = "Hypo Treatment";
+"Hypo Treatment" = "Hipó kezelése";
 
 /* For the  Bolus View pop-up */
 "Full Bolus" = "Teljes bólus";
@@ -134,7 +134,7 @@
 "Fatty Meal Factor" = "Zsíros étel faktor";
 
 /* Footer */
-"Carbs and previous insulin are included in the eventual glucose prediction." = "Carbs and previous insulin are included in the eventual glucose prediction.";
+"Carbs and previous insulin are included in the eventual glucose prediction." = "A szénhidrátok és az előző inzulin bele vannak számítva a várható glükóz előrejelzésbe.";
 
 /* For the  Bolus View pop-up */
 "Result" = "Eredmény";
@@ -167,13 +167,13 @@
 "Add Carbs " = "Szénhidrát hozzáadása ";
 
 /* Home View */
-"Override" = "Override";
+"Override" = "Felülbírálás";
 
 /* Home View Message if no pump is connected */
-"No Pump" = "No Pump";
+"No Pump" = "Nincs pumpa";
 
 /* Home View Message if open loop is active */
-"Open" = "Open";
+"Open" = "Nyitva";
 
 /*  */
 "Amount Carbs" = "Szénhidrát mennyiség";
@@ -190,6 +190,21 @@
 /* */
 "Are you sure?" = "Biztos vagy benne?";
 
+/* */
+"Clear Records" = "Clear Records";
+
+/* */
+"Delete CoreData database records" = "Delete CoreData database records";
+
+/* */
+"Delete NS records" = "Delete NS records";
+
+/* */
+"All records in " = "All records in ";
+
+/* */
+" will be deleted!" = " will be deleted!";
+
 /* Bottom target temp */
 "Bottom target" = "Alsó cél";
 
@@ -200,7 +215,7 @@
 "Cancel Temp Target" = "Átmeneti cél kikapcsolása";
 
 /*  */
-"Cancel Temporary Target" = "Cancel Temporary Target";
+"Cancel Temporary Target" = "Átmeneti cél kikapcsolása";
 
 /* Custom temp target */
 "Custom" = "Egyéni";
@@ -251,7 +266,7 @@
 "Save" = "Elment";
 
 /*  */
-"Save as Preset" = "Save as Preset";
+"Save as Preset" = "Szűrőbeállítás mentése";
 
 /* Delete Meal Preset */
 "Delete Preset" = "Előbeállítás törlése";
@@ -284,7 +299,7 @@
 "Autotune" = "Autotune";
 
 /* Debug option view Dynamic Variables */
-"Dynamic Variables" = "Dynamic Variables";
+"Dynamic Variables" = "Dinamikus változók";
 
 /*  */
 "Basal profile" = "Bázis profil";
@@ -323,7 +338,7 @@
 "Schedule" = "Ütemezés";
 
 /* */
-"(standard units / hour)" = "(standard units / hour)";
+"(standard units / hour)" = "(standard egységek / óra)";
 
 /*  */
 "starts at" = "kezdődik";
@@ -408,7 +423,7 @@ Enact a temp Basal or a temp target */
 "Use local glucose server" = "Lokális glukóz szerver használata";
 
 /* Enable Statistics */
-"This enables uploading of statistics.json to Nightscout, which can be used by the Community Statistics and Demographics Project.\n\nParticipation in Community Statistics is opt-in, and requires separate registration at:\n" = "This enables uploading of statistics.json to Nightscout, which can be used by the Community Statistics and Demographics Project.\n\nParticipation in Community Statistics is opt-in, and requires separate registration at:\n";
+"This enables uploading of statistics.json to Nightscout, which can be used by the Community Statistics and Demographics Project.\n\nParticipation in Community Statistics is opt-in, and requires separate registration at:\n" = "Ez lehetővé teszi a statistics.json fájl feltöltését a Nightscout rendszerbe, amelyet a Community Statistics and Demographics Project használhat.\n\nA Community Statistics projektben való részvétel önkéntes, és külön regisztrációt igényel a következő címen:\n";
 
 /*  */
 "Edit settings json" = "Json beállítások javítása";
@@ -429,7 +444,7 @@ Enact a temp Basal or a temp target */
 "Remote control" = "Távirányítás";
 
 /* Allow remote control from NS */
-"Allow Remote control of iAPS" = "Allow Remote control of iAPS";
+"Allow Remote control of iAPS" = "Távoli vezérlés engedélyezése az iAPS számára";
 
 /* Imported Profiles Alert */
 "\nNow please verify all of your new settings thoroughly:\n\n* Basal Settings\n * Carb Ratios\n * Glucose Targets\n * Insulin Sensitivities\n * DIA\n\n in iAPS Settings > Configuration.\n\nBad or invalid profile settings could have disatrous effects." = "\nMost kérlek alaposan nézd át a beállításokat:\n\n* Bázis Ceállítások\n * Szénhidrát Arány\n * Cukorszint Célpont\n * Inzulin Érzékenység\n * DIA\n\n iAPS beállítások > Konfiguráció.\n\nHelytelen vagy rossz beállításoknak halálos következményei lehetnek.";
@@ -477,13 +492,13 @@ Enact a temp Basal or a temp target */
 "Add Omnipod" = "Omnipod hozzáadása";
 
 /* Add Dana-i/RS pump */
-"Add Dana-i/RS" = "Add Dana-i/RS";
+"Add Dana-i/RS" = "Dana-i/RS hozzáadása";
 
 /* Add Simulator pump */
 "Add Simulator" = "Szimulátor hozzáadása";
 
 /* View/Header when pod expired */
-"Replace" = "Replace";
+"Replace" = "Kicserélni";
 
 /* Insulin model */
 "Model" = "Típus";
@@ -507,37 +522,37 @@ Enact a temp Basal or a temp target */
 "Max Bolus" = "Maximum bólus";
 
 /* Insulin alert message */
-"Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing." = "Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing.";
+"Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing." = "Kérjük, ellenőrizze, hogy a helyes inzulinkoncentrációt választotta-e ki a beállításai mentése előtt.\n\nAz inzulin tartályán vagy tollán fel kell tüntetni a koncentrációt egységben milliliterenként (például az U100 azt jelenti, hogy 100 egység inzulin van milliliterenként, ami az általános koncentráció).\n\nA pontos kiválasztás létfontosságú a megfelelő adagoláshoz.";
 
 /* Insulin Concentration View */
-"Concentration" = "Concentration";
+"Concentration" = "Koncentráció";
 
 /* Insulin Concentration View */
-"Insulin Concentration" = "Insulin Concentration";
+"Insulin Concentration" = "Inzulin Koncentráció";
 
 /* Insulin Concentration View */
-"Change Insulin" = "Change Insulin";
+"Change Insulin" = "Inzulin Csere";
 
 /* Insulin Concentration View */
-"Insulin diluted to" = "Insulin diluted to";
+"Insulin diluted to" = "Inzlin feloldasa";
 
 /* Insulin Concentration View */
-"standard concentration:" = "standard concentration:";
+"standard concentration:" = "standard koncentráció:";
 
 /* Insulin Concentration View */
-"units per ml" = "units per ml";
+"units per ml" = "egyseg per ml";
 
 /* Insulin Concentration View */
-"Standard concentration (U 100)" = "Standard concentration (U 100)";
+"Standard concentration (U 100)" = "Standard koncentráció (U100)";
 
 /* Insulin Concentration View */
-"Insulin concentration increased to" = "Insulin concentration increased to";
+"Insulin concentration increased to" = "Az inzulin koncentrációjának növekedése";
 
 /* Insulin Concentration View */
-"Couldn't save to pump. Try again when pump isn't busy bolusing." = "Couldn't save to pump. Try again when pump isn't busy bolusing.";
+"Couldn't save to pump. Try again when pump isn't busy bolusing." = "Nem sikerült elmenteni a pumpába. Próbálja újra, amikor a pumpa nem ad bolust.";
 
 /* Insulin Concentration View */
-"Saved" = "Saved";
+"Saved" = "Elmentve";
 
 /* Label inusulin concentration, units per ml */
 "U100" = "U100";
@@ -551,12 +566,12 @@ Enact a temp Basal or a temp target */
 /* Label inusulin concentration, units per ml */
 "U10" = "U10";
 /* Debug option, allow U50 and U10 (diluted insulin) */
-"Allow diluted insulin concentration settings" = "Allow diluted insulin concentration settings";
+"Allow diluted insulin concentration settings" = "Engedélyezze a hígított inzulin koncentráció beállításokat";
 /* Max setting */
 "Max Carbs" = "Maximum szénhidrát";
 
 /* Max carbs description */
-"Maximum amount of carbs (g) you can add each entry" = "Maximum amount of carbs (g) you can add each entry";
+"Maximum amount of carbs (g) you can add each entry" = "Minden bejegyzéshez hozzáadható maximális szénhidrátmennyiség (g)";
 
 /* */
 "Pump Settings" = "Pumpa beállítások";
@@ -628,7 +643,7 @@ Enact a temp Basal or a temp target */
 "Display on Watch" = "Megjelenítés az órán";
 
 /* */
-"Display either Overrides or Temp Targets" = "Display either Overrides or Temp Targets";
+"Display either Overrides or Temp Targets" = "Megjelenítés: vagy felülbírálatok, vagy ideiglenes célértékek";
 
 /* */
 "Garmin Watch" = "Garmin Óra";
@@ -637,7 +652,7 @@ Enact a temp Basal or a temp target */
 "Add devices" = "Eszköz hozzáadása";
 
 /* */
-"Profile Overrides Button / Temp Targets Button" = "Profile Overrides Button / Temp Targets Button";
+"Profile Overrides Button / Temp Targets Button" = "Megjelenítés: vagy felülbírálatok, vagy ideiglenes célértékek";
 
 /* */
 "Glucose Target" = "Glukóz cél";
@@ -652,7 +667,7 @@ Enact a temp Basal or a temp target */
 "ISF" = "ISF";
 
 /* */
-"% Override" = "% Override";
+"% Override" = "% Felülbírálat";
 
 /* */
 "The app Garmin Connect must be installed to use for iAPS.\n Go to App Store to download it" = "Az iAPS használatához telepíteni kell a Garmin Connect alkalmazást.\n A letöltéshez látogasson el az App Store áruházba";
@@ -727,19 +742,19 @@ Enact a temp Basal or a temp target */
 "Treatments" = "Kezelések";
 
 /* Add Insulin */
-"Add Insulin" = "Add Insulin";
+"Add Insulin" = "Inzulin hozzáadása";
 
 /* Add Glucose */
-"Add Glucose" = "Add Glucose";
+"Add Glucose" = "Glükóz hozzáadása";
 
 /* New Glucose */
-"New Glucose" = "New Glucose";
+"New Glucose" = "Új glükóz";
 
 /* Hypo Treatment Preset */
-"Treatment" = "Treatment";
+"Treatment" = "Kezelés";
 
 /* Hypo Treatment Default Value */
-"Default  📉" = "Default  📉";
+"Default  📉" = "Alapértelmezett";
 
 /* Hypo Treatment Default Value */
 "None" = "None";
@@ -808,7 +823,7 @@ Enact a temp Basal or a temp target */
 "Meter glucose" = "Cukor mérő";
 
 /* */
-"Info" = "Info";
+"Info" = "Infó";
 
 /*v*/
 "Slope" = "Lejtő";
@@ -1229,52 +1244,52 @@ Enact a temp Basal or a temp target */
 "will snooze for %@ until %@" = "will snooze for %@ until %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Kattintson az értesítések elhalasztásához";
 
 /* */
-"Strength" = "Strength";
+"Strength" = "Erősség";
 
 /* */
-"Hold the top of your iPhone near the sensor to pair" = "Hold the top of your iPhone near the sensor to pair";
+"Hold the top of your iPhone near the sensor to pair" = "Tartsa iPhone-ja tetejét a szenzor közelébe a párosításhoz";
 
 /* */
-"Sensor not found" = "Sensor not found";
+"Sensor not found" = "Szenzor nem található";
 
 /* */
-"Also play alert sound" = "Also play alert sound";
+"Also play alert sound" = "Játssza le az értesítő hangot is";
 
 /* */
-"Notification Settings" = "Notification Settings";
+"Notification Settings" = "Értesítési beállítások";
 
 /* */
-"Found devices: %d" = "Found devices: %d";
+"Found devices: %d" = "Található eszközök: %d";
 
 /* */
-"Backfill options" = "Backfill options";
+"Backfill options" = "Visszatöltési beállítások";
 
 /* */
-"Backfilling from trend is currently not well supported by iAPS" = "Backfilling from trend is currently not well supported by iAPS";
+"Backfilling from trend is currently not well supported by iAPS" = "A trendből történő visszatöltés jelenleg nem támogatott jól az iAPS által";
 
 /* */
-"Backfill from history" = "Backfill from history";
+"Backfill from history" = "Visszatöltés a történetből";
 
 /* */
-"Backfill from trend" = "Backfill from trend";
+"Backfill from trend" = "Visszatöltés a trend alapján";
 
 /* */
-"Debug options" = "Debug options";
+"Debug options" = "Debug opciók";
 
 /* */
-"Adds a lot of data to the Issue Report " = "Adds a lot of data to the Issue Report ";
+"Adds a lot of data to the Issue Report " = "Sok adatot ad hozzá a hibajelentéshez";
 
 /* */
-"Persist sensordata" = "Persist sensordata";
+"Persist sensordata" = "Szenzoradatok megtartása";
 
 /* */
-"Battery" = "Battery";
+"Battery" = "Töltöttség";
 
 /* */
-"Also add source info" = "Also add source info";
+"Also add source info" = "Adja hozzá a forrásinformációkat is";
 
 /* */
 "Carbs Required Threshold" = "Carbs Required Threshold";
@@ -1366,7 +1381,358 @@ Enact a temp Basal or a temp target */
 /* Food Type / Meal Note */
 "Note" = "Note";
 
+"Servings" = "Servings";
+
+"Kilo Calories" = "Kilo Calories";
+
+"Meals" = "Meals";
+
+"Today's Meals" = "Today's Meals";
+
+// --------- AI ---------
 /* */
+
+"AI Image Analysis" = "AI Image Analysis";
+
+"Barcode" = "Barcode";
+
+"📝 Notes" = "📝 Notes";
+
+/* */
+"💉 Diabetes recommendations" = "💉 Diabetes recommendations";
+
+/* */
+"🍽️ Separate Foods" = "🍽️ Separate Foods";
+
+/* */
+"Add all" = "Add all";
+
+/* */
+"🧠 AI Food analysis" = "🧠 AI Food analysis";
+
+/* */
+"📊 Total nutritional values of the meal" = "📊 Total nutritional values of the meal";
+
+/* */
+"Confidence level:" = "Confidence level:";
+
+/* */
+"Notes: %@" = "Notes: %@";
+
+/* */
+"Visual Cues: %@" = "Visual Cues: %@";
+
+/* */
+"Preparation: %@" = "Preparation: %@";
+
+/* */
+"Preparation" = "Preparation";
+
+/* */
+"Multiplicator" = "Multiplicator";
+
+/* */
+"Accept quantity" = "Accept quantity";
+
+/* */
+"Enter desired quantity" = "Enter desired quantity";
+
+/* */
+"AI Food Search" = "AI Food Search";
+
+/* Title */
+"Food Search" = "Food Search";
+
+/* Food Search input */
+"Food Search..." = "Food Search...";
+
+/* */
+"Search Food Database" = "Search Food Database";
+
+"Models Used:" = "Models Used:";
+
+"Current Mode: %@" = "Current Mode: %@";
+
+"Analysis Mode" = "Analysis Mode";
+
+"This AI provider requires an API key. Please enter your API key in the settings below." = "This AI provider requires an API key. Please enter your API key in the settings below.";
+"API Key Required" = "API Key Required";
+
+"Food Search Settings" = "Food Search Settings";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk.";
+
+"Medical Disclaimer" = "Medical Disclaimer";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)";
+
+"**AI Image Analysis:**" = "**AI Image Analysis:**";
+
+"OpenFoodFacts" = "OpenFoodFacts";
+
+"**Barcode Scanning:**" = "**Barcode Scanning:**";
+
+"USDA FoodData Central → OpenFoodFacts" = "USDA FoodData Central → OpenFoodFacts";
+
+"**Text/Voice Search:**" = "**Text/Voice Search:**";
+"Search Type Recommendations" = "Search Type Recommendations";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat.";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches.";
+
+"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries.";
+
+"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost.";
+
+"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens).";
+
+"Available Search Providers:" = "Available Search Providers:";
+
+"Provider Information" = "Provider Information";
+
+"❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI";
+
+"✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys";
+
+"When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above.";
+
+"Camera Food Analysis" = "Camera Food Analysis";
+
+"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food.";
+
+"Important: How to Use Your API Keys" = "Important: How to Use Your API Keys";
+
+"Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals.";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates.";
+
+"Diabetes Focus" = "Diabetes Focus";
+
+"Provide extremely detailed visual analysis of this food image. Describe every element you can see: food colors, textures, cooking methods (grilled marks, browning, steaming), plate type and size, utensils present, garnishes, sauces, cooking oils visible, food arrangement, and background elements. Use these visual details to estimate precise portion sizes and calculate accurate nutrition values for diabetes management." = "Provide extremely detailed visual analysis of this food image. Describe every element you can see: food colors, textures, cooking methods (grilled marks, browning, steaming), plate type and size, utensils present, garnishes, sauces, cooking oils visible, food arrangement, and background elements. Use these visual details to estimate precise portion sizes and calculate accurate nutrition values for diabetes management.";
+
+"Analyze this food image for diabetes management. Describe exactly what you see in detail: colors, textures, cooking methods, plate type, utensils, and food arrangement. Identify each food item with specific preparation details, estimate precise portion sizes using visual references, and provide carbohydrates, protein, fat, and calories for each component. Focus on accurate carbohydrate estimation for insulin dosing." = "Analyze this food image for diabetes management. Describe exactly what you see in detail: colors, textures, cooking methods, plate type, utensils, and food arrangement. Identify each food item with specific preparation details, estimate precise portion sizes using visual references, and provide carbohydrates, protein, fat, and calories for each component. Focus on accurate carbohydrate estimation for insulin dosing.";
+
+"AI Prompt for Enhanced Results" = "AI Prompt for Enhanced Results";
+
+"Enter your OpenAI API key" = "Enter your OpenAI API key";
+
+"ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API Key";
+
+"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)";
+
+"OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) Configuration";
+
+"Macro Tracking" = "Macro Tracking";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates.";
+
+"Detailed Visual Analysis" = "Detailed Visual Analysis";
+
+"Enter your Google Gemini API key" = "Enter your Google Gemini API key";
+
+"Google Gemini API Key" = "Google Gemini API Key";
+
+"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day).";
+
+"Google (Gemini API) Configuration" = "Google (Gemini API) Configuration";
+
+"Your AI provider quota has been exceeded. Please check your usage limits or try a different provider." = "Your AI provider quota has been exceeded. Please check your usage limits or try a different provider.";
+
+"Your AI provider has run out of credits. Please check your account billing or try a different provider." = "Your AI provider has run out of credits. Please check your account billing or try a different provider.";
+
+"Reset to Default" = "Reset to Default";
+
+"Retake Photo" = "Retake Photo";
+
+"Retry Analysis" = "Retry Analysis";
+
+"Try Different Provider" = "Try Different Provider";
+
+"Check Account" = "Check Account";
+
+"Analysis Error" = "Analysis Error";
+
+"AI Food Analysis" = "AI Food Analysis";
+
+"Use Cancel to retake photo" = "Use Cancel to retake photo";
+
+"Analyzing food with AI..." = "Analyzing food with AI...";
+
+"Choose from Library" = "Choose from Library";
+
+"Take a Photo" = "Take a Photo";
+
+"Keep the camera level to reduce distortion and keep portions proportional." = "Keep the camera level to reduce distortion and keep portions proportional.";
+
+"Shoot from slightly above" = "Shoot from slightly above";
+
+"Forks, cups, or hands help AI calculate realistic portions." = "Forks, cups, or hands help AI calculate realistic portions.";
+
+"Add a size reference" = "Add a size reference";
+
+"Make sure every food item is in the frame." = "Make sure every food item is in the frame.";
+
+"Frame the full meal" = "Frame the full meal";
+
+"Remove napkins, lids, or packaging that may be misidentified as food." = "Remove napkins, lids, or packaging that may be misidentified as food.";
+
+"Clear the area" = "Clear the area";
+
+"Harsh shadows confuse the AI and dim light can hide textures." = "Harsh shadows confuse the AI and dim light can hide textures.";
+
+"Use bright, even light" = "Use bright, even light";
+
+"Better photos = better estimates" = "Better photos = better estimates";
+
+"Scan failed" = "Scan failed";
+
+"Looking up product..." = "Looking up product...";
+
+"Code detected!" = "Code detected!";
+
+"Position camera over barcode or QR code" = "Position camera over barcode or QR code";
+
+"Validating format..." = "Validating format...";
+
+"Scanning for barcode or QR code..." = "Scanning for barcode or QR code...";
+
+"Initializing camera..." = "Initializing camera...";
+
+"Scan failed" = "Scan failed";
+
+"iAPS needs camera access to scan barcodes. Please enable camera access in Settings." = "iAPS needs camera access to scan barcodes. Please enable camera access in Settings.";
+
+"Camera Access Required" = "Camera Access Required";
+
+"Check Permissions" = "Check Permissions";
+
+"Supports traditional barcodes and QR codes" = "Supports traditional barcodes and QR codes";
+
+"Hold steady for best results" = "Hold steady for best results";
+
+"Retry" = "Retry";
+
+"Scan Barcode" = "Scan Barcode";
+
+"📦 Database Results" = "📦 Database Results";
+
+"🤖 AI Search Results" = "🤖 AI Search Results";
+
+"• Use the barcode scanner for packaged foods" = "• Use the barcode scanner for packaged foods";
+
+"• Check spelling carefully" = "• Check spelling carefully";
+
+"• Use simple, common food names" = "• Use simple, common food names";
+
+"• Try brand names (e.g., \"Cheerios\")" = "• Try brand names (e.g., \"Cheerios\")";
+
+"💡 Search Tips:" = "💡 Search Tips:";
+
+"Try simpler terms like \"bread\" or \"apple\", or scan a barcode" = "Try simpler terms like \"bread\" or \"apple\", or scan a barcode";
+
+"Check your spelling and try again" = "Check your spelling and try again";
+
+"No Foods Found" = "No Foods Found";
+
+"Search Error" = "Search Error";
+
+"Finding the best matches for you" = "Finding the best matches for you";
+
+"Searching foods" = "Searching foods";
+
+"AI Analysis" = "AI Analysis";
+
+"Analysis Status" = "Analysis Status";
+
+"❌ Analysis failed" = "❌ Analysis failed";
+
+"⚠️ Connection interrupted..." = "⚠️ Connection interrupted...";
+
+"✅ Analysis complete!" = "✅ Analysis complete!";
+
+"🍽️ Generating nutrition summary..." = "🍽️ Generating nutrition summary...";
+
+"📊 Processing analysis results..." = "📊 Processing analysis results...";
+
+"🤖 Running AI vision analysis..." = "🤖 Running AI vision analysis...";
+
+"⚖️ Comparing to USDA standards..." = "⚖️ Comparing to USDA standards...";
+
+"📏 Calculating serving sizes..." = "📏 Calculating serving sizes...";
+
+"🔬 Identifying food portions..." = "🔬 Identifying food portions...";
+
+"📊 Analyzing nutritional content..." = "📊 Analyzing nutritional content...";
+
+"📡 Uploading image for analysis..." = "📡 Uploading image for analysis...";
+
+"🧠 Connecting to AI provider..." = "🧠 Connecting to AI provider...";
+
+"💼 Optimizing image quality..." = "💼 Optimizing image quality...";
+
+"📱 Processing image data..." = "📱 Processing image data...";
+
+"🔍 Initializing AI food analysis..." = "🔍 Initializing AI food analysis...";
+
+"⚡ Processing AI analysis results..." = "⚡ Processing AI analysis results...";
+
+"📥 Received response from Claude..." = "📥 Received response from Claude...";
+
+"⏳ AI is cooking up results..." = "⏳ AI is cooking up results...";
+
+"🌐 Sending request to Claude..." = "🌐 Sending request to Claude...";
+
+"📡 Preparing API request..." = "📡 Preparing API request...";
+
+"🔄 Encoding image data..." = "🔄 Encoding image data...";
+
+"🖼️ Optimizing your image..." = "🖼️ Optimizing your image...";
+
+"⚙️ Configuring Claude parameters..." = "⚙️ Configuring Claude parameters...";
+
+"⚙️ Processing analysis results..." = "⚙️ Processing analysis results...";
+
+"📊 Calculating nutrition estimates..." = "📊 Calculating nutrition estimates...";
+
+"🍽️ Identifying food characteristics..." = "🍽️ Identifying food characteristics...";
+
+"📱 Analyzing image properties..." = "📱 Analyzing image properties...";
+
+"📊 Initializing basic analysis..." = "📊 Initializing basic analysis...";
+
+"🤖 Connecting to Google Gemini..." = "🤖 Connecting to Google Gemini...";
+
+"📥 Received response from Gemini..." = "📥 Received response from Gemini...";
+
+"🌐 Sending request to Google Gemini..." = "🌐 Sending request to Google Gemini...";
+
+"🔄 Encoding image data..." = "🔄 Encoding image data...";
+
+"⚙️ Configuring Gemini parameters..." = "⚙️ Configuring Gemini parameters...";
+
+"📥 Received response from OpenAI..." = "📥 Received response from OpenAI...";
+
+"💾 Caching analysis result..." = "💾 Caching analysis result...";
+
+"⏳ Doing a deep analysis (may take a bit)..." = "⏳ Doing a deep analysis (may take a bit)...";
+
+"🎯 Selecting optimal AI provider..." = "🎯 Selecting optimal AI provider...";
+
+"⚡ Starting parallel provider analysis..." = "⚡ Starting parallel provider analysis...";
+
+"Amount:" = "Amount:";
+
+"Take Over" = "Take Over";
+
+"kcal" = "kcal";
+
+"Cal" = "Cal";
+
+
+// --------- End of AI ---------
+/* */
+
 "Temp Basal" = "Temp Basal";
 
 /* */
@@ -1518,14 +1884,14 @@ Enact a temp Basal or a temp target */
 "Connect to Apple Health" = "Connect to Apple Health";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "For write data to Apple Health you must give permissions in Settings > Health > Data Access";
+"To allow iAPS to write data to Apple Health, you must grant permission in Settings > Health > Data Access." = "To allow iAPS to write data to Apple Health, you must grant permission in Settings > Health > Data Access.";
 
 /* */
-"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access. If you enter a glucose value into Apple Health, open iAPS to confirm it shows up." = "This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access. If you enter a glucose value into Apple Health, open iAPS to confirm it shows up.";
+"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access." = "This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access.";
 
 /* New ALerts ------------------------- */
 /* Info title */
-"Info" = "Info";
+"Info" = "Infó";
 
 /* Warning title */
 "Warning" = "Warning";
@@ -1769,7 +2135,7 @@ Enact a temp Basal or a temp target */
 "Save and continue" = "Save and continue";
 
 /* */
-"Save as Preset" = "Save as Preset";
+"Save as Preset" = "Szűrőbeállítás mentése";
 
 /* */
 "Predictions" = "Predictions";
@@ -2036,13 +2402,13 @@ Enact a temp Basal or a temp target */
 "Change HbA1c Unit" = "Change HbA1c Unit";
 
 /* */
-"Display Chart X - Grid lines" = "Display Chart X - Grid lines";
+"Vertical grid lines" = "Vertical grid lines";
 
 /* */
-"Display Chart Y - Grid lines" = "Display Chart Y - Grid lines";
+"Horizontal grid lines" = "Horizontal grid lines";
 
 /* */
-"Display Chart Threshold lines for Low and High" = "Display Chart Threshold lines for Low and High";
+"Threshold lines (Low / High)" = "Threshold lines (Low / High)";
 
 /* */
 "Standing / Laying TIR Chart" = "Standing / Laying TIR Chart";
@@ -2209,6 +2575,9 @@ Enact a temp Basal or a temp target */
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Display Insulin Activity Chart";
 
+/* UI/UX-setting */
+"Don't ask for saving search result as meal preset" = "Don't ask for saving search result as meal preset";
+
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "CGM Configuration";
@@ -2286,9 +2655,6 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Share your data anonymously" = "Névtelen adatmegosztás";
-
-/* Setting Title */
-"Sharing" = "Megosztás";
 
 /* ——————————Contact Image ————————*/
 /* Contact Image, contacts list - prefix before the contact given name */
@@ -3105,6 +3471,9 @@ Enact a temp Basal or a temp target */
 "Use insulin bars" = "Use insulin bars";
 
 /* UI/UX option */
+"Use carb bars" = "Use carb bars";
+
+/* UI/UX option */
 "Hide the bolus amount strings when amount is under" = "Hide the bolus amount strings when amount is under";
 
 /* UI/UX option */
@@ -3138,7 +3507,7 @@ Enact a temp Basal or a temp target */
 "Neglect Carbohydrates in oref0" = "Neglect Carbohydrates in oref0";
 
 /* Debug option */
-"Hide oref0 Predictions" = "Hide oref0 Predictions";
+"Hide Predictions" = "Hide Predictions";
 
 /* Setting title */
 "Bolus Calculator" = "Bolus Calculator";
@@ -3217,3 +3586,99 @@ Enact a temp Basal or a temp target */
 
 /* Headline "To enable settings, go to the App Config section in iOS Settings App" */
 "To enable settings, go to the App Config section in iOS Settings App" = "To enable settings, go to the App Config section in iOS Settings App";
+
+/* Section header in CGM view */
+"Active CGM" = "Active CGM";
+
+/* pump name label, when pump is a cgm "Pump/CGM" */
+"Pump/CGM" = "Pump/CGM";
+
+/* Button "Stop using the pump as CGM" */
+"Stop using the pump as CGM" = "Stop using the pump as CGM";
+
+/* Section header in CGM view */
+"Shared App Group Source" = "Shared App Group Source";
+
+/* prefix for the shared app group application */
+"Reading from" = "Reading from";
+
+/* button to disconnect from the shared app group "Disconnect" */
+"Disconnect" = "Disconnect";
+
+
+/* description for Shared App Group Source section */
+"Read BG from an external CGM app using a shared app group." = "Read BG from an external CGM app using a shared app group.";
+
+
+/* prefix before the app name on the button to start reading from shared app group */
+"Read from " = "Read from ";
+
+/* description for the backfill section in Nightscout settings screen */
+"Fetches old glucose readings from Nightscout" = "Fetches old glucose readings from Nightscout";
+
+/* header and button label for the 'upload old glucose' action in Nightscout settings screen */
+"Upload glucose" = "Upload glucose";
+
+/* description for the 'upload old glucose' section in Nightscout settings screen */
+"Uploads old glucose readings to Nightscout" = "Uploads old glucose readings to Nightscout";
+
+/* message when uploads are enabled, but glucose uploads are disabled, in Nightscout settings screen */
+"Glucose upload disabled in CGM settings" = "Glucose upload disabled in CGM settings";
+
+/* header for the CGM list in CGM settings screen */
+"Connect to CGM" = "Connect to CGM";
+
+
+/* message displayed when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Pump+CGM" = "Pump+CGM";
+
+/* label for the button to remove the CGM when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Stop using the pump as CGM" = "Stop using the pump as CGM";
+
+/* hint under the CGM list in CGM settings screen */
+"To receive reading from xDrip4iOS, Glucose Direct or another compatible app, select Shared App Group CGM." = "To receive reading from xDrip4iOS, Glucose Direct or another compatible app, select Shared App Group CGM.";
+
+/* message displayed in pump settings screen when the pump manager reports uncertain delivery */
+"Pump delivery uncertain" = "Pump delivery uncertain";
+
+/* message displayed on home screen when the pump is added but not fully onboarded */
+"Re-connect pump!" = "Re-connect pump!";
+
+/* 'fetch' toggle label in nightscout settings */
+"Fetch" = "Fetch";
+
+/* 'fetch' section header in nightscout settings */
+"Allow Fetching" = "Allow Fetching";
+
+/* 'fetch' scection footer in nightscout settings */
+"iAPS will fetch announcements, carbs and temp targets from Nightscout" = "iAPS will fetch announcements, carbs and temp targets from Nightscout";
+
+/* main chart settings - toggle, controls whether to draw the in-range area backdrop (fill) */
+"In-range area highlight" = "In-range area highlight";
+
+/* main chart settings - toggle, controls whether to show inline BG peaks */
+"Glucose peaks" = "Glucose peaks";
+
+/* main chart settings - toggle, controls whether to show the predictions legend */
+"Predictions legend" = "Predictions legend";
+
+/* main chart settings - toggle, controls whether to draw the secondary chart backdrop (fill) */
+"Secondary chart backdrop" = "Secondary chart backdrop";
+
+/* main chart settings - toggle, controls whether to show insulin activity grid lines */
+"Insulin activity grid lines" = "Insulin activity grid lines";
+
+/* main chart settings - toggle, controls whether to show insulin activity axis labels */
+"Insulin activity labels" = "Insulin activity labels";
+
+/* main chart settings - secondary chart section header */
+"Secondary chart" = "Secondary chart";
+
+/* main chart settings - navigation title and the navigation link label */
+"Main Chart settings" = "Main Chart settings";
+
+/* UI/UX settings - main chart section header */
+"Main Chart" = "Main Chart";
+
+/* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
+"Y-axis labels" = "Y-axis labels";

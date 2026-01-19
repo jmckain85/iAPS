@@ -4,7 +4,7 @@
 */
 /* -------------------------------- */
 /* Bolus screen when adding insulin */
-"Add insulin without actually bolusing" = "Tự thêm liều insulin và bỏ qua liều bolus thực tế";
+"Add insulin without actually bolusing" = "Thêm liều insulin và bỏ qua liều bolus thực tế";
 
 /* Add insulin from source outside of pump */
 "Add %@ without bolusing" = "Thêm %@ và bỏ qua liều bolus";
@@ -190,6 +190,21 @@
 /* */
 "Are you sure?" = "Bạn có chắc chắn không?";
 
+/* */
+"Clear Records" = "Làm sạch dữ liệu";
+
+/* */
+"Delete CoreData database records" = "Xóa các bản ghi trong cơ sở dữ liệu CoreData";
+
+/* */
+"Delete NS records" = "Xóa các bản ghi NS";
+
+/* */
+"All records in " = "Tất cả bản ghi trong ";
+
+/* */
+" will be deleted!" = " sẽ bị xóa!";
+
 /* Bottom target temp */
 "Bottom target" = "Mục tiêu thấp nhất";
 
@@ -323,7 +338,7 @@
 "Schedule" = "Lịch trình";
 
 /* */
-"(standard units / hour)" = "(tiêu chuẩn units / hour)";
+"(standard units / hour)" = "(tiêu chuẩn đơn vị/giờ)";
 
 /*  */
 "starts at" = "bắt đầu lúc";
@@ -335,7 +350,7 @@
 "Calculated Ratio" = "Tỷ lệ được tính toán";
 
 /* Carb Ratios header */
-"Carb Ratios" = "Carb Ratios";
+"Carb Ratios" = "Tỷ lệ Carb";
 
 /*  */
 "Ratio" = "Tỷ lệ";
@@ -417,7 +432,7 @@ Enact a temp Basal or a temp target */
 "Glucose units" = "Đơn vị Glucose";
 
 /*  */
-"Preferences" = "Preferences";
+"Preferences" = "Tùy chỉnh";
 
 /* Recommended Insulin Fraction in preferences */
 "Recommended Insulin Fraction" = "Tỷ lệ insulin được đề xuất";
@@ -604,22 +619,22 @@ Enact a temp Basal or a temp target */
 "m" = "m";
 
 /*  */
-"Closed loop" = "Closed loop";
+"Closed loop" = "Vòng lặp kín";
 
 /* */
-"Configuration" = "Configuration";
+"Configuration" = "Cấu hình";
 
 /* */
-"Devices" = "Devices";
+"Devices" = "Thiết bị";
 
 /*  */
-"Pump" = "Pump";
+"Pump" = "Bơm Insulin";
 
 /* */
-"Watch" = "Watch";
+"Watch" = "Đồng hồ";
 
 /* */
-"Watch Configuration" = "Watch Configuration";
+"Watch Configuration" = "Cấu hình đồng hồ";
 
 /* */
 "Apple Watch" = "Apple Watch";
@@ -661,16 +676,16 @@ Enact a temp Basal or a temp target */
 "Garmin is not available" = "Garmin không có sẵn";
 
 /*  */
-"Services" = "Services";
+"Services" = "Dịch vụ";
 
 /*  */
-"Settings" = "Settings";
+"Settings" = "Cài đặt";
 
 /* Recommendation for a Manual Bolus */
-"Recommended Bolus Percentage" = "Recommended Bolus Percentage";
+"Recommended Bolus Percentage" = "Tỷ lệ phần trăm Bolus được đề xuất";
 
 /* 2 log files to share */
-"Share logs" = "Share logs";
+"Share logs" = "Chia sẻ nhật ký";
 
 /* Upper target */
 "High target" = "Mục tiêu đường huyết cao";
@@ -700,7 +715,7 @@ Enact a temp Basal or a temp target */
 "Type" = "Loại cảm biến";
 
 /* CGM */
-"CGM" = "CGM";
+"CGM" = "Cảm biến đường huyết";
 
 /* CGM Transmitter ID */
 "Transmitter ID" = "Số ID của Transmitter";
@@ -715,7 +730,7 @@ Enact a temp Basal or a temp target */
 "Updating..." = "Đang cập nhật...";
 
 /* Header for Temp targets in Watch app */
-"Temp Targets" = "Temp Targets";
+"Temp Targets" = "Mục tiêu tạm thời";
 
 /* Delete carbs from data table and Nightscout */
 "Delete Carbs?" = "Xóa Carbs?";
@@ -757,7 +772,7 @@ Enact a temp Basal or a temp target */
 "Configure Libre Transmitter" = "Cấu hình Libre Transmitter";
 
 /* */
-"Calibrations" = "Calibrations";
+"Calibrations" = "Hiệu chuẩn";
 
 /* */
 "Create Events in Calendar" = "Tạo sự kiện trong Calendar";
@@ -877,7 +892,7 @@ Enact a temp Basal or a temp target */
 "Libre sensor was incorrectly read, CRCs were not valid" = "Cảm biến libre không được đọc đúng, CRCs không hợp lệ";
 
 /* Glucose */
-"Glucose" = "Glucose";
+"Glucose" = "Đường huyết";
 
 /* LOWALERT! */
 "LOWALERT!" = "CẢNH BÁO THẤP!";
@@ -1033,7 +1048,7 @@ Enact a temp Basal or a temp target */
 "Glucose Settings" = "Cài đặt đường huyết";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Thông báo";
 
 /* */
 "Export logs" = "Kết xuất nhật ký";
@@ -1084,16 +1099,16 @@ Enact a temp Basal or a temp target */
 "Unit override" = "Đơn vị ghi đè";
 
 /* */
-"Low" = "Low";
+"Low" = "Thấp";
 
 /* */
-"High" = "High";
+"High" = "Cao";
 
 /* TIR Chart */
-"Very High" = "Very High";
+"Very High" = "Quá cao";
 
 /* TIR Chart */
-"Very Low" = "Very Low";
+"Very Low" = "Quá thấp";
 
 /* */
 "glucose" = "đường huyết";
@@ -1262,7 +1277,7 @@ Enact a temp Basal or a temp target */
 "Backfill from trend" = "Bổ sung từ xu hướng";
 
 /* */
-"Debug options" = "Debug options";
+"Debug options" = "Tùy chọn gỡ lỗi";
 
 /* */
 "Adds a lot of data to the Issue Report " = "Thêm nhiều dữ liệu vào Báo cáo vấn đề ";
@@ -1366,7 +1381,358 @@ Enact a temp Basal or a temp target */
 /* Food Type / Meal Note */
 "Note" = "Lưu ý";
 
+"Servings" = "Khẩu phần";
+
+"Kilo Calories" = "Kilo Calories";
+
+"Meals" = "Bữa ăn";
+
+"Today's Meals" = "Bữa ăn hôm nay";
+
+// --------- AI ---------
 /* */
+
+"AI Image Analysis" = "Phân tích hình ảnh bằng AI";
+
+"Barcode" = "Mã vạch";
+
+"📝 Notes" = "📝 Ghi chú";
+
+/* */
+"💉 Diabetes recommendations" = "💉 Khuyến nghị điều trị tiểu đường";
+
+/* */
+"🍽️ Separate Foods" = "🍽️ Thức ăn riêng lẻ";
+
+/* */
+"Add all" = "Thêm tất cả";
+
+/* */
+"🧠 AI Food analysis" = "🧠 AI phân tích món ăn";
+
+/* */
+"📊 Total nutritional values of the meal" = "📊 Tổng giá trị dinh dưỡng của bữa ăn";
+
+/* */
+"Confidence level:" = "Mức độ tin cậy:";
+
+/* */
+"Notes: %@" = "Ghi chú: %@";
+
+/* */
+"Visual Cues: %@" = "Gợi ý trực quan: %@";
+
+/* */
+"Preparation: %@" = "Chuẩn bị: %@";
+
+/* */
+"Preparation" = "Chuẩn bị";
+
+/* */
+"Multiplicator" = "Hệ số";
+
+/* */
+"Accept quantity" = "Xác nhận số lượng";
+
+/* */
+"Enter desired quantity" = "Nhập lượng mong muốn";
+
+/* */
+"AI Food Search" = "AI Tìm món ăn";
+
+/* Title */
+"Food Search" = "Tìm món ăn";
+
+/* Food Search input */
+"Food Search..." = "Tìm món ăn...";
+
+/* */
+"Search Food Database" = "Tìm thực phẩm";
+
+"Models Used:" = "Các mô hình sử dụng:";
+
+"Current Mode: %@" = "Chế độ hiện tại: %@";
+
+"Analysis Mode" = "Chế độ phân tích";
+
+"This AI provider requires an API key. Please enter your API key in the settings below." = "Nhà cung cấp AI cần khóa API. Nhập khóa API trong cài đặt.";
+"API Key Required" = "Yêu cầu khóa API";
+
+"Food Search Settings" = "Cài đặt tìm thực phẩm";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "Ước tính dinh dưỡng từ AI chỉ mang tính tham khảo. Tham khảo ý kiến chuyên gia y tế và kiểm tra thông tin khi cần. Sử dụng dưới trách nhiệm của bạn.";
+
+"Medical Disclaimer" = "Thông báo y tế";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Nhà cung cấp AI: Google (Gemini API), OpenAI (ChatGPT API), Anthropic (Claude API)";
+
+"**AI Image Analysis:**" = "**Phân tích hình ảnh bằng AI:**";
+
+"OpenFoodFacts" = "OpenFoodFacts";
+
+"**Barcode Scanning:**" = "**Quét mã sản phẩm**";
+
+"USDA FoodData Central → OpenFoodFacts" = "Cơ sở dữ liệu thực phẩm: USDA FoodData Central → OpenFoodFacts";
+
+"**Text/Voice Search:**" = "**Tìm kiếm văn bản/giọng nói:**";
+"Search Type Recommendations" = "Gợi ý kiểu tìm kiếm";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• USDA FoodData Central: Cơ sở dữ liệu dinh dưỡng miễn phí, chính thức. Thông tin chi tiết cho thực phẩm tươi như trái cây, rau và thịt.";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Cơ sở dữ liệu mở, miễn phí, với mã vạch phong phú và tìm kiếm văn bản cho thực phẩm đóng gói. Mặc định cho các tìm kiếm.";
+
+"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: AI phân tích chính xác với GPT-4 Vision. Cần khóa API (~0,01 USD/hình). Rất tốt cho phân tích ảnh và truy vấn bằng ngôn ngữ tự nhiên.";
+
+"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "• **Google (Gemini API)**: AI miễn phí, giới hạn 1500 yêu cầu/ngày. Nhận diện thực phẩm tốt nhờ Google Vision AI. Chất lượng và chi phí cân đối.";
+
+"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Anthropic (Claude API)**: AI tiên tiến với khả năng suy luận chi tiết. Xuất sắc trong phân tích thực phẩm và ước lượng khẩu phần. Yêu cầu khóa API (~0,25 USD cho mỗi triệu token).";
+
+"Available Search Providers:" = "Các nhà cung cấp tìm kiếm:";
+
+"Provider Information" = "Thông tin nhà cung cấp";
+
+"❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ Chọn 'OpenFoodFacts' hoặc 'USDA' sẽ khiến camera phân tích chỉ dùng ước tính cơ bản, không dùng AI";
+
+"✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Chọn 'Anthropic (Claude API)', 'Google (Gemini API)' hoặc 'OpenAI (ChatGPT API)' để phân tích hình ảnh bằng AI và sử dụng khóa trả phí của bạn";
+
+"When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "Ảnh món ăn sẽ được phân tích bởi nhà cung cấp đã chọn ở 'Phân tích hình ảnh bằng AI'.";
+
+"Camera Food Analysis" = "Phân tích món ăn bằng camera";
+
+"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "Để dùng khóa API trả phí, chọn nhà cung cấp tương ứng trong 'Phân tích hình ảnh bằng AI'. Đây sẽ là nhà cung cấp dùng khi chụp ảnh món ăn.";
+
+"Important: How to Use Your API Keys" = "Lưu ý: Sử dụng khóa API";
+
+"Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Phân tách bữa ăn này thành từng thành phần riêng lẻ, kèm thông tin đầy đủ về các chất dinh dưỡng (carbs, chất đạm, chất béo, calo) cho mỗi món và tổng hợp tất cả.";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Xác định tất cả các món ăn trong hình, chú trọng vào lượng carbohydrate để quản lý bệnh tiểu đường. Cung cấp chi tiết lượng carb cho từng món và tổng lượng carbohydrate của bữa ăn.";
+
+"Diabetes Focus" = "Tiêu điểm bệnh tiểu đường";
+
+"Provide extremely detailed visual analysis of this food image. Describe every element you can see: food colors, textures, cooking methods (grilled marks, browning, steaming), plate type and size, utensils present, garnishes, sauces, cooking oils visible, food arrangement, and background elements. Use these visual details to estimate precise portion sizes and calculate accurate nutrition values for diabetes management." = "Cung cấp phân tích hình ảnh thực phẩm cực kỳ chi tiết. Mô tả tất cả các yếu tố có thể quan sát: màu sắc, kết cấu, phương pháp nấu (vết nướng, cháy xém, hấp), loại và kích thước đĩa, dụng cụ ăn, trang trí, nước sốt, dầu ăn có thể nhìn thấy, cách sắp xếp món ăn, và các yếu tố nền. Sử dụng các chi tiết trực quan này để ước lượng chính xác khẩu phần và tính toán giá trị dinh dưỡng cho việc quản lý tiểu đường.";
+
+"Analyze this food image for diabetes management. Describe exactly what you see in detail: colors, textures, cooking methods, plate type, utensils, and food arrangement. Identify each food item with specific preparation details, estimate precise portion sizes using visual references, and provide carbohydrates, protein, fat, and calories for each component. Focus on accurate carbohydrate estimation for insulin dosing." = "Phân tích hình ảnh món ăn này cho việc quản lý tiểu đường. Mô tả chi tiết những gì bạn thấy: màu sắc, kết cấu, phương pháp nấu, loại đĩa, dụng cụ ăn, và cách bày trí món ăn. Xác định từng món với chi tiết cách chế biến, ước lượng khẩu phần chính xác dựa trên tham chiếu trực quan, và cung cấp thông tin về carbohydrate, protein, chất béo và calo cho mỗi món. Tập trung vào ước lượng carbohydrate chính xác để tính liều insulin.";
+
+"AI Prompt for Enhanced Results" = "Gợi ý AI để kết quả tốt hơn";
+
+"Enter your OpenAI API key" = "Nhập khóa API OpenAI";
+
+"ChatGPT (OpenAI) API Key" = "Khóa API ChatGPT (OpenAI)";
+
+"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Lấy khóa API từ platform.openai.com. Tùy chỉnh lệnh phân tích để nhận chi tiết từng thành phần món ăn và tổng giá trị dinh dưỡng. (~0,01 USD cho mỗi hình ảnh)";
+
+"OpenAI (ChatGPT API) Configuration" = "Cấu hình OpenAI (ChatGPT API)";
+
+"Macro Tracking" = "Theo dõi dinh dưỡng";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Xác định tất cả các món ăn trong hình, chú trọng vào lượng carbohydrate để quản lý bệnh tiểu đường. Cung cấp chi tiết lượng carb cho từng món và tổng lượng carbohydrate của bữa ăn.";
+
+"Detailed Visual Analysis" = "Phân tích hình ảnh chi tiết";
+
+"Enter your Google Gemini API key" = "Nhập khóa API Google Gemini";
+
+"Google Gemini API Key" = "Khóa API Google Gemini";
+
+"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Nhận khóa API miễn phí tại ai.google.dev. Google Gemini cung cấp khả năng nhận diện món ăn rất tốt, với mức miễn phí (1.500 yêu cầu mỗi ngày).";
+
+"Google (Gemini API) Configuration" = "Cấu hình Google (Gemini API)";
+
+"Your AI provider quota has been exceeded. Please check your usage limits or try a different provider." = "Bạn đã vượt quá hạn mức của nhà cung cấp AI. Vui lòng kiểm tra giới hạn sử dụng hoặc thử một nhà cung cấp khác.";
+
+"Your AI provider has run out of credits. Please check your account billing or try a different provider." = "Bạn đã vượt quá hạn mức của nhà cung cấp AI. Vui lòng kiểm tra giới hạn sử dụng hoặc thử một nhà cung cấp khác.";
+
+"Reset to Default" = "Đặt lại về mặc định";
+
+"Retake Photo" = "Chụp lại ảnh";
+
+"Retry Analysis" = "Thử phân tích lại";
+
+"Try Different Provider" = "Thử nhà cung cấp khác";
+
+"Check Account" = "Kiểm tra tài khoản";
+
+"Analysis Error" = "Lỗi phân tích";
+
+"AI Food Analysis" = "AI phân tích món ăn";
+
+"Use Cancel to retake photo" = "Chọn Hủy để chụp lại hình";
+
+"Analyzing food with AI..." = "Đang phân tích món ăn bằng AI...";
+
+"Choose from Library" = "Chọn từ Thư viện";
+
+"Take a Photo" = "Chụp ảnh";
+
+"Keep the camera level to reduce distortion and keep portions proportional." = "Giữ camera cân bằng để giảm méo hình và giữ tỉ lệ khẩu phần đúng.";
+
+"Shoot from slightly above" = "Chụp ảnh từ góc hơi cao so với món ăn";
+
+"Forks, cups, or hands help AI calculate realistic portions." = "Đặt nĩa, cốc hoặc tay gần món ăn để AI ước lượng khẩu phần chính xác hơn.";
+
+"Add a size reference" = "Đặt một vật làm tham chiếu kích thước";
+
+"Make sure every food item is in the frame." = "Đảm bảo tất cả các món ăn đều nằm trong khung hình.";
+
+"Frame the full meal" = "Đặt toàn bộ bữa ăn vào khung hình";
+
+"Remove napkins, lids, or packaging that may be misidentified as food." = "Hãy gỡ bỏ khăn giấy, nắp hoặc bao bì để tránh Ai nhận nhầm thành thực phẩm.";
+
+"Clear the area" = "Dọn sạch khu vực";
+
+"Harsh shadows confuse the AI and dim light can hide textures." = "Bóng đổ mạnh làm AI bị nhầm lẫn và ánh sáng yếu có thể che khuất kết cấu món ăn.";
+
+"Use bright, even light" = "Sử dụng ánh sáng mạnh và đều";
+
+"Better photos = better estimates" = "Ảnh tốt hơn = Ước lượng chính xác hơn";
+
+"Scan failed" = "Quét thất bại";
+
+"Looking up product..." = "Đang tìm sản phẩm...";
+
+"Code detected!" = "Mã đã được nhận diện!";
+
+"Position camera over barcode or QR code" = "Hướng camera vào mã vạch hoặc mã QR";
+
+"Validating format..." = "Đang kiểm tra định dạng...";
+
+"Scanning for barcode or QR code..." = "Đang quét mã vạch hoặc mã QR...";
+
+"Initializing camera..." = "Đang khởi tạo camera...";
+
+"Scan failed" = "Quét thất bại";
+
+"iAPS needs camera access to scan barcodes. Please enable camera access in Settings." = "iAPS cần quyền truy cập camera để quét mã vạch. Vui lòng bật quyền camera trong Cài đặt.";
+
+"Camera Access Required" = "Cần quyền truy cập camera";
+
+"Check Permissions" = "Kiểm tra quyền truy cập";
+
+"Supports traditional barcodes and QR codes" = "Có thể đọc cả mã vạch thường và mã QR";
+
+"Hold steady for best results" = "Giữ camera cố định để đạt kết quả tốt";
+
+"Retry" = "Thử lại";
+
+"Scan Barcode" = "Quét mã vạch";
+
+"📦 Database Results" = "📦 Kết quả cơ sở dữ liệu";
+
+"🤖 AI Search Results" = "🤖 Kết quả AI tìm kiếm";
+
+"• Use the barcode scanner for packaged foods" = "• Sử dụng máy quét mã vạch cho thực phẩm đóng gói";
+
+"• Check spelling carefully" = "• Kiểm tra chính tả cẩn thận";
+
+"• Use simple, common food names" = "• Sử dụng tên thực phẩm đơn giản, phổ biến";
+
+"• Try brand names (e.g., \"Cheerios\")" = "• Dùng tên thương hiệu (ví dụ: \"Cheerios\")";
+
+"💡 Search Tips:" = "💡 Gợi ý tìm kiếm:";
+
+"Try simpler terms like \"bread\" or \"apple\", or scan a barcode" = "Hãy dùng từ đơn giản, ví dụ ‘bánh mì’ hoặc ‘táo’, hoặc quét mã vạch";
+
+"Check your spelling and try again" = "Hãy kiểm tra chính tả và thử lại";
+
+"No Foods Found" = "Không tìm thấy thực phẩm nào";
+
+"Search Error" = "Lỗi tìm kiếm";
+
+"Finding the best matches for you" = "Đang tìm các kết quả phù hợp nhất";
+
+"Searching foods" = "Đang tìm kiếm thực phẩm";
+
+"AI Analysis" = "Phân tích bằng AI";
+
+"Analysis Status" = "Trạng thái phân tích";
+
+"❌ Analysis failed" = "❌ Phân tích không thành công";
+
+"⚠️ Connection interrupted..." = "⚠️ Kết nối bị gián đoạn...";
+
+"✅ Analysis complete!" = "Phân tích hoàn tất!";
+
+"🍽️ Generating nutrition summary..." = "🍽️ Đang tạo bản tóm tắt dinh dưỡng...";
+
+"📊 Processing analysis results..." = "📊 Đang xử lý kết quả phân tích...";
+
+"🤖 Running AI vision analysis..." = "🤖 Đang chạy phân tích tầm nhìn AI...";
+
+"⚖️ Comparing to USDA standards..." = "⚖️ So sánh với tiêu chuẩn của USDA...";
+
+"📏 Calculating serving sizes..." = "📏 Đang tính khẩu phần ăn...";
+
+"🔬 Identifying food portions..." = "🔬 Đang xác định khẩu phần ăn...";
+
+"📊 Analyzing nutritional content..." = "📊 Đang phân tích hàm lượng dinh dưỡng...";
+
+"📡 Uploading image for analysis..." = "📡 Đang tải hình ảnh lên để phân tích...";
+
+"🧠 Connecting to AI provider..." = "🧠 Đang kết nối với nhà cung cấp AI...";
+
+"💼 Optimizing image quality..." = "💼 Đang Tối ưu hóa chất lượng hình ảnh...";
+
+"📱 Processing image data..." = "📱 Đang xử lý dữ liệu hình ảnh...";
+
+"🔍 Initializing AI food analysis..." = "🔍 Đang khởi tạo phân tích thực phẩm bằng AI...";
+
+"⚡ Processing AI analysis results..." = "⚡ Đang xử lý kết quả phân tích AI...";
+
+"📥 Received response from Claude..." = "📥 Đã nhận phản hồi từ Claude...";
+
+"⏳ AI is cooking up results..." = "⏳ AI đang xử lý kết quả...";
+
+"🌐 Sending request to Claude..." = "🌐 Đang gửi yêu cầu đến Claude...";
+
+"📡 Preparing API request..." = "📡 Đang chuẩn bị yêu cầu API...";
+
+"🔄 Encoding image data..." = "🔄 Đang mã hóa dữ liệu hình ảnh...";
+
+"🖼️ Optimizing your image..." = "🖼️ Đang tối ưu hóa hình ảnh của bạn...";
+
+"⚙️ Configuring Claude parameters..." = "⚙️ Đang cấu hình các tham số cho Claude...";
+
+"⚙️ Processing analysis results..." = "⚙️ Đang xử lý kết quả phân tích...";
+
+"📊 Calculating nutrition estimates..." = "📊 Đang tính toán giá trị dinh dưỡng ước tính...";
+
+"🍽️ Identifying food characteristics..." = "🍽️ Đang nhận diện đặc điểm thực phẩm...";
+
+"📱 Analyzing image properties..." = "📱 Đang phân tích thuộc tính hình ảnh...";
+
+"📊 Initializing basic analysis..." = "📊 Đang khởi tạo phân tích cơ bản...";
+
+"🤖 Connecting to Google Gemini..." = "🤖 Đang kết nối với Google Gemini...";
+
+"📥 Received response from Gemini..." = "📥 Đã nhận phản hồi từ Gemini...";
+
+"🌐 Sending request to Google Gemini..." = "🌐 Đang gửi yêu cầu đến Google Gemini...";
+
+"🔄 Encoding image data..." = "🔄 Đang mã hóa dữ liệu hình ảnh...";
+
+"⚙️ Configuring Gemini parameters..." = "⚙️ Đang cấu hình các tham số cho Gemini...";
+
+"📥 Received response from OpenAI..." = "📥 Đã nhận phản hồi từ OpenAI...";
+
+"💾 Caching analysis result..." = "💾 Kết quả phân tích bộ nhớ đệm...";
+
+"⏳ Doing a deep analysis (may take a bit)..." = "⏳ Đang phân tích chi tiết (có thể mất một chút thời gian)...";
+
+"🎯 Selecting optimal AI provider..." = "🎯 Đang chọn nhà cung cấp AI tối ưu...";
+
+"⚡ Starting parallel provider analysis..." = "⚡ Bắt đầu phân tích song song các nhà cung cấp...";
+
+"Amount:" = "Số lượng:";
+
+"Take Over" = "Nhận quyền kiểm soát";
+
+"kcal" = "kcal";
+
+"Cal" = "Cal";
+
+
+// --------- End of AI ---------
+/* */
+
 "Temp Basal" = "Temp Basal";
 
 /* */
@@ -1379,7 +1745,7 @@ Enact a temp Basal or a temp target */
 "Suspend" = "Đã tạm dừng";
 
 /* */
-"Animated Background" = "Animated Background";
+"Animated Background" = "Nền màn hình động";
 
 /* Sensor day(s) */
 " day(s)" = " day(s)";
@@ -1425,7 +1791,7 @@ Enact a temp Basal or a temp target */
 "Direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Kết nối trực tiếp với bộ phát Libre 1 hoặc cảm biến Libre 2 của Châu Âu";
 
 /* Online or internal server */
-"Online or internal server" = "Trực tuyến hoặc máy chủ nội bộ";
+"Online or internal server" = "Máy chủ trực tuyến hoặc nội bộ";
 
 /* Pump Error Message */
 "Can't enact the new loop cycle recommendation, because a Bolus is in progress. Wait for next loop cycle" = "Không thể thực hiện khuyến nghị trong chu kỳ vòng lặp mới vì bolus đang được tiêm. Vui lòng đợi đến chu kỳ vòng lặp tiếp theo";
@@ -1466,7 +1832,7 @@ Enact a temp Basal or a temp target */
 "Save on Pump" = "Lưu vào bơm";
 
 /* Debug option view Pump History */
-"Pump History" = "Pump History";
+"Pump History" = "Lịch sử Bơm";
 
 /* Debug option view Temp Basals */
 "Temp Basals" = "Temp Basals";
@@ -1478,7 +1844,7 @@ Enact a temp Basal or a temp target */
 "Temp targets" = "Mục tiêu tạm thời";
 
 /* Debug option view Meal */
-"Meal" = "Meal";
+"Meal" = "Bữa ăn";
 
 /* Debug option view Pump profile */
 "Pump profile" = "Cấu hình Bơm";
@@ -1518,10 +1884,10 @@ Enact a temp Basal or a temp target */
 "Connect to Apple Health" = "Kết nối Apple Health";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "Để ghi dữ liệu vào Apple Health, bạn phải cấp quyền trong Cài đặt > Sức khỏe > Truy cập dữ liệu";
+"To allow iAPS to write data to Apple Health, you must grant permission in Settings > Health > Data Access." = "Để ghi dữ liệu vào Apple Health, bạn phải cấp quyền trong Cài đặt > Sức khỏe > Truy cập dữ liệu";
 
 /* */
-"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access. If you enter a glucose value into Apple Health, open iAPS to confirm it shows up." = "Điều này cho phép iAPS đọc và ghi vào Apple Heath. Bạn cũng phải cấp quyền trong Cài đặt > Sức khỏe > Truy cập dữ liệu. Nếu bạn nhập giá trị glucose vào Apple Health, hãy mở iAPS để xác nhận giá trị đó hiển thị.";
+"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access." = "Điều này cho phép iAPS đọc và ghi vào Apple Heath. Bạn cũng phải cấp quyền trong Cài đặt > Sức khỏe > Truy cập dữ liệu.";
 
 /* New ALerts ------------------------- */
 /* Info title */
@@ -1608,12 +1974,12 @@ Enact a temp Basal or a temp target */
 "Max Override 400%" = "Ghi đè tối đa 400%";
 
 /* */
-"Override Profiles" = "Override Profiles";
+"Override Profiles" = "Chế độ ghi đè";
 
 /* */
 "Normal " = "Bình thường ";
 
-"Currently no Override active" = "Hiện tại không có Override hoạt động";
+"Currently no Override active" = "Hiện tại không có ghi đè nào hoạt động";
 
 /* */
 "Total Insulin Adjustment" = "Tổng số Insulin được điều chỉnh";
@@ -1807,7 +2173,7 @@ Enact a temp Basal or a temp target */
 "Glucose, " = "Đường huyết, ";
 
 /* */
-"Target Glucose" = "Target Glucose";
+"Target Glucose" = "Đường huyết mục tiêu";
 
 /* */
 "Percentage setting" = "Cài đặt phần trăm";
@@ -2024,10 +2390,10 @@ Enact a temp Basal or a temp target */
 "Allow Upload of Statistics to NS" = "Cho phép tải số liệu thống kê lên NS";
 
 /* Low Glucose Threshold in Statistics settings */
-"Low" = "Low";
+"Low" = "Thấp";
 
 /* High Glucose Threshold in Statistics settings */
-"High" = "High";
+"High" = "Cao";
 
 /* In Range */
 "In Range" = "In Range";
@@ -2036,13 +2402,13 @@ Enact a temp Basal or a temp target */
 "Change HbA1c Unit" = "Thay đổi đơn vị của HbA1c";
 
 /* */
-"Display Chart X - Grid lines" = "Hiển thị biểu đồ trục X";
+"Vertical grid lines" = "Đường lưới dọc";
 
 /* */
-"Display Chart Y - Grid lines" = "Hiển thị biểu đồ trục Y";
+"Horizontal grid lines" = "Đường lưới ngang";
 
 /* */
-"Display Chart Threshold lines for Low and High" = "Hiển thị các đường hiển thị Thấp và Cao";
+"Threshold lines (Low / High)" = "Đường giới hạn (Thấp / Cao)";
 
 /* */
 "Standing / Laying TIR Chart" = "Biểu đồ TIR Đứng/Nằm";
@@ -2078,13 +2444,13 @@ Enact a temp Basal or a temp target */
 "Time In Range" = "Thời gian trong phạm vi";
 
 /* Average Loop Interval in minutes */
-"Average Interval" = "Thời gian trung bình";
+"Average Interval" = "Khoảng đo trung bình";
 
 /* Median BG */
 "Median" = "Median";
 
 /* CGM readings in statView */
-"Readings" = "Chỉ số đo";
+"Readings" = "Số lần đo";
 
 /* CGM readings in statView */
 "Readings / 24h" = "Readings / 24h";
@@ -2117,7 +2483,7 @@ Enact a temp Basal or a temp target */
 "days" = "days";
 
 /* Nr of Loops in statPanel */
-"Loops" = "Chu kỳ";
+"Loops" = "Chu kỳ vòng lặp";
 
 /* Loop Errors in statPanel */
 "Errors" = "Lỗi";
@@ -2209,6 +2575,9 @@ Enact a temp Basal or a temp target */
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Hiển thị biểu đồ hoạt động của insulin";
 
+/* UI/UX-setting */
+"Don't ask for saving search result as meal preset" = "Không yêu cầu lưu kết quả tìm kiếm làm bữa ăn mẫu";
+
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "Cấu hình CGM";
@@ -2286,9 +2655,6 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Share your data anonymously" = "Ẩn danh chia sẻ dữ liệu của bạn";
-
-/* Setting Title */
-"Sharing" = "Chia sẻ";
 
 /* ——————————Contact Image ————————*/
 /* Contact Image, contacts list - prefix before the contact given name */
@@ -2404,7 +2770,7 @@ Enact a temp Basal or a temp target */
 "RegularFontWeight" = "Regular";
 
 /* Contact Image, settings, medium font weight */
-"MediumFontWeight" = "Medium";
+"MediumFontWeight" = "Trung bình";
 
 /* Contact Image, settings, semibold font weight */
 "SemiboldFontWeight" = "Semibold";
@@ -2419,7 +2785,7 @@ Enact a temp Basal or a temp target */
 "NoneContactValue" = "Không";
 
 /* Contact Image, settings, Glucose (data to display) */
-"GlucoseContactValue" = "Glucose";
+"GlucoseContactValue" = "Đường huyết";
 
 /* Contact Image, settings, Eventual BG (data to display) */
 "EventualBGContactValue" = "Đường huyết dự kiến";
@@ -2601,7 +2967,7 @@ Enact a temp Basal or a temp target */
 "Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Tình trạng đường huyết cao kéo dài. Cứ mỗi giờ đường huyết duy trì ở mức cao, việc điều chỉnh này sẽ làm giảm ISF của bạn nhiều hơn.\n\nCông thức điều chỉnh ISF của Dura là:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)";
 
 /* */
-"SMB Delivery Ratio BG Range" = "Khoảng BG cho tỷ lệ phân phối SMB";
+"SMB Delivery Ratio BG Range" = "Khoảng BG cho tỉ lệ SMB";
 
 /* SMB Delivery Ratio BG Range description */
 "Default value: 0, Sensible is between 40 mg/dL and 120 mg/dL. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range]. At target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max. With 0 the linearly increasing SMB ratio is disabled and the fix smb_delivery_ratio is used." = "Giá trị mặc định: 0, giá trị hợp lý nằm trong khoảng từ 40 mg/dL đến 120 mg/dL. Tỷ lệ phân phối SMB tăng tuyến tính sẽ được ánh xạ theo khoảng glucose [target_bg, target_bg + bg_range]. Tại mức target_bg, tỷ lệ SMB là smb_delivery_ratio_min; tại mức target_bg + bg_range, tỷ lệ là smb_delivery_ratio_max. Nếu đặt giá trị là 0, tỷ lệ SMB tăng tuyến tính sẽ bị vô hiệu hóa và hệ thống sẽ sử dụng tỷ lệ SMB cố định (smb_delivery_ratio).";
@@ -2684,7 +3050,7 @@ Enact a temp Basal or a temp target */
 */
 /* Headline Rewind Resets Autosens */
 
-"Rewind Resets Autosens" = "Rewind Resets Autosens";
+"Rewind Resets Autosens" = "Rewind sẽ thiết lập lại Autosens";
 
 /* ”Rewind Resets Autosens” */
 "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Tính năng này, được bật theo mặc định, sẽ đặt lại autosens ratio về mức trung hoà khi bạn tua lại máy bơm của mình, với giả định rằng điều này tương ứng với một sự thay đổi điểm gắn có thể xảy ra. Autosens sẽ bắt đầu học lại độ nhạy kể từ thời điểm tua lại, quá trình này có thể mất tới 6 giờ. Nếu bạn thường tua lại máy bơm của mình chỉ để thay đổi điểm gắn, bạn có thể cân nhắc việc tắt tính năng này.";
@@ -2744,7 +3110,7 @@ Enact a temp Basal or a temp target */
 "Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Nhiều người thỉnh thoảng quên tiếp tục/hủy tạm dừng máy bơm sau khi kết nối lại. Nếu bạn là một trong số họ và sẵn sàng đặt liều tạm thời cơ bản bằng 0 một cách đáng tin cậy bất cứ khi nào tạm dừng và ngắt kết nối máy bơm của mình, thì tính năng này sẽ hỗ trợ bạn. Nếu được bật, nó sẽ tự động tiếp tục/hủy tạm dừng máy bơm nếu bạn quên làm như vậy trước khi hết tạm thời 0. Miễn là tạm thời bằng 0 vẫn đang chạy, nó sẽ khiến máy bơm bị treo.";
 
 /* Headline "Enable UAM" */
-"Enable UAM" = "Enable UAM";
+"Enable UAM" = "Kích hoạt UAM";
 
 /* "Enable UAM" */
 "With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful, if you forget to tell iAPS about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasments caused by carbs, adrenaline, etc, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier." = "Khi bật tùy chọn này, thuật toán SMB có thể nhận ra các bữa ăn không báo trước. Điều này rất hữu ích nếu bạn quên thông báo cho iAPS về lượng carb của mình hoặc ước tính sai lượng carb của bạn và lượng carb đã nhập sai hoặc nếu một bữa ăn có nhiều chất béo và protein kéo dài hơn dự kiến. Nếu không có bất kỳ lượng carb nào được đưa vào, UAM có thể nhận ra mức tăng đường huyết nhanh chóng do carbs, adrenaline, v. v. gây ra và cố gắng điều chỉnh nó bằng SMB. Điều này cũng hoạt động theo cách ngược lại: nếu lượng glucose giảm nhanh, nó có thể dừng SMB sớm hơn.";
@@ -2756,13 +3122,13 @@ Enact a temp Basal or a temp target */
 "This enables supermicrobolus (SMB) while carbs on board (COB) are positive." = "Điều này cho phép Super Micro Bolus (SMB) trong khi lượng carb đang hoạt động (COB) ở mức dương.";
 
 /* Headline "Enable SMB With Temptarget” */
-"Enable SMB With Temptarget" = "Kích hoạt SMB với liều Mục Tiêu Tạm Thời";
+"Enable SMB With Temptarget" = "Bật SMB với mục tiêu tạm thời";
 
 /* "Enable SMB With Temptarget” */
 "This enables supermicrobolus (SMB) with eating soon / low temp targets. With this feature enabled, any temporary target below 100mg/dL, such as a temp target of 99 (or 80, the typical eating soon target) will enable SMB." = "Điều này cho phép Super Micro Bolus (SMB) đạt được mục tiêu ăn sớm / liều tạm thời thấp. Khi tính năng này được bật, mọi mục tiêu tạm thời dưới 100mg/dL, chẳng hạn như mục tiêu tạm thời là 99 (hoặc 80, mục tiêu ăn sớm thông thường) sẽ kích hoạt SMB.";
 
 /* Headline "Enable SMB Always" */
-"Enable SMB Always" = "Enable SMB Always";
+"Enable SMB Always" = "Luôn bật SMB";
 
 /* "Enable SMB Always" */
 "Defaults to false. When true, always enable supermicrobolus (unless disabled by high temptarget)." = "Mặc định là False. Khi True, hãy luôn bật Super Micro Bolus (trừ khi bị tắt bởi high temptarget).";
@@ -2774,10 +3140,10 @@ Enact a temp Basal or a temp target */
 "Defaults to false. When true, enables supermicrobolus (SMB) for 6h after carbs, even with 0 carbs on board (COB)." = "Mặc định là False. Khi True, hãy bật Super Micro Bolus (SMB) trong 6 giờ sau khi nạp carbs, ngay cả khi không có carbs (COB).";
 
 /* Enable "Allow SMB With High Temptarget" */
-"Allow SMB With High Temptarget" = "Bật SMB với mục tiêu tạm cao";
+"Allow SMB With High Temptarget" = "Bật SMB với mục tiêu tạm thời cao";
 
 /* Headline "Allow SMB With High Temptarget" */
-"Allow SMB With High Temptarget" = "Bật SMB với mục tiêu tạm cao";
+"Allow SMB With High Temptarget" = "Bật SMB với mục tiêu tạm thời cao";
 
 /* "Allow SMB With High Temptarget" */
 "Defaults to false. When true, allows supermicrobolus (if otherwise enabled) even with high temp targets (> 100 mg/dl)." = "Mặc định là False. Khi True, cho phép Super Micro Bolus (nếu được kích hoạt khác) ngay cả với mục tiêu tạm thời cao (> 100 mg/dl).";
@@ -2795,7 +3161,7 @@ Enact a temp Basal or a temp target */
 "Default is false. Any existing temp basals during times the pump was suspended will be deleted and 0 temp basals to negate the profile basal rates during times pump is suspended will be added." = "Mặc định là False. Mọi mức cơ bản tạm thời hiện có trong thời gian máy bơm bị tạm dừng sẽ bị xóa và mức Liều cơ bản tạm thời 0 để phủ nhận tốc độ cơ bản của hồ sơ trong thời gian máy bơm bị tạm dừng sẽ được thêm vào.";
 
 /* Headline "Max IOB" */
-"Max IOB" = "Lượng IOB tối đa";
+"Max IOB" = "IOB tối đa";
 
 /* "Max IOB" */
 "Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "IOB Max là lượng insulin tối đa được cung cấp từ tất cả các nguồn – cả insulin cơ bản (hoặc hiệu chỉnh SMB) và insulin bolus – mà vòng lặp của bạn được phép tích lũy để điều trị BG cao hơn mục tiêu. Không giống như hai cài đặt an toàn OpenAPS khác (Hệ số tối đa an toàn hàng ngày và Hệ số an toàn cơ bản hiện tại), Tối đa IOB được đặt thành số lượng đơn vị insulin cố định. Tính đến thời điểm hiện tại, việc tiêm liều thủ công KHÔNG bị giới hạn bởi cài đặt này. \n\n Để kiểm tra liều cơ bản của bạn vào ban đêm, bạn có thể sửa đổi cài đặt IOB tối đa thành 0 khi ở Vòng kín. Điều này sẽ kích hoạt chế độ tạm ngưng lượng glucose thấp trong khi kiểm tra cài đặt tốc độ cơ bản của bạn\n\n(Mẹo từ https://www.loopandlearn.org/freeaps-x/#open-loop).";
@@ -2831,7 +3197,7 @@ Enact a temp Basal or a temp target */
 "Set to a number, e.g. 160, which means when temp target is 160 mg/dL and exercise_mode=true, run 50% basal at this level (120 = 75%; 140 = 60%). This can be adjusted, to give you more control over your exercise modes." = "Đặt thành một số, ví dụ: 160, có nghĩa là khi mục tiêu tạm thời là 160 mg/dL và tập exercise_mode=true, hãy chạy 50% liều cơ bản ở mức này (120 = 75%; 140 = 60%). Điều này có thể được điều chỉnh để giúp bạn kiểm soát nhiều hơn các chế độ tập luyện của mình.";
 
 /* Headline "Max COB" */
-"Max COB" = "Lượng COB tối đa";
+"Max COB" = "COB tối đa";
 
 /* "Max COB" */
 "The default of maxCOB is 120. (If someone enters more carbs in one or multiple entries, iAPS will cap COB to maxCOB and keep it at maxCOB until the carbs entered above maxCOB have shown to be absorbed. Essentially, this just limits UAM as a safety cap against weird COB calculations due to fluky data.)" = "Giá trị mặc định của COB tối đa là 120. (Nếu ai đó nạp nhiều carbs hơn vào một hoặc nhiều mục, iAPS sẽ giới hạn COB ở mức COB tối đa và giữ nó ở mức COB tối đa cho đến khi lượng carb nhập vào trên COB tối đa cho thấy đã được hấp thụ. Về cơ bản, điều này chỉ giới hạn UAM như một giới hạn an toàn chống lại các phép tính COB kỳ lạ do dữ liệu không ổn định.)";
@@ -2879,7 +3245,7 @@ Enact a temp Basal or a temp target */
 "Defaults to start at 30. This is the maximum minutes of basal that can be delivered by UAM as a single SMB when IOB exceeds COB. This gives the ability to make UAM more or less aggressive if you choose. It is recommended that the value is set to start at 30, in line with the default, and if you choose to increase this value, do so in no more than 15 minute increments, keeping a close eye on the effects of the changes. Reducing the value will cause UAM to dose less insulin for each SMB. It is not recommended to set this value higher than 60 mins, as this may affect the ability for the algorithm to safely zero temp. It is also recommended that pushover is used when setting the value to be greater than default, so that alerts are generated for any predicted lows or highs." = "Mặc định bắt đầu từ 30. Đây là số phút cơ bản tối đa mà UAM có thể phân phối dưới dạng một SMB khi IOB vượt quá COB. Điều này mang lại khả năng khiến UAM trở nên hung hãn hơn hoặc ít hơn nếu bạn chọn. Bạn nên đặt giá trị này để bắt đầu ở mức 30, phù hợp với giá trị mặc định và nếu bạn chọn tăng giá trị này, hãy thực hiện với khoảng tăng không quá 15 phút, đồng thời theo dõi chặt chẽ tác động của các thay đổi. Việc giảm giá trị sẽ khiến UAM giảm liều insulin cho mỗi SMB. Không nên đặt giá trị này cao hơn 60 phút vì điều này có thể ảnh hưởng đến khả năng thuật toán về liều tạm thời bằng 0 một cách an toàn. Chúng tôi cũng khuyên bạn nên sử dụng tính năng đẩy khi đặt giá trị lớn hơn giá trị mặc định để cảnh báo được tạo ra cho bất kỳ mức thấp hoặc mức cao được dự đoán nào.";
 
 /* Headline "SMB Interval" */
-"SMB Interval" = "Chu kỳ SMB";
+"SMB Interval" = "Khoảng thời gian SMB";
 
 /* "SMB Interval" */
 "Minimum duration in minutes for new SMB since last SMB or manual bolus" = "Thời lượng tối thiểu tính bằng phút cho SMB mới kể từ SMB cuối cùng hoặc liều Bolus thủ công";
@@ -2891,7 +3257,7 @@ Enact a temp Basal or a temp target */
 "Smallest enacted SMB amount. Minimum amount for Omnipod pumps is 0.05 U, whereas for Medtronic pumps it differs for various models, from 0.025 U to 0.10 U. Please check the minimum bolus amount which can be delivered by your pump. The default value is 0.1." = "Số SMB được ban hành nhỏ nhất. Lượng tối thiểu đối với máy bơm Omnipod là 0,05 U, trong khi đối với máy bơm Medtronic, lượng này khác nhau đối với nhiều kiểu máy khác nhau, từ 0,025 U đến 0,10 U. Vui lòng kiểm tra lượng truyền nhanh tối thiểu mà máy bơm của bạn có thể cung cấp. Giá trị mặc định là 0,1.";
 
 /* Headline "Insulin Peak Time" */
-"Insulin Peak Time" = "Insulin Peak Time";
+"Insulin Peak Time" = "Thời gian đỉnh của Insulin";
 
 /* "Insulin Peak Time" */
 "Time of maximum blood glucose lowering effect of insulin, in minutes. Beware: Oref assumes for ultra-rapid (Lyumjev) & rapid-acting (Fiasp) curves minimal (35 & 50 min) and maximal (100 & 120 min) applicable insulinPeakTimes. Using a custom insulinPeakTime outside these bounds will result in issues with iAPS, longer loop calculations and possible red loops." = "Thời gian tác dụng hạ đường huyết tối đa của insulin, tính bằng phút. Lưu ý: Oref giả định đường cong cực nhanh (Lyumjev) và tác dụng nhanh (Fiasp) tối thiểu (35 & 50 phút) và tối đa (100 & 120 phút) áp dụng đỉnh insulin. Việc sử dụng đỉnh insulin tùy chỉnh ngoài các giới hạn này sẽ dẫn đến sự cố với iAPS, tính toán vòng lặp dài hơn và có thể xảy ra vòng lặp màu đỏ.";
@@ -2903,13 +3269,13 @@ Enact a temp Basal or a temp target */
 "Grams of carbsReq to trigger a pushover. Defaults to 1 (for 1 gram of carbohydrate). Can be increased if you only want to get Pushover for carbsReq at X threshold." = "Số gram carbs yêu cầu để kích hoạt quá trình đẩy. Mặc định là 1 (cho 1 gam carbohydrate). Có thể tăng lên nếu bạn chỉ muốn nhận đẩy qua cho carbs yêu cầu ở ngưỡng X.";
 
 /* Headline "Noisy CGM Target Multiplier" */
-"Noisy CGM Target Multiplier" = "Noisy CGM Target Multiplier";
+"Noisy CGM Target Multiplier" = "Hệ số mục tiêu CGM Noisy";
 
 /* "Noisy CGM Target Multiplier" */
 "Defaults to 1.3. Increase target by this amount when looping off raw/noisy CGM data" = "Mặc định là 1.3. Tăng mục tiêu lên số lượng này khi lặp lại dữ liệu CGM raw/noisy";
 
 /* Headline "SMB DeliveryRatio" */
-"SMB DeliveryRatio" = "SMB DeliveryRatio";
+"SMB DeliveryRatio" = "Tỷ lệ phân phối SMB";
 
 /* SMB DeliveryRatio */
 "Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution." = "Giá trị mặc định: 0,5 Đây là một giới hạn an toàn quan trọng khác của OpenAPS và chỉ định tỷ lệ trong tổng lượng insulin cần thiết có thể được phân phối dưới dạng SMB. Tăng giá trị thử nghiệm này một cách chậm rãi và thận trọng.";
@@ -2938,10 +3304,10 @@ Enact a temp Basal or a temp target */
 "Use Dynamic CR. The dynamic ratio will be used for CR as follows:\n\n When ratio > 1:  dynCR = (newRatio - 1) / 2 + 1.\nWhen ratio < 1: dynCR = CR/dynCR.\n\nDon't use toghether with a high Insulin Fraction (> 2)" = "Sử dụng Tỷ lệ Carb động (Dynamic CR). Tỷ lệ động sẽ được áp dụng cho hệ số chuyển đổi carb (CR) như sau:\n\n Khi tỷ lệ > 1: dynCR = (tỷ lệ mới - 1) / 2 + 1.\n Khi tỷ lệ < 1: dynCR = CR / dynCR.\n\nKhông nên sử dụng cùng lúc với Tỷ lệ Insulin cao (Insulin Fraction > 2)";
 
 /* Enable Dyn ISF */
-"Activate Dynamic Sensitivity (ISF)" = "Activate Dynamic Sensitivity (ISF)";
+"Activate Dynamic Sensitivity (ISF)" = "Kích hoạt độ nhạy động (ISF)";
 
 /* Enable Dyn CR */
-"Activate Dynamic Carb Ratio (CR)" = "Activate Dynamic Carb Ratio (CR)";
+"Activate Dynamic Carb Ratio (CR)" = "Kích hoạt Tỷ lệ Carb động (CR)";
 
 /* Headline "Adjust Dynamic ISF constant" */
 "Adjust Dynamic ISF constant" = "Điều chỉnh hằng số Dynamic ISF";
@@ -2950,7 +3316,7 @@ Enact a temp Basal or a temp target */
 "Individual adjustment of the computed dynamic ratios. Default is 0.5. The higher the value, the larger the correction of your ISF/CR will be for a high or a low blood glucose. Maximum/minumum correction is determined by the Autosens min/max settings.\n\nFor Sigmoid function an adjustment factor of 0.4 - 0.5 is recommended to begin with.\n\nFor the logaritmic formula there is less consensus, but starting around 0.8 is probably appropiate for most adult users. For younger users it's recommended to start even lower when using logaritmic formula, to avoid overly aggressive treatment." = "Điều chỉnh riêng các tỷ lệ động được tính toán. Mặc định là 0,5. Giá trị càng cao thì mức điều chỉnh ISF/CR của bạn đối với mức đường huyết cao hay thấp càng lớn. Hiệu chỉnh tối đa/tối thiểu được xác định bởi cài đặt tối thiểu/tối đa của Autosens.\n\nĐối với hàm Sigmoid, hệ số điều chỉnh được khuyến nghị là 0,4 - 0,5 để bắt đầu.\n\nĐối với công thức logarit, có ít sự đồng thuận hơn, nhưng bắt đầu từ khoảng 0,8 là có lẽ phù hợp với hầu hết người dùng trưởng thành. Đối với người dùng trẻ tuổi, nên bắt đầu ở mức thấp hơn nữa khi sử dụng công thức logarit để tránh điều trị quá tích cực.";
 
 /* Headline Use Sigmoid Function */
-"Use Sigmoid Function" = "Use Sigmoid Function";
+"Use Sigmoid Function" = "Sử dụng hàm Sigmoid (SF)";
 
 /* Which dyn ISF function to use */
 "Formula" = "Công thức";
@@ -3028,7 +3394,7 @@ Enact a temp Basal or a temp target */
 "1. Use the OpenAPS eventual glucose prediction for computing the insulin recommended. This setting will enable the \"old\" calculator. On by default.\n\n2. Use the OpenAPS minPredBG prediction as a complementary safety guard rail, not allowing the glucose prediction to descend below your threshold. This setting can be used together with or without the eventual glucose. On by default" = "1. Sử dụng đường huyết dự đoán của OpenAPS để tính toán insulin được khuyến nghị. Thiết lập này sẽ kích hoạt tính toán \"cũ\". Bật theo mặc định.\n\n2. Sử dụng dự đoán minPredBG của OpenAPS như một rào chắn an toàn bổ sung, không cho phép dự đoán đường huyết giảm xuống dưới ngưỡng của bạn. Thiết lập này có thể được sử dụng cùng với hoặc không có đường huyết đự đoán. Bật theo mặc định";
 
 /* Settings Section */
-"Extra Features" = "Extra Features";
+"Extra Features" = "Tính năng bổ sung";
 
 /* Header */
 "UI/UX Settings" = "Cài đặt Giao diện";
@@ -3078,7 +3444,7 @@ Enact a temp Basal or a temp target */
 "Normally glucose is colored red only when over or under your notification limits for high/low" = "Thông thường glucose chỉ có màu đỏ khi vượt quá hoặc dưới giới hạn thông báo của bạn về mức cao";
 
 /* UI/UX option */
-"Horizontal Scroll View Visible hours" = "Số giờ hiển thị trong chế độ cuộn ngang";
+"Horizontal Scroll View Visible hours" = "Giờ hiển thị trong chế độ cuộn ngang";
 
 /* UI/UX option */
 "Display Time Interval Setting Button" = "Hiển thị nút cài đặt khoảng thời gian";
@@ -3103,6 +3469,9 @@ Enact a temp Basal or a temp target */
 
 /* UI/UX option */
 "Use insulin bars" = "Sử dụng thanh hiển thị insulin";
+
+/* UI/UX option */
+"Use carb bars" = "Sử dụng thanh hiển thị carb";
 
 /* UI/UX option */
 "Hide the bolus amount strings when amount is under" = "Ẩn số lượng bolus khi ở dưới mức";
@@ -3138,7 +3507,7 @@ Enact a temp Basal or a temp target */
 "Neglect Carbohydrates in oref0" = "Bỏ qua carbohydrate trong oref0";
 
 /* Debug option */
-"Hide oref0 Predictions" = "Hide oref0 Predictions";
+"Hide Predictions" = "Ẩn dự đoán";
 
 /* Setting title */
 "Bolus Calculator" = "Tính toán liều Bolus";
@@ -3159,7 +3528,7 @@ Enact a temp Basal or a temp target */
 "Show Predictions" = "Hiển thị dự đoán";
 
 /* Notification option */
-"Live activity displays blood glucose live on the lock screen and on the dynamic island (if available)" = "Hoạt động trực tiếp hiển thị đường huyết trực tiếp trên màn hình khóa và động (nếu có)";
+"Live activity displays blood glucose live on the lock screen and on the dynamic island (if available)" = "Hiển thị hoạt động trực tiếp đường huyết trên màn hình khóa và động (nếu có)";
 
 /* Notification option */
 "Show Live activity" = "Hiển thị hoạt động trực tiếp";
@@ -3196,7 +3565,7 @@ Enact a temp Basal or a temp target */
 "Set the value enableSMB_high_bg will compare against to enable SMB. If BG > than this value, SMBs should enable." = "Đặt giá trị \"Kích hoạt SMB với BG cao\" sẽ so sánh để kích hoạt SMB. Nếu BG > giá trị này, SMB sẽ kích hoạt.";
 
 /* Headline "Enable SMB With High BG" */
-"Enable SMB With High BG" = "Enable SMB With High BG";
+"Enable SMB With High BG" = "Kích hoạt SMB với BG cao";
 
 /* "Enable SMB With High BG" */
 "Enable SMBs when a high BG is detected, based on the high BG target (adjusted or profile)" = "Kích hoạt SMB khi phát hiện BG cao, dựa trên mục tiêu BG cao (đã điều chỉnh hoặc cấu hình)";
@@ -3218,3 +3587,99 @@ Enact a temp Basal or a temp target */
 
 /* Headline "To enable settings, go to the App Config section in iOS Settings App" */
 "To enable settings, go to the App Config section in iOS Settings App" = "Để bật các cài đặt, hãy vào phần Cấu hình ứng dụng trong ứng dụng Cài đặt của iOS";
+
+/* Section header in CGM view */
+"Active CGM" = "Thêm CGM";
+
+/* pump name label, when pump is a cgm "Pump/CGM" */
+"Pump/CGM" = "Pump/CGM";
+
+/* Button "Stop using the pump as CGM" */
+"Stop using the pump as CGM" = "Ngừng sử dụng pump như CGM";
+
+/* Section header in CGM view */
+"Shared App Group Source" = "Nguồn Nhóm Ứng dụng Dùng Chung";
+
+/* prefix for the shared app group application */
+"Reading from" = "Đang đọc từ";
+
+/* button to disconnect from the shared app group "Disconnect" */
+"Disconnect" = "Ngắt kết nối";
+
+
+/* description for Shared App Group Source section */
+"Read BG from an external CGM app using a shared app group." = "Đọc đường huyết từ ứng dụng CGM bên ngoài thông qua nhóm ứng dụng dùng chung.";
+
+
+/* prefix before the app name on the button to start reading from shared app group */
+"Read from " = "Đọc từ ";
+
+/* description for the backfill section in Nightscout settings screen */
+"Fetches old glucose readings from Nightscout" = "Tải lại các giá trị đường huyết trước đó từ Nightscout";
+
+/* header and button label for the 'upload old glucose' action in Nightscout settings screen */
+"Upload glucose" = "Tải đường huyết lên";
+
+/* description for the 'upload old glucose' section in Nightscout settings screen */
+"Uploads old glucose readings to Nightscout" = "Gửi các giá trị đường huyết trước đó lên Nightscout";
+
+/* message when uploads are enabled, but glucose uploads are disabled, in Nightscout settings screen */
+"Glucose upload disabled in CGM settings" = "Tải lên dữ liệu đường huyết đã bị tắt trong cài đặt CGM";
+
+/* header for the CGM list in CGM settings screen */
+"Connect to CGM" = "Kết nối với CGM";
+
+
+/* message displayed when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Pump+CGM" = "Pump/CGM";
+
+/* label for the button to remove the CGM when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Stop using the pump as CGM" = "Ngừng sử dụng pump như CGM";
+
+/* hint under the CGM list in CGM settings screen */
+"To receive reading from xDrip4iOS, Glucose Direct or another compatible app, select Shared App Group CGM." = "Để nhận dữ liệu đường huyết từ xDrip4iOS, Glucose Direct hoặc ứng dụng tương thích khác, hãy chọn CGM trong nhóm ứng dụng chia sẻ (Shared App Group).";
+
+/* message displayed in pump settings screen when the pump manager reports uncertain delivery */
+"Pump delivery uncertain" = "Không xác định được việc tiêm insulin";
+
+/* message displayed on home screen when the pump is added but not fully onboarded */
+"Re-connect pump!" = "Kết nối lại máy bơm!";
+
+/* 'fetch' toggle label in nightscout settings */
+"Fetch" = "Lấy về";
+
+/* 'fetch' section header in nightscout settings */
+"Allow Fetching" = "Cho phép lấy";
+
+/* 'fetch' scection footer in nightscout settings */
+"iAPS will fetch announcements, carbs and temp targets from Nightscout" = "iAPS sẽ lấy thông báo, lượng carbs và mục tiêu tạm thời từ Nightscout";
+
+/* main chart settings - toggle, controls whether to draw the in-range area backdrop (fill) */
+"In-range area highlight" = "Vùng trong phạm vi được đánh dấu";
+
+/* main chart settings - toggle, controls whether to show inline BG peaks */
+"Glucose peaks" = "Đỉnh đường huyết";
+
+/* main chart settings - toggle, controls whether to show the predictions legend */
+"Predictions legend" = "Chú thích dự đoán";
+
+/* main chart settings - toggle, controls whether to draw the secondary chart backdrop (fill) */
+"Secondary chart backdrop" = "Hình nền biểu đồ phụ";
+
+/* main chart settings - toggle, controls whether to show insulin activity grid lines */
+"Insulin activity grid lines" = "Đường lưới hoạt động insulin";
+
+/* main chart settings - toggle, controls whether to show insulin activity axis labels */
+"Insulin activity labels" = "Nhãn hoạt động insulin";
+
+/* main chart settings - secondary chart section header */
+"Secondary chart" = "Biểu đồ phụ";
+
+/* main chart settings - navigation title and the navigation link label */
+"Main Chart settings" = "Cài đặt biểu đồ chính";
+
+/* UI/UX settings - main chart section header */
+"Main Chart" = "Biểu đồ chính";
+
+/* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
+"Y-axis labels" = "Nhãn trục Y";

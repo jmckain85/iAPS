@@ -1,5 +1,7 @@
 import Combine
 import CoreData
+import LibreTransmitter
+import LoopKit
 import LoopKitUI
 import SwiftDate
 import SwiftUI
@@ -7,6 +9,8 @@ import SwiftUI
 extension Home {
     final class StateModel: BaseStateModel<Provider> {
         @Injected() var broadcaster: Broadcaster!
+        @Injected() var appCoordinator: AppCoordinator!
+        @Injected() var deviceDataManager: DeviceDataManager!
         @Injected() var apsManager: APSManager!
         @Injected() var nightscoutManager: NightscoutManager!
         @Injected() var storage: TempTargetsStorage!
@@ -76,10 +80,10 @@ extension Home {
         @Published var autoisf = false
         @Published var displayExpiration = false
         @Published var displaySAGE = true
-        @Published var cgm: CGMType = .nightscout
         @Published var sensorDays: Double = 10
         @Published var carbButton: Bool = true
         @Published var profileButton: Bool = true
+        @Published var mealData = MealData()
 
         // Chart data
         var data = ChartModel(
@@ -93,7 +97,7 @@ extension Home {
             suspensions: [],
             announcement: [],
             hours: 24,
-            maxBasal: 2,
+            maxBasal: 4,
             autotunedBasalProfile: [],
             basalProfile: [],
             tempTargets: [],
@@ -126,6 +130,14 @@ extension Home {
             useCarbBars: false
         )
 
+        func startTimer() {
+            timer.resume()
+        }
+
+        func stopTimer() {
+            timer.suspend()
+        }
+
         override func subscribe() {
             setupGlucose()
             setupBasals()
@@ -144,6 +156,7 @@ extension Home {
             setupLoopStats()
             setupData()
             setupCob()
+            setupMeals()
 
             data.suggestion = provider.suggestion
             dynamicVariables = provider.dynamicVariables
@@ -194,17 +207,13 @@ extension Home {
             hours = settingsManager.settings.hours
             displayExpiration = settingsManager.settings.displayExpiration
             displaySAGE = settingsManager.settings.displaySAGE
-            cgm = settingsManager.settings.cgm
 
-            sensorDays = switch settingsManager.settings.cgm {
-            case .nightscout: CGMType.nightscout.expiration
-            case .dexcomG5: CGMType.dexcomG5.expiration
-            case .dexcomG6: CGMType.dexcomG6.expiration
-            case .dexcomG7: CGMType.dexcomG7.expiration
-            case .libreTransmitter: CGMType.libreTransmitter.expiration
-            case .enlite: CGMType.enlite.expiration
-            default: settingsManager.settings.sensorDays
-            }
+            updateSensorDays()
+
+            appCoordinator.$sensorDays
+                .receive(on: DispatchQueue.main)
+                .sink { _ in self.updateSensorDays() }
+                .store(in: &lifetime)
 
             carbButton = settingsManager.settings.carbButton
             profileButton = settingsManager.settings.profileButton
@@ -239,9 +248,8 @@ extension Home {
                     self?.setupCurrentTempTarget()
                 }
             }
-            timer.resume()
 
-            apsManager.isLooping
+            appCoordinator.isLooping
                 .receive(on: DispatchQueue.main)
                 .weakAssign(to: \.isLooping, on: self)
                 .store(in: &lifetime)
@@ -306,21 +314,28 @@ extension Home {
             $setupPump
                 .sink { [weak self] show in
                     guard let self = self else { return }
-                    if show, let pumpManager = self.provider.apsManager.pumpManager,
-                       let bluetoothProvider = self.provider.apsManager.bluetoothManager
+                    if show, let pumpManager = self.provider.deviceManager.pumpManager
                     {
-                        let view = PumpConfig.PumpSettingsView(
-                            pumpManager: pumpManager,
-                            bluetoothManager: bluetoothProvider,
-                            completionDelegate: self,
-                            setupDelegate: self
-                        ).asAny()
-                        self.router.mainSecondaryModalView.send(view)
+                        if pumpManager.isOnboarded {
+                            let view = PumpConfig.PumpSettingsView(
+                                pumpManager: pumpManager,
+                                deviceManager: self.provider.deviceManager,
+                                completionDelegate: self,
+                            ).asAny()
+                            self.router.mainSecondaryModalView.send(view)
+                        } else {
+                            self.router.mainSecondaryModalView.send(nil)
+                            showModal(for: .pumpConfig)
+                        }
                     } else {
                         self.router.mainSecondaryModalView.send(nil)
                     }
                 }
                 .store(in: &lifetime)
+        }
+
+        private func updateSensorDays() {
+            sensorDays = appCoordinator.sensorDays ?? settingsManager.settings.sensorDays
         }
 
         func addCarbs() {
@@ -401,9 +416,12 @@ extension Home {
                 self.readings = CoreDataStorage().fetchGlucose(interval: DateFilter().today)
                 self.recentGlucose = self.data.glucose.last
                 if self.data.glucose.count >= 2 {
-                    self
-                        .glucoseDelta = (self.recentGlucose?.glucose ?? 0) -
-                        (self.data.glucose[self.data.glucose.count - 2].glucose ?? 0)
+                    self.glucoseDelta =
+                        NSDecimalNumber(
+                            decimal:
+                            (self.recentGlucose?.unfiltered ?? 0) -
+                                (self.data.glucose[self.data.glucose.count - 2].unfiltered ?? 0)
+                        ).intValue
                 } else {
                     self.glucoseDelta = nil
                 }
@@ -640,19 +658,64 @@ extension Home {
             }
         }
 
-        func openCGM() {
-            guard var url = nightscoutManager.cgmURL else { return }
-
-            switch url.absoluteString {
-            case "http://127.0.0.1:1979":
-                url = URL(string: "spikeapp://")!
-            case "http://127.0.0.1:17580":
-                url = URL(string: "diabox://")!
-            case CGMType.libreTransmitter.appURL?.absoluteString:
-                showModal(for: .libreConfig)
-            default: break
+        private func setupMeals() {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
+                let data = self.provider.fetchedMeals
+                self.mealData.carbs = self.carbCount(data)
+                self.mealData.fat = self.fatCount(data)
+                self.mealData.protein = self.proteinCount(data)
+                self.mealData.kcal = self.kcalCount()
+                self.mealData.servings = self.servingsCount(data)
             }
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+        private func carbCount(_ fetchedMeals: [Carbohydrates]) -> Decimal {
+            fetchedMeals
+                .compactMap(\.carbs)
+                .map({ x in
+                    x as Decimal
+                }).reduce(0, +)
+        }
+
+        private func fatCount(_ fetchedMeals: [Carbohydrates]) -> Decimal {
+            fetchedMeals
+                .compactMap(\.fat)
+                .map({ x in
+                    x as Decimal
+                }).reduce(0, +)
+        }
+
+        private func proteinCount(_ fetchedMeals: [Carbohydrates]) -> Decimal {
+            fetchedMeals
+                .compactMap(\.protein)
+                .map({ x in
+                    x as Decimal
+                }).reduce(0, +)
+        }
+
+        private func servingsCount(_ fetchedMeals: [Carbohydrates]) -> Int {
+            fetchedMeals.count
+        }
+
+        private func kcalCount() -> Decimal {
+            4 * (mealData.carbs + mealData.protein) + mealData.fat * 9
+        }
+
+        func openCGM() {
+            if let cgm = provider.deviceManager.cgmManager {
+                if let url = cgm.appURL {
+                    // if app url is provided (nightscout, xDrip) - open it
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                } else if let cgm = cgm as? CGMManagerUI {
+                    let view = CGM.CGMSettingsView(
+                        cgmManager: cgm,
+                        deviceManager: provider.deviceManager,
+                        completionDelegate: self
+                    ).asAny()
+                    router.mainSecondaryModalView.send(view)
+                }
+            }
         }
 
         func infoPanelTTPercentage(_ hbt_: Double, _ target: Decimal) -> Decimal {
@@ -732,18 +795,10 @@ extension Home.StateModel:
         hours = settingsManager.settings.hours
         displayExpiration = settingsManager.settings.displayExpiration
         displaySAGE = settingsManager.settings.displaySAGE
-        cgm = settingsManager.settings.cgm
+//        cgm = settingsManager.settings.cgm
         carbButton = settingsManager.settings.carbButton
         profileButton = settingsManager.settings.profileButton
-        sensorDays = switch settingsManager.settings.cgm {
-        case .nightscout: CGMType.nightscout.expiration
-        case .dexcomG5: CGMType.dexcomG5.expiration
-        case .dexcomG6: CGMType.dexcomG6.expiration
-        case .dexcomG7: CGMType.dexcomG7.expiration
-        case .libreTransmitter: CGMType.libreTransmitter.expiration
-        case .enlite: CGMType.enlite.expiration
-        default: settingsManager.settings.sensorDays
-        }
+        updateSensorDays()
 
         setupGlucose()
         setupOverrideHistory()
@@ -774,6 +829,7 @@ extension Home.StateModel:
     func carbsDidUpdate(_: [CarbsEntry]) {
         setupCarbs()
         setupAnnouncements()
+        setupMeals()
     }
 
     func enactedSuggestionDidUpdate(_ suggestion: Suggestion) {
@@ -800,22 +856,5 @@ extension Home.StateModel:
 extension Home.StateModel: CompletionDelegate {
     func completionNotifyingDidComplete(_: CompletionNotifying) {
         setupPump = false
-    }
-}
-
-extension Home.StateModel: PumpManagerOnboardingDelegate {
-    func pumpManagerOnboarding(didCreatePumpManager pumpManager: PumpManagerUI) {
-        provider.apsManager.pumpManager = pumpManager
-        if let insulinType = pumpManager.status.insulinType {
-            settingsManager.updateInsulinCurve(insulinType)
-        }
-    }
-
-    func pumpManagerOnboarding(didOnboardPumpManager _: PumpManagerUI) {
-        // nothing to do
-    }
-
-    func pumpManagerOnboarding(didPauseOnboarding _: PumpManagerUI) {
-        // TODO:
     }
 }

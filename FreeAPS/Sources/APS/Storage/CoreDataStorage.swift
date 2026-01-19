@@ -161,6 +161,20 @@ final class CoreDataStorage {
         return carbs
     }
 
+    func fetchMealData(interval: NSDate) -> [Carbohydrates] {
+        var data = [Carbohydrates]()
+        coredataContext.performAndWait {
+            let requestData = Carbohydrates.fetchRequest() as NSFetchRequest<Carbohydrates>
+            let sortData = NSSortDescriptor(key: "date", ascending: false)
+            requestData.sortDescriptors = [sortData]
+            requestData.predicate = NSPredicate(
+                format: "date > %@", interval
+            )
+            try? data = self.coredataContext.fetch(requestData)
+        }
+        return data
+    }
+
     func fetchStats() -> [StatsData] {
         var stats = [StatsData]()
         coredataContext.performAndWait {
@@ -233,16 +247,16 @@ final class CoreDataStorage {
     }
 
     func saveVNr(_ versions: Version?) {
-        if let version = versions {
-            coredataContext.perform { [self] in
-                let saveNr = VNr(context: self.coredataContext)
-                saveNr.nr = version.main
-                saveNr.dev = version.dev
+        guard let version = versions else { return }
+        guard version.main != "" else { return }
+        coredataContext.perform { [self] in
+            let saveNr = VNr(context: self.coredataContext)
+            saveNr.nr = version.main
+            saveNr.dev = version.dev
 
-                if coredataContext.hasChanges {
-                    saveNr.date = Date.now
-                    try? self.coredataContext.save()
-                }
+            if coredataContext.hasChanges {
+                saveNr.date = Date.now
+                try? self.coredataContext.save()
             }
         }
     }
