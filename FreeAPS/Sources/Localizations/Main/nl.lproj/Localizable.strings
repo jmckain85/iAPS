@@ -47,10 +47,10 @@
 "Insulin required" = "Benodigde insuline";
 
 /* Bolus screen */
-"Recommendation" = "Advies";
+"Recommendation" = "Aanbeveling";
 
 /* Button */
-"Clear" = "Wissen";
+"Clear" = "Wis";
 
 /* Button */
 "Done" = "OK";
@@ -1094,7 +1094,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 "Additional notification types" = "Andere meldingsinstellingen";
 
 /* */
-"Misc" = "Overige";
+"Miscellaneous" = "Diversen";
 
 /* */
 "Unit override" = "Eenheid aanpassen";
@@ -1393,9 +1393,272 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 // --------- AI ---------
 /* */
 
+"Ask AI..." = "Vraag AI...";
+
+"Search saved foods..." = "Opgeslagen voedingsmiddelen zoeken...";
+
+"Search foods..." = "Voedingsmiddelen zoeken...";
+
+"Saved Foods" = "Bewaarde maaltijd";
+
+"Add Food Manually" = "Voeg voedingsmiddelen handmatig toe";
+
+"Per Serving" = "Per portie";
+
+"Per 100g" = "per 100g";
+
+"Per 100ml" = "per 100 ml";
+
+"This portion" = "Deze portie";
+
+"Serving Size" = "Portiegrootte";
+
+"Standard Serving" = "Standaard portie";
+
+"Food Name" = "Naam maaltijd";
+
+"Food" = "Maaltijd";
+
+"Tag name" = "Labelnaam";
+
+"Add New Tag" = "Nieuw label toevoegen";
+
+"Tags" = "Labels";
+
+"Show All Nutrients" = "Toon alle voedingswaarden";
+
+"Calories" = "Calorieën";
+
+"Quick access to your frequently used foods" = "Snelle toegang tot je vaak gebruikte voedingsmiddelen";
+
+"Search databases or describe food for AI analysis" = "Zoek databases of beschrijf voedsel voor AI analyse";
+
+"Scan packaged foods for nutrition information" = "Scan verpakte levensmiddelen voor voedingsinformatie";
+
+"Snap a picture for AI-powered nutrition analysis. Long-press to choose from library." = "Maak een foto voor AI-aangedreven voedingsanalyse. Houd ingedrukt om uit de bibliotheek te kiezen.";
+
+"Enter nutrition information manually" = "Voer voedingsinformatie handmatig in";
+
+"Place a reference object (coin, hand) for scale" = "Plaats een referentie-object (muntstuk, hand) voor schaal";
+
+"Include the full plate or package in frame" = "Voeg het volledige bord of verpakking toe in frame";
+
+"Use good lighting for best results" = "Gebruik goede belichting voor de beste resultaten";
+
+"Photography Tips" = "Fotografietips";
+
+"Manual Entry" = "Handmatige invoer";
+
+"Photo Analysis" = "Foto analyse";
+
+"Barcode Scanner" = "Barcodescanner";
+
+"Text Search" = "Zoeken op tekst";
+
 "AI Image Analysis" = "AI afbeeldingsanalyse";
 
 "Barcode" = "Barcode";
+
+"AI Model Statistics" = "AI modelstatistieken";
+
+"Slide to Clear All Statistics" = "Veeg om alle statistieken te wissen";
+
+"Avg Time" = "Gemiddelde tijd";
+
+"Count" = "Tellen";
+
+"Statistics will appear here after you use AI models for food analysis." = "De statistieken verschijnen hier nadat je AI modellen hebt gebruikt voor voedselanalyse.";
+
+"No Statistics Yet" = "Nog geen statistieken";
+
+"Food Search Settings" = "Voedsel zoekinstellingen";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "AI voedingsschattingen zijn slechts schattingen. Raadpleeg altijd je zorgverlener voor medische beslissingen. Controleer waar mogelijk voedingsinformatie. Gebruik op eigen risico.";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)";
+
+"**AI Image Analysis:**" = "**AI afbeeldingsanalyse:**";
+
+"OpenFoodFacts" = "OpenFoodFacts";
+
+"**Barcode Scanning:**" = "**Barcode scannen:**";
+
+"USDA FoodData Central → OpenFoodFacts" = "USDA FoodData Central → OpenFoodFacts";
+
+"**Text/Voice Search:**" = "**Tekst/Spraak zoeken:**";
+
+"Search Type Recommendations" = "Zoeken type aanbevelingen";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Gratis officiële voedingsdatabase. Superieure voedingsgegevens voor niet-verpakte voedingsmiddelen zoals fruit, groenten en vlees.";
+
+"**Text/Voice Search:**" = "**Tekst/Spraak zoeken:**";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods." = "• **OpenFoodFacts**: Open de database met uitgebreide barcode dekking en tekst zoeken naar verpakte voedingsmiddelen. Standaard voor het zoeken naar tekst en streepjescode.";
+
+"AI Progress Animation" = "AI Voortgangsanimatie";
+
+"Miscellaneous" = "Diversen";
+
+"AI Usage Statistics" = "AI gebruiksstatistieken";
+
+"View performance metrics for AI models you've used." = "Bekijk prestatiestatistieken van AI modellen die je hebt gebruikt.";
+
+"Usage Statistics" = "Gebruiksstatistieken";
+
+"Photo library access is required to save images." = "Toegang tot fotobibliotheek is vereist om afbeeldingen op te slaan.";
+
+"Enable Photo Library Access" = "Toegang fotobibliotheek inschakelen";
+
+"Save Photos" = "Foto's opslaan";
+
+"When enabled, photos taken will be saved into the iAPS album in your photo library." = "Wanneer ingeschakeld, worden de gemaakte foto's opgeslagen in het iAPS album in je foto bibliotheek.";
+
+"Photo Library" = "Fotobibliotheek";
+
+"Send smaller images to AI" = "Stuur kleinere afbeeldingen naar AI";
+
+"When enabled, images are resized to a smaller resolution before sending to AI. This reduces data usage and speeds up analysis, but the AI will see less detail." = "Wanneer ingeschakeld, worden afbeeldingen aangepast naar een kleinere resolutie voordat ze naar AI worden verzonden. Dit vermindert gegevensgebruik en versnelt analyse, maar de AI zal minder details zien.";
+
+"Image Processing" = "Afbeelding verwerken";
+
+"Show annotation prompt for images" = "Toon aantekeningen prompt voor afbeeldingen";
+
+"When enabled, you'll be prompted to add optional text descriptions to food images." = "Indien ingeschakeld, word je gevraagd om optionele tekstbeschrijvingen toe te voegen aan voedselafbeeldingen.";
+
+"Image Annotations" = "Afbeelding aantekeningen";
+
+"Default to AI search" = "Standaard zoekfunctie AI";
+
+"Sets which search method is selected by default when you open the food search view. You can always toggle between AI and database search using the button next to the search field." = "Stelt in welke zoekmethode standaard is geselecteerd wanneer je de levensmiddelenzoekweergave opent. Je kunt altijd schakelen tussen AI en database zoeken met behulp van de knop naast het zoekveld.";
+
+"Default Text Search Method" = "Standaard tekst zoekmethode";
+
+"Preferred Region" = "Voorkeursregio";
+
+"Preferred Language" = "Voorkeurstaal";
+
+"Nutrition Authority" = "Voedingswaarde autoriteit";
+
+"Choose a specific language and region for AI output." = "Kies een specifieke taal en regio voor AI uitvoer.";
+
+"Localization" = "Localisatie";
+
+"Enter your OpenAI API key" = "Voer je OpenAI API-sleutel in";
+
+"ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API-sleutel";
+
+"Get an API key at platform.openai.com." = "Ontvang een API-sleutel op platform.openai.com.";
+
+"OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) configuratie";
+
+"Enter your Google Gemini API key" = "Voer uw Google Gemini API-sleutel in";
+
+"Google Gemini API Key" = "Google Gemini API-sleutel";
+
+"Get a free API key at ai.google.dev." = "Ontvang een API-sleutel op ai.google.dev.";
+
+"Google (Gemini API) Configuration" = "Google (Gemini API) configuratie";
+
+"Get a free API key at ai.google.dev." = "Ontvang een API-sleutel op ai.google.dev.";
+
+"Enter your Claude API key" = "Voer je Claude API-sleutel in";
+
+"Claude API Key" = "Claude API sleutel";
+
+"Get an API key at console.anthropic.com." = "Ontvang een API-sleutel op console.anthropic.com.";
+
+"Anthropic (Claude API) Configuration" = "Anthropische (Claude API) configuratie";
+
+"Provider for Barcode Scanning" = "Provider voor Barcode Scannen";
+
+"Provider for Text/Voice Search" = "Zoekmachine voor tekst/spraakzoeken";
+
+"Provider for AI Text Analysis" = "Provider voor AI tekstanalyse";
+
+"Fast" = "Snel";
+
+"Provider for AI Image Analysis" = "Provider voor AI afbeeldingsanalyse";
+
+
+"Food Search Provider Configuration" = "Voedsel zoekmachine configuratie";
+
+"Barcode Scanner" = "Barcodescanner";
+
+"Photography Tips" = "Fotografietips";
+
+"Manual Entry" = "Handmatige invoer";
+
+"Manual Entry" = "Handmatige invoer";
+
+"Photo Analysis" = "Foto analyse";
+
+"Text Search" = "Zoeken op tekst";
+
+"Place a reference object (coin, hand) for scale" = "Plaats een referentie-object (muntstuk, hand) voor schaal";
+
+"Include the full plate or package in frame" = "Voeg het volledige bord of verpakking toe in frame";
+
+"Use good lighting for best results" = "Gebruik goede belichting voor de beste resultaten";
+
+"Enter nutrition information manually" = "Voer voedingsinformatie handmatig in";
+
+"Snap a picture for AI-powered nutrition analysis. Long-press to choose from library." = "Maak een foto voor AI-aangedreven voedingsanalyse. Houd ingedrukt om uit de bibliotheek te kiezen.";
+
+"Scan packaged foods for nutrition information" = "Scan verpakte levensmiddelen voor voedingsinformatie";
+
+"Search databases or describe food for AI analysis" = "Zoek databases of beschrijf voedsel voor AI analyse";
+
+"Quick access to your frequently used foods" = "Snelle toegang tot je vaak gebruikte voedingsmiddelen";
+
+"Food" = "Maaltijd";
+
+"Food Name" = "Naam maaltijd";
+
+"Serving Size" = "Portiegrootte";
+
+"This portion" = "Deze portie";
+
+"Per 100g" = "per 100g";
+
+"Per Serving" = "Per portie";
+
+"Add Food Manually" = "Voeg voedingsmiddelen handmatig toe";
+
+"Saved Foods" = "Bewaarde maaltijd";
+
+"United States (USDA / FDA)" = "Verenigde Staten (USDA/FDA)";
+
+"European Union (EFSA / EU labeling)" = "Europese Unie (EFSA/EU-labeling)";
+
+"United Kingdom (CoFID / NHS)" = "Verenigd Koninkrijk (CoFID/NHS)";
+
+"Canada (Health Canada)" = "Canada (Volksgezondheid Canada)";
+
+"Australia & New Zealand (FSANZ)" = "Australië & Nieuw Zeeland (FSANZ)";
+
+"Japan (MHLW)" = "Japan (MHLW)";
+
+"International (WHO / FAO / Codex)" = "Internationaal (WHO/FAO/Codex)";
+
+"United States Department of Agriculture (USDA), FDA Nutrition Facts" = "Het Amerikaanse ministerie van Landbouw (USDA), FDA Nutrition Facts";
+
+"European Food Safety Authority (EFSA), EU food labeling standards" = "Europese Autoriteit voor voedselveiligheid (EFSA), Europese normen voor voedseletikettering";
+
+"UK Composition of Foods Integrated Dataset (CoFID), NHS" = "UK Compositie van Voedsel Geïntegreerd Dataset (CoFID), NHS";
+
+"Health Canada, Canadian Nutrition Facts Table" = "Gezondheid van Canada, Canadese Nutrition Facts tabel";
+
+"Food Standards Australia New Zealand (FSANZ)" = "Levensmiddelenstandaarden in Australië Nieuw-Zeeland (FSANZ)";
+
+"Ministry of Health, Labour and Welfare (MHLW), Japanese Food Labeling Standards" = "Ministerie van Volksgezondheid, Arbeid en Welzijn (MHLW), Japanse voedsellabeling normen";
+
+"World Health Organization (WHO), FAO, Codex Alimentarius" = "Wereldgezondheidsorganisatie (WHO), FAO, Codex Alimentarius";
+
+"protein" = "eiwit";
+
+"carbs" = "koolhydraten";
+
+"fat" = "vet";
 
 "📝 Notes" = "📝 Opmerking";
 
@@ -1480,30 +1743,12 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 
 "• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Gratis officiële voedingsdatabase. Superieure voedingsgegevens voor niet-verpakte voedingsmiddelen zoals fruit, groenten en vlees.";
 
-"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Open de database met uitgebreide barcode dekking en tekst zoeken naar verpakte voedingsmiddelen. Standaard voor het zoeken naar tekst en streepjescode.";
-
-"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: Meest nauwkeurige AI analyse met behulp van GPT-4 Vision. Vereist API key (~$0,01 per afbeelding). Uitstekend bij beeldanalyse en natuurlijke taal zoekopdrachten.";
-
-"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "**Google (Gemini API)**: Gratis AI met royale limieten (1500/dag). Uitstekende herkenning van levensmiddelen met behulp van Google's Vision AI. Perfecte balans van kwaliteit en kosten.";
-
-"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Anthropic (lengtegraad API)**: Geavanceerde AI met gedetailleerde redenering. Uitstekend bij voedselanalyse en portie inschatting. Vereist een API-sleutel (~$0,25 per miljoen munten).";
-
-"Available Search Providers:" = "Beschikbare zoekdiensten:";
-
-"Provider Information" = "Provider-informatie";
-
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods." = "• **OpenFoodFacts**: Open de database met uitgebreide barcode dekking en tekst zoeken naar verpakte voedingsmiddelen. Standaard voor het zoeken naar tekst en streepjescode.";
 "❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ Als u 'OpenFoodFacts' of 'USDA' selecteert, zal de camera analyse gebruik maken van basisschattingen in plaats van AI";
 
 "✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Selecteer 'Anthropic (Claude API)', 'Google (Gemini API)', of 'OpenAI (ChatGPT API)' voor AI Image Analyse om je betaalde sleutels te gebruiken";
 
 "When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "Wanneer je een voedselfoto neemt, gebruikt de app de geselecteerde provider in 'AI Image Analysis' hierboven.";
-
-"Camera Food Analysis" = "Camera voedselanalyse";
-
-"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "Om je betaalde API-sleutels te gebruiken, zorg ervoor dat je de bijbehorende provider selecteert in 'AI Image Analysis' hierboven. De aanbieder die je selecteert voor AI Image Analyse is wat wordt gebruikt wanneer je voedsel foto's maakt.";
-
-"Important: How to Use Your API Keys" = "Belangrijk: Hoe je API-sleutels te gebruiken";
-
 "Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Verdeel deze maaltijd in individuele onderdelen met volledige macronutriënte profielen (koolhydraten, eiwit, vetten, calorieën) per artikel en gecombineerde totaal.";
 
 "Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identificeer alle levensmiddelen in dit beeld met de focus op het koolhydratengehalte voor diabetesbeheer. Geef gedetailleerde koolhydraten op voor elk onderdeel en voor alle koolhydraten.";
@@ -1520,7 +1765,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 
 "ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API-sleutel";
 
-"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Krijg een API-sleutel van platform.openai.com. Pas de analyse aan om specifieke maaltijdfragmenten en voedingswaarden te krijgen. (~$0,01 per afbeelding)";
+"Get an API key at platform.openai.com." = "Ontvang een API-sleutel op platform.openai.com.";
 
 "OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) configuratie";
 
@@ -1534,7 +1779,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 
 "Google Gemini API Key" = "Google Gemini API-sleutel";
 
-"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Krijg een gratis API-sleutel van ai.google.dev. Google Gemini biedt uitstekende herkenning van voedsel met een royale prijs (1500 verzoeken per dag).";
+"Get a free API key at ai.google.dev." = "Ontvang een API-sleutel op ai.google.dev.";
 
 "Google (Gemini API) Configuration" = "Google (Gemini API) configuratie";
 
@@ -1730,6 +1975,15 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 
 "Cal" = "Cal";
 
+"servings" = "Porties";
+
+"serving" = "Porties";
+
+"Reset to " = "Herstellen naar ";
+
+"Apply" = "Toepassen";
+
+"Carbs" = "Koolhydraten";
 
 // --------- End of AI ---------
 /* */
@@ -2576,9 +2830,6 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Geef insuline activiteitenoverzicht weer";
 
-/* UI/UX-setting */
-"Don't ask for saving search result as meal preset" = "Vraag niet om het zoekresultaat op te slaan als maaltijd preset";
-
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "CGM instellingen";
@@ -2628,7 +2879,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 "Birth Date" = "Geboortedatum";
 
 /* Share and Backup info text */
-"\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database.\n\nMake sure to copy and save your recovery token below. The recovery token is required to import your settings to another phone when using the onboarding view." = "\nAls u \"Delen en back-uppen\" inschakelt, worden er dagelijks back-ups van uw instellingen en statistieken gemaakt in een online database.\n\nZorg ervoor dat u uw hersteltoken hieronder kopieert en opslaat. Het hersteltoken is nodig om uw instellingen te importeren naar een andere telefoon wanneer u de onboarding-weergave gebruikt.";
+"\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database." = "\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database.";
 
 /* Section title if sharing off */
 "Share Bare Minimum" = "Deel alleen het minimale";
@@ -2637,7 +2888,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 "Just iAPS version number" = "Alleen iAPS versienummer";
 
 /* Share info text */
-"Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone, the recovery token." = "Elk stukje informatie dat je wilt delen, wordt anoniem geüpload. Om dubbele uploads te voorkomen, worden de gegevens geïdentificeerd met een unieke willekeurige tekenreeks die op je telefoon is opgeslagen, het hersteltoken.";
+"Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone - the recovery token." = "Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone - the recovery token.";
 
 /* Token section title */
 "Your recovery token" = "Je herstelcode";
@@ -2656,6 +2907,12 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 
 /* */
 "Share your data anonymously" = "Deel je gegevens anoniem";
+
+/* */
+"Upload Daily Log" = "Upload Daily Log";
+
+/* */
+"When enabled, the previous day's log file is automatically uploaded after midnight. Logs are used only to provide the multi-day analysis feature on open-iaps.app. Off by default." = "When enabled, the previous day's log file is automatically uploaded after midnight. Logs are used only to provide the multi-day analysis feature on open-iaps.app. Off by default.";
 
 /* ——————————Contact Image ————————*/
 /* Contact Image, contacts list - prefix before the contact given name */
@@ -3345,7 +3602,12 @@ Eenvoudig gezegd, de Dynamische Carb Ratio past de koolhydraatverhouding aan op 
 "Minimum Threshold Setting" = "Instelling minimale grenswaarde";
 
 /* Minimum Threshold Setting */
-"This setting lets you choose a glucose target limit below which no SMB insulin or extra temporary basal insulin will ever be given. Extra temporary basal insulin is the insulin exceeding the insulin required for the basal metabolism.\n\nThe actual glucose threshold used in OpenAPS algoritm will always be the bigger amount of this setting and the computed value:\n\nTarget Glucose - (Target Glucose - 40) / 2." = "This setting lets you choose a glucose target limit below which no SMB insulin or extra temporary basal insulin will ever be given. Extra temporary basal insulin is the insulin exceeding the insulin required for the basal metabolism.\n\nThe actual glucose threshold used in OpenAPS algoritm will always be the bigger amount of this setting and the computed value:\n\nTarget Glucose - (Target Glucose - 40) / 2.";
+"This setting lets you choose a glucose target limit below which no SMB insulin or extra temporary basal insulin will ever be given. Extra temporary basal insulin is the insulin exceeding the insulin required for the basal metabolism.\n\nThe actual glucose threshold used in OpenAPS algoritm will always be the bigger amount of this setting and the computed value:\n\nTarget Glucose - (Target Glucose - 40) / 2." = "Deze instelling laat je een glucosegrens kiezen waaronder nooit SMB-insuline of extra tijdelijke basale insuline wordt toegediend. Extra tijdelijke basale insuline is de hoeveelheid insuline bovenop wat nodig is voor het basaal metabolisme.
+De daadwerkelijke glucosegrens die in het OpenAPS-algoritme wordt gebruikt, is altijd de hoogste waarde van:
+	•	deze instelling, en
+	•	de berekende waarde:
+
+Doelglucose − (Doelglucose − 2,2) / 2.";
 
 /* Threshold Table Columns Title */
 "Setting" = "Instelling";
@@ -3687,3 +3949,14 @@ Eenvoudig gezegd, de Dynamische Carb Ratio past de koolhydraatverhouding aan op 
 
 /* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
 "Y-axis labels" = "Y-as labels";
+
+"Fiber" = "Vezels";
+
+"Sugars" = "Suikers";
+
+"Search Results" = "Zoekresultaten";
+
+"Results for" = "Resultaten voor";
+
+/* name of complete meals when saving */
+"Complete Meal" = "Volledige maaltijd";

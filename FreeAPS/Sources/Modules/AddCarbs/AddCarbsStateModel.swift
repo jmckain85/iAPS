@@ -25,6 +25,7 @@ extension AddCarbs {
         @Published var hypoTreatment = false
         @Published var presetToEdit: Presets?
         @Published var edit = false
+        @Published var ai = false
 
         @Published var combinedPresets: [(preset: Presets?, portions: Double)] = []
 
@@ -39,6 +40,7 @@ extension AddCarbs {
             maxCarbs = settings.settings.maxCarbs
             skipBolus = settingsManager.settings.skipBolusScreenAfterCarbs
             useFPUconversion = settingsManager.settings.useFPUconversion
+            ai = settingsManager.settings.ai
         }
 
         func add(_ continue_: Bool, fetch: Bool) {
@@ -60,8 +62,40 @@ extension AddCarbs {
                 enteredBy: CarbsEntry.manual,
                 isFPU: false
             )]
+            add(continue_, fetch: fetch, carbsToStore: carbsToStore)
+        }
 
+        func addAIFood(_ continue_: Bool, fetch: Bool, food: FoodItemDetailed, date: Date?) {
+            var carbs = food.nutrientInThisPortion(.carbs) ?? 0
+            let fat = food.nutrientInThisPortion(.fat) ?? 0
+            let protein = food.nutrientInThisPortion(.protein) ?? 0
+            guard carbs > 0 || fat > 0 || protein > 0 else {
+                showModal(for: nil)
+                return
+            }
+            carbs = min(carbs, maxCarbs)
+            id_ = UUID().uuidString
+
+            let carbsToStore = [CarbsEntry(
+                id: id_,
+                createdAt: now,
+                actualDate: date,
+                carbs: carbs,
+                fat: fat,
+                protein: protein,
+                note: nil,
+                enteredBy: CarbsEntry.manual,
+                isFPU: false
+            )]
+            add(continue_, fetch: fetch, carbsToStore: carbsToStore)
+        }
+
+        func add(_ continue_: Bool, fetch: Bool, carbsToStore: [CarbsEntry]) {
             if hypoTreatment { hypo() }
+            let carbs = carbsToStore.map(\.carbs).reduce(0, +)
+            let fat = carbsToStore.compactMap(\.fat).reduce(0, +)
+            let protein = carbsToStore.compactMap(\.protein).reduce(0, +)
+            let empty = carbs <= 0 && fat <= 0 && protein <= 0
 
             if (skipBolus && !continue_ && !fetch) || hypoTreatment {
                 carbsStorage.storeCarbs(carbsToStore)
@@ -127,22 +161,23 @@ extension AddCarbs {
                     .reduce(0, +)
                 let totProtein = combinedPresets
                     .compactMap({ each in (each.preset?.protein ?? 0) as Decimal * Decimal(each.portions) }).reduce(0, +)
+                let margins: Decimal = 1.8
 
-                if carbs > totCarbs {
+                if carbs > totCarbs + margins {
                     presetsString.append("+ \(carbs - totCarbs) carbs")
-                } else if carbs < totCarbs {
+                } else if carbs + margins < totCarbs {
                     presetsString.append("- \(totCarbs - carbs) carbs")
                 }
 
-                if fat > totFat {
+                if fat > totFat + margins {
                     presetsString.append("+ \(fat - totFat) fat")
-                } else if fat < totFat {
+                } else if fat + margins < totFat {
                     presetsString.append("- \(totFat - fat) fat")
                 }
 
-                if protein > totProtein {
+                if protein > totProtein + margins {
                     presetsString.append("+ \(protein - totProtein) protein")
-                } else if protein < totProtein {
+                } else if protein + margins < totProtein {
                     presetsString.append("- \(totProtein - protein) protein")
                 }
             }

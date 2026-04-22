@@ -110,4 +110,5 @@
     "noCarbs": false,
     "hidePredictions": false,
     "useCarbBars": false,
+    "ai": true
 }

@@ -99,6 +99,21 @@ final class BaseGlucoseStorage: GlucoseStorage, Injectable {
                         notes = "\(notes) activated on \(a)"
                     }
 
+                    let sessionStartDate = sensorSessionStart.sessionStartDate
+                    // For Dexcom, each glucose event contains the sessionStartDate (which contains the correct timestamp of the latest sensor start)
+                    // We only need to send the "Sensor Start" event once per change.
+                    // This guard ensures we send a new "Sensor Start" event to NS only if the previously sent event happened more than 60 seconds before this one.
+                    //
+                    // As a side effect, if there is jitter in the sessionStartDate (+/- few milliseconds each time), we will flood NS with the duplicated Session Start events over time.
+                    // See: https://github.com/Artificial-Pancreas/iAPS/issues/1806
+                    if let lastTreatment = treatments.last,
+                       let lastCreatedAt = lastTreatment.createdAt,
+                       let sessionStart = sessionStartDate,
+                       abs(lastCreatedAt.timeIntervalSince(sessionStart)) < 60
+                    {
+                        return
+                    }
+
                     let treatment = NigtscoutTreatment(
                         duration: nil,
                         rawDuration: nil,

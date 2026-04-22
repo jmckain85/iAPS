@@ -1093,7 +1093,7 @@ Enact a temp Basal or a temp target */
 "Additional notification types" = "Ytterligare notistyper";
 
 /* */
-"Misc" = "Övrigt";
+"Miscellaneous" = "Diverse";
 
 /* */
 "Unit override" = "Åsidosätt enhet";
@@ -1392,9 +1392,272 @@ Enact a temp Basal or a temp target */
 // --------- AI ---------
 /* */
 
+"Ask AI..." = "Fråga AI...";
+
+"Search saved foods..." = "Sök efter sparad mat...";
+
+"Search foods..." = "Söker på webben efter mat...";
+
+"Saved Foods" = "Sparad mat";
+
+"Add Food Manually" = "Lägg till mat manuellt";
+
+"Per Serving" = "Per portion";
+
+"Per 100g" = "Per 100g";
+
+"Per 100ml" = "Per 100ml";
+
+"This portion" = "Denna portion";
+
+"Serving Size" = "Portionsstorlek";
+
+"Standard Serving" = "Standardportion";
+
+"Food Name" = "Matnamn";
+
+"Food" = "Mat";
+
+"Tag name" = "Märkning";
+
+"Add New Tag" = "Lägg till märkning";
+
+"Tags" = "Märkningar";
+
+"Show All Nutrients" = "Visa alla näringsämnen";
+
+"Calories" = "Kalorier";
+
+"Quick access to your frequently used foods" = "Snabb tillgång till din vanliga mat";
+
+"Search databases or describe food for AI analysis" = "Sök i databaser eller beskriv mat för AI-analys";
+
+"Scan packaged foods for nutrition information" = "Skanna förpackad mat för näringsinformation";
+
+"Snap a picture for AI-powered nutrition analysis. Long-press to choose from library." = "Ta en bild för AI-driven näringsanalys. Tryck länge för att välja från ditt bildbibliotek.";
+
+"Enter nutrition information manually" = "Ange näringsinformation manuellt";
+
+"Place a reference object (coin, hand) for scale" = "Placera ett referensobjekt (mynt, hand) för skala";
+
+"Include the full plate or package in frame" = "Inkludera hela tallriken eller paketet inom ramen";
+
+"Use good lighting for best results" = "Använd bra belysning för bästa resultat";
+
+"Photography Tips" = "Fotograferingstips";
+
+"Manual Entry" = "Manuell inmatning";
+
+"Photo Analysis" = "Fotoanalys";
+
+"Barcode Scanner" = "Streckkodsläsare";
+
+"Text Search" = "Textsökning";
+
 "AI Image Analysis" = "AI Livsmedelsanalys";
 
 "Barcode" = "Streckkod";
+
+"AI Model Statistics" = "AI-modellstatistik";
+
+"Slide to Clear All Statistics" = "Dra för att rensa all statistik";
+
+"Avg Time" = "Snitttid";
+
+"Count" = "Antal";
+
+"Statistics will appear here after you use AI models for food analysis." = "Statistik visas här efter att du använder AI-modeller för livsmedelsanalys.";
+
+"No Statistics Yet" = "Ingen statistik ännu";
+
+"Food Search Settings" = "Inställningar för matsökning";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "AI-näringsberäkningar är endast approximationer. Rådgör alltid med din vårdgivare för medicinska beslut. Verifiera näringsinformation när det är möjligt. Använd på egen risk.";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Google (Gemini API) → OpenAI (ChatGPT API) → Antropiska (Claude API)";
+
+"**AI Image Analysis:**" = "**AI Livsmedelsanalys:**";
+
+"OpenFoodFacts" = "OpenFoodFacts";
+
+"**Barcode Scanning:**" = "**Skanna streckkod:**";
+
+"USDA FoodData Central → OpenFoodFacts" = "USDA FoodData Central → OpenFoodFacts";
+
+"**Text/Voice Search:**" = "**Text/Ljud-sökning:**";
+
+"Search Type Recommendations" = "Söktyprekommendationer";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Gratis, officiell näringsdatabas. Överlägsen näringsdata för icke-förpackade livsmedel som frukt, grönsaker och kött.";
+
+"**Text/Voice Search:**" = "**Text/Ljud-sökning:**";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods." = "• **OpenFoodFacts**: Gratis, öppen databas med omfattande streckkodsdata och textsökning för förpackade livsmedel. Standard för text- och streckkodssökningar.";
+
+"AI Progress Animation" = "AI-progessanimering";
+
+"Miscellaneous" = "Diverse";
+
+"AI Usage Statistics" = "AI-användningsstatistik";
+
+"View performance metrics for AI models you've used." = "Visa prestandamätvärden för AI-modeller du använt.";
+
+"Usage Statistics" = "Användningsstatistik";
+
+"Photo library access is required to save images." = "Åtkomst till bildbibliotek krävs för att spara bilder.";
+
+"Enable Photo Library Access" = "Aktivera åtkomst till fotobibliotek";
+
+"Save Photos" = "Spara bilder";
+
+"When enabled, photos taken will be saved into the iAPS album in your photo library." = "När den är aktiverad kommer foton som tas att sparas i iAPS-albumet i ditt fotobibliotek.";
+
+"Photo Library" = "Fotobibliotek";
+
+"Send smaller images to AI" = "Skicka mindre bilder till AI";
+
+"When enabled, images are resized to a smaller resolution before sending to AI. This reduces data usage and speeds up analysis, but the AI will see less detail." = "När den är aktiverad ändras bilder till en mindre upplösning innan de skickas till AI. Detta minskar dataanvändningen och snabbar upp analysen, men AI kommer att se mindre detaljer.";
+
+"Image Processing" = "Bildbehandling";
+
+"Show annotation prompt for images" = "Visa kommentarsfråga för bilder";
+
+"When enabled, you'll be prompted to add optional text descriptions to food images." = "När den är aktiverad uppmanas du att lägga till valfria textbeskrivningar till matbilder.";
+
+"Image Annotations" = "Bildnoteringar";
+
+"Default to AI search" = "Standard för AI-sökning";
+
+"Sets which search method is selected by default when you open the food search view. You can always toggle between AI and database search using the button next to the search field." = "Anger vilken sökmetod som väljs som standard när du öppnar sökvyn. Du kan alltid växla mellan AI och databassökning med hjälp av knappen bredvid sökfältet.";
+
+"Default Text Search Method" = "Standardmetod för textsökning";
+
+"Preferred Region" = "Önskad region";
+
+"Preferred Language" = "Önskat språk";
+
+"Nutrition Authority" = "Näringsmyndighet";
+
+"Choose a specific language and region for AI output." = "Välj ett specifikt språk och region för AI-utdata.";
+
+"Localization" = "Lokalisering";
+
+"Enter your OpenAI API key" = "Ange din OpenAI API-nyckel";
+
+"ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API-nyckel";
+
+"Get an API key at platform.openai.com." = "Skaffa en API-nyckel på platform.openai.com.";
+
+"OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) - konfiguration";
+
+"Enter your Google Gemini API key" = "Ange din Google Gemini API-nyckel";
+
+"Google Gemini API Key" = "Google Gemini API-nyckel";
+
+"Get a free API key at ai.google.dev." = "Skaffa en API-nyckel på ai.google.dev.";
+
+"Google (Gemini API) Configuration" = "Google (Gemini API) - konfiguration";
+
+"Get a free API key at ai.google.dev." = "Skaffa en API-nyckel på ai.google.dev.";
+
+"Enter your Claude API key" = "Ange din Claude API-nyckel";
+
+"Claude API Key" = "Claude API-nyckel";
+
+"Get an API key at console.anthropic.com." = "Skaffa en API-nyckel på console.anthropic.com.";
+
+"Anthropic (Claude API) Configuration" = "Antropisk (Claude API) konfiguration";
+
+"Provider for Barcode Scanning" = "Leverantör av streckkodssökning";
+
+"Provider for Text/Voice Search" = "Leverantör av text/ljud-sökning";
+
+"Provider for AI Text Analysis" = "Leverantör för AI-textanalys";
+
+"Fast" = "Snabb";
+
+"Provider for AI Image Analysis" = "Leverantör av AI-bildanalys";
+
+
+"Food Search Provider Configuration" = "Konfiguration av matsökleverantör";
+
+"Barcode Scanner" = "Streckkodsläsare";
+
+"Photography Tips" = "Fotograferingstips";
+
+"Manual Entry" = "Manuell inmatning";
+
+"Manual Entry" = "Manuell inmatning";
+
+"Photo Analysis" = "Fotoanalys";
+
+"Text Search" = "Textsökning";
+
+"Place a reference object (coin, hand) for scale" = "Placera ett referensobjekt (mynt, hand) för skala";
+
+"Include the full plate or package in frame" = "Inkludera hela tallriken eller paketet inom ramen";
+
+"Use good lighting for best results" = "Använd bra belysning för bästa resultat";
+
+"Enter nutrition information manually" = "Ange näringsinformation manuellt";
+
+"Snap a picture for AI-powered nutrition analysis. Long-press to choose from library." = "Ta en bild för AI-driven näringsanalys. Tryck länge för att välja från ditt bildbibliotek.";
+
+"Scan packaged foods for nutrition information" = "Skanna förpackad mat för näringsinformation";
+
+"Search databases or describe food for AI analysis" = "Sök i databaser eller beskriv mat för AI-analys";
+
+"Quick access to your frequently used foods" = "Snabb tillgång till din vanliga mat";
+
+"Food" = "Mat";
+
+"Food Name" = "Matnamn";
+
+"Serving Size" = "Portionsstorlek";
+
+"This portion" = "Denna portion";
+
+"Per 100g" = "Per 100g";
+
+"Per Serving" = "Per portion";
+
+"Add Food Manually" = "Lägg till mat manuellt";
+
+"Saved Foods" = "Sparad mat";
+
+"United States (USDA / FDA)" = "Förenta staterna (USDA / FDA)";
+
+"European Union (EFSA / EU labeling)" = "Europeiska unionen (EFSA / EU-märkning)";
+
+"United Kingdom (CoFID / NHS)" = "Storbritannien (CoFID / NHS)";
+
+"Canada (Health Canada)" = "Kanada (Health Canada)";
+
+"Australia & New Zealand (FSANZ)" = "Australien & Nya Zeeland (FSANZ)";
+
+"Japan (MHLW)" = "Japan (MHLW)";
+
+"International (WHO / FAO / Codex)" = "Internationellt (WHO / FAO / Codex)";
+
+"United States Department of Agriculture (USDA), FDA Nutrition Facts" = "Förenta staternas jordbruksdepartement (USDA), FDA Nutrition Facts";
+
+"European Food Safety Authority (EFSA), EU food labeling standards" = "Europeiska myndigheten för livsmedelssäkerhet (EFSA), EU: s standarder för livsmedelsmärkning";
+
+"UK Composition of Foods Integrated Dataset (CoFID), NHS" = "Storbritanniens sammansättning av livsmedelsintegrerade dataset (CoFID), NHS";
+
+"Health Canada, Canadian Nutrition Facts Table" = "Health Canada, Kanadensisk näringsfaktatabell";
+
+"Food Standards Australia New Zealand (FSANZ)" = "Livsmedelsstandarder Australien Nya Zeeland (FSANZ)";
+
+"Ministry of Health, Labour and Welfare (MHLW), Japanese Food Labeling Standards" = "Ministeriet för hälsa, arbetsliv och välfärd (MHLW), japanska standarder för livsmedelsmärkning";
+
+"World Health Organization (WHO), FAO, Codex Alimentarius" = "Världshälsoorganisationen (WHO), FAO, Codex Alimentarius";
+
+"protein" = "protein";
+
+"carbs" = "kolh.";
+
+"fat" = "fett";
 
 "📝 Notes" = "📝 Anteckningar";
 
@@ -1479,30 +1742,12 @@ Enact a temp Basal or a temp target */
 
 "• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Gratis, officiell näringsdatabas. Överlägsen näringsdata för icke-förpackade livsmedel som frukt, grönsaker och kött.";
 
-"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Gratis, öppen databas med omfattande streckkodstäckning och textsökning för förpackade livsmedel. Standard för text- och streckkodssökningar.";
-
-"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: Den mest exakta AI-analysen med GPT-4 Vision. Kräver API-nyckel (~$0.01 per bild). Utmärkt vid bildanalys och frågor om naturligt språk.";
-
-"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "• **Google (Gemini API)**: Fri AI med generösa gränser (1500/dag). Utmärkt matigenkänning med hjälp av Googles Vision AI. Perfekt balans mellan kvalitet och kostnad.";
-
-"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Antropisk (Claude API)**: Avancerad AI med detaljerat resonemang. Utmärkt på livsmedelsanalys och portion uppskattning. Kräver API-nyckel (~$0,25 per miljon tokens).";
-
-"Available Search Providers:" = "Tillgängliga sökleverantörer:";
-
-"Provider Information" = "Information om leverantör";
-
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods." = "• **OpenFoodFacts**: Gratis, öppen databas med omfattande streckkodsdata och textsökning för förpackade livsmedel. Standard för text- och streckkodssökningar.";
 "❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ Om du väljer 'OpenFoodFacts' eller 'USDA', kommer kameraanalys att använda grundläggande uppskattning istället för AI";
 
 "✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Välj 'Anthropic (Claude API)', 'Google (Gemini API)' eller 'OpenAI (ChatGPT API)' för AI bildanalys för att använda dina betalda nycklar";
 
 "When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "När du tar ett foto av mat, använder appen leverantören som valts i \"AI bildanalys\" ovan.";
-
-"Camera Food Analysis" = "AI kameralivsmedelsanalys";
-
-"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "För att använda dina betalda API-nycklar, se till att välja motsvarande leverantör i \"AI bildanalys\" ovan. Leverantören du väljer för AI bildanalys är vad som kommer att användas när du tar foton av mat.";
-
-"Important: How to Use Your API Keys" = "Viktigt: Hur man använder dina API-nycklar";
-
 "Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Bryt ner denna måltid i enskilda komponenter med fullständiga makronäringsprofiler (kolhydrater, protein, fett, kalorier) per objekt och kombinerade summor.";
 
 "Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Identifiera alla livsmedel i denna bild med fokus på kolhydratinnehåll för diabeteshantering. Ge detaljerad kolhydratberäkning för varje komponent och total måltid.";
@@ -1519,7 +1764,7 @@ Enact a temp Basal or a temp target */
 
 "ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API-nyckel";
 
-"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Skaffa en API-nyckel från platform.openai.com. Anpassa analysen snabbt för att få specifika måltidskomponenthaverier och näringssummor (~$0.01 per bild)";
+"Get an API key at platform.openai.com." = "Skaffa en API-nyckel på platform.openai.com.";
 
 "OpenAI (ChatGPT API) Configuration" = "OpenAI (ChatGPT API) - konfiguration";
 
@@ -1533,7 +1778,7 @@ Enact a temp Basal or a temp target */
 
 "Google Gemini API Key" = "Google Gemini API-nyckel";
 
-"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Få en gratis API-nyckel från ai.google.dev. Google Gemini ger utmärkt matavläsning med ett generöst gratiskonto (1500 förfrågningar per dag).";
+"Get a free API key at ai.google.dev." = "Skaffa en API-nyckel på ai.google.dev.";
 
 "Google (Gemini API) Configuration" = "Google (Gemini API) - konfiguration";
 
@@ -1729,6 +1974,15 @@ Enact a temp Basal or a temp target */
 
 "Cal" = "Kal";
 
+"servings" = "portioner";
+
+"serving" = "portion";
+
+"Reset to " = "Återställ till ";
+
+"Apply" = "Använd";
+
+"Carbs" = "Kolhydrater";
 
 // --------- End of AI ---------
 /* */
@@ -2575,9 +2829,6 @@ Enact a temp Basal or a temp target */
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Visa diagram för insulinaktivitet";
 
-/* UI/UX-setting */
-"Don't ask for saving search result as meal preset" = "Fråga inte om att spara sökresultat som förval";
-
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "CGM-inställning";
@@ -2627,7 +2878,7 @@ Enact a temp Basal or a temp target */
 "Birth Date" = "Födelsedatum";
 
 /* Share and Backup info text */
-"\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database.\n\nMake sure to copy and save your recovery token below. The recovery token is required to import your settings to another phone when using the onboarding view." = "\nOm du aktiverar \"Dela och säkerhetskopiera\" kommer dagliga säkerhetskopior av dina inställningar och statistik att göras till en moln-databas.\n\nSe till att kopiera och spara din återställningstoken nedan. Den kommer att behövas om du någon gång behöver importera dina inställningar till en annan telefon.";
+"\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database." = "\nOm du aktiverar \"Dela och säkerhetskopiera\" kommer dagliga säkerhetskopior av dina inställningar och statistik att göras till en online databas.";
 
 /* Section title if sharing off */
 "Share Bare Minimum" = "Dela endast ett minimum";
@@ -2636,7 +2887,7 @@ Enact a temp Basal or a temp target */
 "Just iAPS version number" = "Endast appversion";
 
 /* Share info text */
-"Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone, the recovery token." = "All information du väljer att dela laddas upp anonymt. För att förhindra dubbletter av uppladdningar identifieras datan med en unik slumpmässig sträng som sparas på din telefon.";
+"Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone - the recovery token." = "All information du väljer att dela laddas upp anonymt. För att förhindra dubbletter av uppladdningar identifieras datan med en unik slumpmässig sträng, din återställningsnyckel, som sparas på din telefon.";
 
 /* Token section title */
 "Your recovery token" = "Din återställningsnyckel";
@@ -2655,6 +2906,12 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Share your data anonymously" = "Dela data anonymt";
+
+/* */
+"Upload Daily Log" = "Ladda upp dagliga loggar";
+
+/* */
+"When enabled, the previous day's log file is automatically uploaded after midnight. Logs are used only to provide the multi-day analysis feature on open-iaps.app. Off by default." = "När den är aktiverad laddas föregående dags loggfil upp automatiskt efter midnatt. Loggar används bla. för att ge en flerdagarsanalys på open-iaps.app. Av som standard.";
 
 /* ——————————Contact Image ————————*/
 /* Contact Image, contacts list - prefix before the contact given name */
@@ -3682,3 +3939,14 @@ Enact a temp Basal or a temp target */
 
 /* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
 "Y-axis labels" = "Y-axeletiketter";
+
+"Fiber" = "Fiber";
+
+"Sugars" = "Socker";
+
+"Search Results" = "Sökresultat";
+
+"Results for" = "Resultat för";
+
+/* name of complete meals when saving */
+"Complete Meal" = "Fullständig måltid";

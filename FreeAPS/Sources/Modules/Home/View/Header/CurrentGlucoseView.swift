@@ -13,6 +13,7 @@ struct CurrentGlucoseView: View {
     @Binding var displaySAGE: Bool
     @Binding var displayExpiration: Bool
     @Binding var sensordays: Double
+    @Binding var timerDate: Date
 
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.sizeCategory) private var fontSize
@@ -107,13 +108,16 @@ struct CurrentGlucoseView: View {
                     {
                         glucoseText(string).asAny()
                             .background { glucoseDrop }
+                            .contentTransition(.numericText())
+                            .animation(.spring(response: 0.4, dampingFraction: 0.7), value: recent.glucose)
                         if !scrolling {
-                            let minutesAgo = -1 * recent.dateString.timeIntervalSinceNow / 60
+                            let minutesAgo = timerDate.timeIntervalSince(recent.dateString) / 60
                             let text = timaAgoFormatter.string(for: Double(minutesAgo)) ?? ""
                             Text(
                                 minutesAgo <= 1 ? NSLocalizedString("Now", comment: "") :
                                     (text + " " + NSLocalizedString("min", comment: "Short form for minutes") + " ")
                             )
+                            .animation(.spring(response: 0.4, dampingFraction: 0.7), value: minutesAgo)
                             .font(.caption)
                             .foregroundStyle(.secondary)
                             .offset(x: 1, y: fontSize >= .extraLarge ? -3 : 0)
